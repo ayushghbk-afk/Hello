@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="hiad_chevron_right">false</item>
+    <item type="drawable" name="hiad_default_dsp_logo">false</item>
+    <item type="drawable" name="exo_edit_mode_logo">false</item>
+    <item type="drawable" name="exo_icon_play">false</item>
+    <item type="drawable" name="exo_icon_repeat_off">false</item>
+</resources>

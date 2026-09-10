@@ -1,0 +1,28 @@
+.class public interface abstract Lit/sephiroth/android/library/tooltip/Tooltip$b;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lit/sephiroth/android/library/tooltip/Tooltip;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Lit/sephiroth/android/library/tooltip/Tooltip$d;)V
+.end method
+
+.method public abstract b(Lit/sephiroth/android/library/tooltip/Tooltip$d;)V
+.end method
+
+.method public abstract c(Lit/sephiroth/android/library/tooltip/Tooltip$d;ZZ)V
+.end method
+
+.method public abstract d(Lit/sephiroth/android/library/tooltip/Tooltip$d;)V
+.end method

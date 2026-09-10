@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/multi_tab_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottom_btn_container" android:background="@color/bg" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/accent_text_selector" android:gravity="center" android:id="@id/tv_action" android:background="@drawable/selector_text_button_bg_brand" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/delete" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <ViewStub android:id="@id/view_stub_outside_home" android:layout="@layout/view_playback_smooth_seekbar" android:inflatedId="@id/sb_outside_home" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginBottom="46.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+    <FrameLayout android:id="@id/fl_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

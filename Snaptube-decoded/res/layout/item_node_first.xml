@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_item_node_first_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" />
+    <TextView android:textAppearance="@style/body_regular" android:textColor="@color/content_main" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:maxWidth="200.0dip" />
+    <ImageView android:id="@id/iv" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="9.0dip" android:layout_marginStart="9.0dip" app:tint="?contentSoftColor" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_item_node_first_check_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/caption_regular" android:textColor="@color/content_soft" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="20.58M" />
+        <ImageView android:id="@id/iv_item_node_check" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/pb_item_node_first_loading" style="@style/CleanProgressbarJunkHandling" />
+</LinearLayout>

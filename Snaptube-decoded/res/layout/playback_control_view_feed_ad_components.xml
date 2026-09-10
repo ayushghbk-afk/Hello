@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@android:color/holo_blue_light"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/playback_buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_play" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:minWidth="24.0dip" android:minHeight="24.0dip" android:layout_centerInParent="true" app:srcCompat="@drawable/btn_video_play" />
+        <ImageView android:id="@id/iv_pause" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:minWidth="24.0dip" android:minHeight="24.0dip" android:layout_centerInParent="true" app:srcCompat="@drawable/btn_video_pause" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_container" android:background="@color/player_controller_background" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/controller_bottom_bar_height" android:layout_alignParentBottom="true">
+        <TextView android:textSize="13.0dip" android:textColor="@color/text_primary_overlay_color" android:gravity="center" android:id="@id/curTime" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+        <SeekBar android:id="@id/bar_play_process" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:progressDrawable="@drawable/exo_player_progress_drawable" android:thumb="@drawable/exo_player_progress_bar_thumb" android:layout_weight="1.0" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/text_primary_overlay_color" android:gravity="center" android:id="@id/totalTime" android:layout_width="60.0dip" android:layout_height="32.0dip" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.snaptube.plugin.extension.ins.view.CircularProgressBar android:id="@id/progress_loading" android:layout_width="24.0dip" android:layout_height="24.0dip" app:cpb_background_progressbar_color="#00000000" app:cpb_background_progressbar_width="2.0dip" app:cpb_indeterminate_mode="true" app:cpb_progressbar_color="@color/brand_main" app:cpb_progressbar_width="2.0dip" app:cpb_round_border="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/text_secondary_color" android:id="@id/tv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad_loading" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/download_text_selector" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_download" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download" />
+</FrameLayout>

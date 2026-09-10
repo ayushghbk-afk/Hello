@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_scan_photo_similar_0" android:background="?bgColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/head_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleEnabled="false">
+                <androidx.appcompat.widget.Toolbar android:id="@id/tb_header" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_collapseMode="pin" app:navigationIcon="@drawable/ic_left" app:title="@string/photo_similar" app:titleTextColor="@color/text_primary_color" style="@style/Normal" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/head_info" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="parallax" app:layout_collapseParallaxMultiplier="1.0">
+                    <View android:background="@color/gray_weak" android:layout_width="fill_parent" android:layout_height="52.0dip" app:layout_constraintBottom_toBottomOf="@id/layout_select" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layout_select" />
+                    <TextView android:textAppearance="@style/body_regular" android:textColor="?contentMainColor" android:id="@id/tv_selected_amount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:layout_constraintBottom_toBottomOf="@id/layout_select" app:layout_constraintEnd_toStartOf="@id/layout_select" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layout_select" />
+                    <LinearLayout android:id="@id/layout_select" android:background="@drawable/shape_scan_item_bg_selector" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="87.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/iv_photo" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginStart="12.0dip" app:srcCompat="@drawable/ic_similar_photos" app:tint="@color/selector_button_text" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/selector_button_text" android:layout_gravity="center_vertical" android:id="@id/btn_select_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" android:layout_marginEnd="12.0dip" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/result_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

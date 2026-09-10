@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/background_primary_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.snaptube.mixed_list.view.FABBatchDownload android:id="@id/fab_batch_download" android:visibility="gone" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" style="@style/batch_download_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

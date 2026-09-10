@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginStart="16.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_video_avatar" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+            <FrameLayout android:id="@id/author_living_layout" android:background="@drawable/shape_oval_40dp_lib_red40" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white_opacity100" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/author_living_text" android:background="@drawable/shape_corner_4dp_lib_red40" android:layout_width="30.0dip" android:layout_height="14.0dip" android:text="@string/live" android:maxLines="1" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" style="@style/label_10" />
+            </FrameLayout>
+        </FrameLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/content_main" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_video_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:lineSpacingExtra="4.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/more_menu_living" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerInside" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_more_vertical" />
+    </LinearLayout>
+    <include android:id="@id/playlist_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" layout="@layout/playlist_video_button_bar" />
+</LinearLayout>

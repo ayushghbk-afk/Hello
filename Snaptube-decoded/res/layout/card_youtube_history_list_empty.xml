@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_tips_img" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_no_history" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_secondary_color" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:text="@string/history_no_video" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="-2.0dip" android:top="-2.0dip" android:right="-2.0dip">
+        <selector>
+            <item android:state_focused="true">
+                <shape>
+                    <stroke android:width="1.0dip" android:color="@color/v5_accent_primary_color" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <stroke android:width="1.0dip" android:color="@color/v5_divider_color" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

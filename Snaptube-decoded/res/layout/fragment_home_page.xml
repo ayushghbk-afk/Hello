@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.phoenix.view.CommonViewPager android:id="@id/common_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/main_tab_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/view_divider" android:visibility="gone" style="@style/Divider" />
+        <com.phoenix.extensions.PagerSlidingTabStrip android:id="@id/main_tab_strip" android:background="@color/background_bottom_bar_color" android:layout_height="@dimen/navigation_bar_height" app:pstsTabBackground="@null" style="@style/TabStrip.HomeBottomTab" />
+    </LinearLayout>
+</FrameLayout>

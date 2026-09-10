@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snaptube.search.view.SearchFilterView android:id="@id/choose_type" app:filter_text="@string/all" app:layout_constraintStart_toStartOf="parent" style="@style/SearchFilter" />
+    <com.snaptube.search.view.SearchFilterView android:id="@id/choose_time" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" app:filter_text="@string/anytime" app:layout_constraintStart_toEndOf="@id/choose_type" style="@style/SearchFilter" />
+    <com.snaptube.search.view.SearchFilterView android:id="@id/choose_duration" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" app:filter_text="@string/detail_video_duration" app:layout_constraintStart_toEndOf="@id/choose_time" style="@style/SearchFilter" />
+</androidx.constraintlayout.widget.ConstraintLayout>

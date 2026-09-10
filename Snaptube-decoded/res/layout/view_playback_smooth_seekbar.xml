@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snaptube.premium.views.PlaybackSmoothSeekBar android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" android:progressDrawable="@drawable/video_progress_home_seekable" android:thumb="@null" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" app:pssbIndeterminateHeight="1.0dip" app:pssbIndeterminateTint="@color/v5_main_6_color" app:seekable="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

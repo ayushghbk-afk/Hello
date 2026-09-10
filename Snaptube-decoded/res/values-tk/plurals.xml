@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d surat</item>
+        <item quantity="one">1 surat</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d wideo</item>
+        <item quantity="one">1 wideo</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">%d ýumuş ýüklenýär...</item>
+        <item quantity="one">1 wezipe ýüklenýär...</item>
+    </plurals>
+</resources>

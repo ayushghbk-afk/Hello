@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snaptube.mixed_list.widget.FixedAspectRatioFrameLayout android:id="@id/cover_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.snaptube.mixed_list.carouselview.ViewPagerBanner android:id="@id/banner_group" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.snaptube.mixed_list.widget.FixedAspectRatioFrameLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Theme.Youtube.Text.Secondary.Large" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/tv_name" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_arrow_right" app:tint="@color/content_soft" style="@style/Theme.Youtube.Icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

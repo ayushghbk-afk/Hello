@@ -1,0 +1,22 @@
+.class public interface abstract Lcom/bytedance/sdk/openadsdk/PS/EW/EW$EW;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bytedance/sdk/openadsdk/PS/EW/EW;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "EW"
+.end annotation
+
+
+# virtual methods
+.method public abstract EW(ILjava/lang/String;Ljava/lang/Throwable;)V
+.end method
+
+.method public abstract EW(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/PS/EW/NP;)V
+.end method

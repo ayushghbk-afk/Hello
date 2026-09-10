@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_audio">
+        <item quantity="other">%d 个音频</item>
+        <item quantity="one">1 个音频</item>
+    </plurals>
+    <plurals name="choose_picture">
+        <item quantity="other">%d 张图片</item>
+        <item quantity="one">1 张图片</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d 个视频</item>
+        <item quantity="one">1 个视频</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">正在下载 %d 个任务...</item>
+        <item quantity="one">正在下载 1 个任务...</item>
+    </plurals>
+</resources>

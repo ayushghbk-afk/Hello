@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="thumb_0" android:pivotX="12.0" android:pivotY="12.0">
+        <path android:fillColor="@color/thumb_accent" android:pathData="M12,16C14.2091,16 16,14.2091 16,12C16,9.7909 14.2091,8 12,8C9.7909,8 8,9.7909 8,12C8,14.2091 9.7909,16 12,16Z" android:fillType="evenOdd" />
+    </group>
+</vector>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:contentInsetStart="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="4.0dip">
+            <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="12.0dip" app:srcCompat="@drawable/ic_st_logo" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/content_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_marginStart="6.0dip" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@id/fl_illustration" android:clipChildren="false" android:clipToPadding="false" android:layout_width="312.0dip" android:layout_height="276.0dip" android:layout_marginTop="43.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <ImageView android:layout_width="296.0dip" android:layout_height="206.0dip" android:layout_marginTop="40.0dip" android:scaleType="fitXY" android:layout_marginStart="0.0dip" app:srcCompat="@drawable/ic_google_security_illustration" />
+        <ImageView android:layout_width="59.0dip" android:layout_height="59.0dip" android:layout_marginTop="87.0dip" android:layout_marginStart="134.0dip" android:elevation="2.0dip" app:srcCompat="@drawable/ic_google_security_badge_circle" />
+        <ImageView android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginTop="99.0dip" android:scaleType="fitXY" android:layout_marginStart="145.0dip" android:elevation="3.0dip" app:srcCompat="@drawable/ic_google_colored" />
+        <ImageView android:layout_width="20.0dip" android:layout_height="22.0dip" android:layout_marginTop="131.0dip" android:scaleType="fitXY" android:layout_marginStart="181.0dip" android:elevation="4.0dip" app:srcCompat="@drawable/ic_google_security_badge_check" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/display" android:textColor="@color/content_main" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/install_new_pkg_title" android:layout_marginStart="28.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/fl_illustration" />
+    <TextView android:textAppearance="@style/tittle_regular" android:textColor="@color/content_soft" android:id="@id/tv_subtitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/install_new_pkg_subtitle" android:layout_marginStart="28.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_security_old" app:tint="@color/positive_main" />
+            <TextView android:textAppearance="@style/caption_regular" android:textColor="@color/content_soft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/install_new_pkg_security_info" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/bg" android:paddingTop="0.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <TextView android:textAppearance="@style/body_cta_medium" android:textStyle="normal" android:id="@id/btn_install_new" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/install_new_pkg_btn" style="@style/ContainedButton.large.accent" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

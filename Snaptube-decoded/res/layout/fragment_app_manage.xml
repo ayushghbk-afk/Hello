@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_block_normal_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:gravity="center_vertical" android:id="@id/tb_header" android:layout_width="fill_parent" android:layout_height="48.0dip" app:navigationIcon="@drawable/ic_left" app:titleTextColor="@color/text_primary_color" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/view_empty_layout" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_view" android:indeterminate="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/progress_circle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_fragment_app_manager_list_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_secondary_color" android:ellipsize="end" android:background="@color/app_manager_header_bg" android:paddingLeft="16.0dip" android:paddingTop="9.0dip" android:paddingRight="16.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/clean_manager_banner" android:maxLines="1" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_fragment_app_manager_header_container" android:paddingLeft="16.0dip" android:paddingTop="9.0dip" android:paddingRight="16.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/text_secondary_color" android:ellipsize="end" android:id="@id/tv_fragment_app_manage_selected_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/text_secondary_color" android:ellipsize="end" android:id="@id/tv_fragment_app_manage_selected_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:maxLines="1" />
+                <ImageView android:id="@id/iv_fragment_app_manage_select_status" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_uncheck" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_fragment_app_manage_display" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:enabled="false" android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/bottom_text_color_selector" android:gravity="center" android:id="@id/tv_fragment_app_manage_uninstall" android:background="@drawable/shape_scan_item_bg_selector" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

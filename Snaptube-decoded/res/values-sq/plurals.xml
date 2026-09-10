@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d fotografi</item>
+        <item quantity="one">1 figurë</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Po shkarkohen %d detyra...</item>
+        <item quantity="one">Po shkarkohet 1 detyrë...</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d njoftime të reja</item>
+        <item quantity="one">%d njoftim i ri</item>
+    </plurals>
+</resources>

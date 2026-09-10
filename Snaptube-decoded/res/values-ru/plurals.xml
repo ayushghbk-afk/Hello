@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d изображений</item>
+        <item quantity="one">1 изображение</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d видео</item>
+        <item quantity="one">1 видео</item>
+    </plurals>
+    <plurals name="error_over_count">
+        <item quantity="other">Можно выбрать не более %1$d файлов</item>
+        <item quantity="one">Можно выбрать не более %1$d файла</item>
+        <item quantity="few">Можно выбрать не более %1$d файлов</item>
+        <item quantity="many">Можно выбрать не более %1$d файлов</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Загрузка %d задач...</item>
+        <item quantity="one">Загрузка 1 задачи...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Окно закроется через %1$s с.</item>
+        <item quantity="one">Окно закроется через %1$s с.</item>
+        <item quantity="few">Окно закроется через %1$s с.</item>
+        <item quantity="many">Окно закроется через %1$s с.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Рекламу можно закрыть через %d с</item>
+        <item quantity="one">Рекламу можно закрыть через %d с</item>
+        <item quantity="few">Рекламу можно закрыть через %d с</item>
+        <item quantity="many">Рекламу можно закрыть через %d с</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Запомнить выбор на %1$s дня</item>
+        <item quantity="one">Запомнить выбор на %1$s день</item>
+        <item quantity="few">Запомнить выбор на %1$s дня</item>
+        <item quantity="many">Запомнить выбор на %1$s дней</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">Заработайте награду через %d с</item>
+        <item quantity="one">Награда через %d с</item>
+        <item quantity="few">Награда через %d с</item>
+        <item quantity="many">Заработайте награду через %d с</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Посмотрите %d секунды, чтобы заработать награду.</item>
+        <item quantity="one">Посмотрите %d секунду, чтобы заработать награду.</item>
+        <item quantity="few">Посмотрите %d секунды, чтобы заработать награду.</item>
+        <item quantity="many">Посмотрите %d секунд, чтобы заработать награду.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d с</item>
+        <item quantity="one">%1$d с</item>
+        <item quantity="few">%1$d с</item>
+        <item quantity="many">%1$d с</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition app:constraintSetEnd="@id/end" app:constraintSetStart="@id/start" app:duration="300">
+        <OnClick app:targetId="@id/fl_add_secret" />
+    </Transition>
+    <Transition app:constraintSetEnd="@id/start" app:constraintSetStart="@id/end" app:duration="300">
+        <OnClick app:targetId="@id/iv_close_expand" />
+    </Transition>
+    <Transition app:constraintSetEnd="@id/start" app:constraintSetStart="@id/end" app:duration="300">
+        <OnClick app:clickAction="transitionToEnd" app:targetId="@id/view_dim_bg" />
+    </Transition>
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/fl_add_secret">
+            <PropertySet android:visibility="visible" />
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+        </Constraint>
+        <Constraint android:id="@id/iv_close_expand">
+            <Transform android:rotation="-45.0" />
+            <PropertySet android:visibility="invisible" />
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_marginEnd="64.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/fl_add_secret" />
+        </Constraint>
+        <Constraint android:id="@id/ll_expand_items">
+            <PropertySet android:visibility="invisible" />
+            <Transform android:transformPivotX="117.0dip" android:transformPivotY="184.0dip" android:scaleX="0.6" android:scaleY="0.6" />
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toTopOf="@id/iv_close_expand" app:layout_constraintEnd_toEndOf="parent" />
+        </Constraint>
+        <Constraint android:id="@id/view_dim_bg">
+            <PropertySet android:visibility="invisible" />
+            <Layout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/fl_add_secret">
+            <PropertySet android:visibility="invisible" />
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+        </Constraint>
+        <Constraint android:id="@id/iv_close_expand" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <PropertySet android:visibility="visible" />
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+        </Constraint>
+        <Constraint android:id="@id/ll_expand_items">
+            <PropertySet android:visibility="visible" />
+            <Transform android:transformPivotX="117.0dip" android:transformPivotY="184.0dip" android:scaleX="1.0" android:scaleY="1.0" />
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toTopOf="@id/iv_close_expand" app:layout_constraintEnd_toEndOf="parent" />
+        </Constraint>
+        <Constraint android:id="@id/view_dim_bg">
+            <PropertySet android:visibility="visible" />
+            <Layout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

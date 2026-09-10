@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="280.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/download_and_share_banner_img" android:layout_width="fill_parent" android:layout_height="120.0dip" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip">
+        <TextView android:textSize="@dimen/middle_text_size" android:textColor="@color/text_secondary_color" android:id="@id/download_and_share_progress_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/middle_text_size" android:textColor="@color/text_secondary_color" android:id="@id/download_and_share_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/resolve_url" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+        <ProgressBar android:id="@id/download_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:indeterminate="true" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_horizontal_common" android:layout_below="@id/download_and_share_title" android:layout_centerHorizontal="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="end" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_secondary_color" android:gravity="center" android:id="@id/download_and_share_cancel" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" android:text="@string/cancel" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_accent_medium_color" android:gravity="center" android:id="@id/download_and_share_retry" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/Retry" />
+    </LinearLayout>
+</LinearLayout>

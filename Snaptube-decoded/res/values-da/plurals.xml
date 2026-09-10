@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d billeder</item>
+        <item quantity="one">1 billede</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d videoer</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Downloader %d opgaver...</item>
+        <item quantity="one">Downloader 1 opgave...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Vinduet lukkes om %1$s sekunder.</item>
+        <item quantity="one">Vinduet lukkes om %1$s sekund.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Reklame kan lukkes om %d s</item>
+        <item quantity="one">Reklame kan lukkes om %d s</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Husk valget i %1$s dage</item>
+        <item quantity="one">Husk valget i %1$s dag</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">Optjen en belønning om %d s</item>
+        <item quantity="one">Optjen en belønning om %d s</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Se i %d sekunder for at optjene en belønning.</item>
+        <item quantity="one">Se i %d sekund for at optjene en belønning.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d sek.</item>
+        <item quantity="one">%1$d sek.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
+</resources>

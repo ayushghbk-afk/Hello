@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/setting_tab_navigation" app:startDestination="@id/setting_tab_home"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="SettingsHomeFragment" android:name="com.snaptube.premium.settings.SettingsHomeFragment" android:id="@id/setting_tab_home" />
+    <fragment android:label="DownloadSettingFragment" android:name="com.snaptube.premium.settings.DownloadSettingFragment" android:id="@id/setting_download" />
+    <fragment android:label="NotificationSettingFragment" android:name="com.snaptube.premium.settings.NotificationSettingFragment" android:id="@id/setting_notification" />
+    <fragment android:label="LanguageListFragment" android:name="com.snaptube.premium.settings.LanguageListFragment" android:id="@id/setting_language_list" />
+    <fragment android:label="MeYouTubeLibraryFragment" android:name="com.snaptube.premium.user.fragment.MeYouTubeLibraryFragment" android:id="@id/setting_account_profile" />
+    <fragment android:label="PlaylistVideoFragment" android:name="com.snaptube.premium.youtube.PlaylistVideoFragment" android:id="@id/setting_youtube_history" />
+    <fragment android:label="ThemeDayNightSettingFragment" android:name="com.snaptube.premium.settings.ThemeDayNightSettingFragment" android:id="@id/setting_theme_day_night" />
+</navigation>

@@ -1,0 +1,29 @@
+.class public interface abstract Lcom/huawei/openalliance/ad/ppskit/views/linkscroll/b;
+.super Ljava/lang/Object;
+.source ""
+
+
+# virtual methods
+.method public abstract a(Landroid/view/View;)V
+.end method
+
+.method public abstract a(Landroid/view/View;IIII)V
+.end method
+
+.method public abstract a(Landroid/view/View;II[I)V
+.end method
+
+.method public abstract a(Landroid/view/View;FF)Z
+.end method
+
+.method public abstract a(Landroid/view/View;FFZ)Z
+.end method
+
+.method public abstract a(Landroid/view/View;Landroid/view/View;I)Z
+.end method
+
+.method public abstract b(Landroid/view/View;Landroid/view/View;I)V
+.end method
+
+.method public abstract getLinkScrollAxes()I
+.end method

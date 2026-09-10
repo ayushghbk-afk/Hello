@@ -1,0 +1,28 @@
+.class public final synthetic Lo/mf9;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lo/rf9$a;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/database/sqlite/SQLiteDatabase;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p1}, Lo/rf9;->a(Landroid/database/sqlite/SQLiteDatabase;)V
+
+    return-void
+.end method

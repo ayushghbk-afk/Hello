@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutDescription="@xml/motion_vault_float" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintBottom_toTopOf="@id/music_control_bar_container" app:layout_constraintEnd_toEndOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_dim_bg" android:background="#80000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_expand_items" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/fl_add_video" android:layout_marginBottom="20.0dip" style="@style/VaultFloatItemViewGroup">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_video" app:tint="@color/gray00_opacity100" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video" style="@style/VaultFloatItemText" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/fl_add_music" android:layout_marginBottom="20.0dip" style="@style/VaultFloatItemViewGroup">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_music" app:tint="@color/gray00_opacity100" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/audio" style="@style/VaultFloatItemText" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/fl_add_photo" style="@style/VaultFloatItemViewGroup">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_image" app:tint="@color/gray00_opacity100" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vault_photo" style="@style/VaultFloatItemText" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/iv_close_expand" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_vault_float_close" />
+    <FrameLayout android:id="@id/fl_add_secret" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton android:theme="@style/Theme.MaterialComponents" android:textSize="@dimen/sp_14" android:textStyle="bold" android:textColor="@color/gray00_opacity100" android:id="@id/bt_add_secret" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_lock" android:textAllCaps="true" app:backgroundTint="@color/brand_main" app:icon="@drawable/ic_add" app:iconSize="24.0dip" app:iconTint="@color/gray00_opacity100" style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton" />
+    </FrameLayout>
+</androidx.constraintlayout.motion.widget.MotionLayout>

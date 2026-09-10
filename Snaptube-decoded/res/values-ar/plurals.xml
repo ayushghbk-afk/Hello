@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">تمت إضافة %d ملف إلى قائمة التشغيل</item>
+        <item quantity="zero">لم تتم إضافة أي ملفات إلى قائمة التشغيل</item>
+        <item quantity="one">تمت إضافة ملف واحد إلى قائمة التشغيل</item>
+        <item quantity="two">تمت إضافة ملفين إلى قائمة التشغيل</item>
+        <item quantity="few">تمت إضافة %d ملفات إلى قائمة التشغيل</item>
+        <item quantity="many">تمت إضافة %d ملفًا إلى قائمة التشغيل</item>
+    </plurals>
+    <plurals name="batch_pause_task">
+        <item quantity="other">تم إيقاف %d مهمة مؤقتًا</item>
+        <item quantity="zero">لم يتم إيقاف أي مهام مؤقتًا</item>
+        <item quantity="one">تم إيقاف مهمة واحدة مؤقتًا</item>
+        <item quantity="two">تم إيقاف مهمتين مؤقتًا</item>
+        <item quantity="few">تم إيقاف %d مهام مؤقتًا</item>
+        <item quantity="many">تم إيقاف %d مهمة مؤقتًا</item>
+    </plurals>
+    <plurals name="batch_resume_task">
+        <item quantity="other">تم استئناف %d مهمة</item>
+        <item quantity="zero">تم استئناف 0 مهمة</item>
+        <item quantity="one">تم استئناف مهمة واحدة</item>
+        <item quantity="two">تم استئناف مهمتين</item>
+        <item quantity="few">تم استئناف %d مهام</item>
+        <item quantity="many">تم استئناف %d مهمة</item>
+    </plurals>
+    <plurals name="batch_start_download">
+        <item quantity="other">بدء تنزيل %d عنصر</item>
+        <item quantity="zero">بدء تنزيل أي عناصر</item>
+        <item quantity="one">بدء تنزيل عنصر واحد</item>
+        <item quantity="two">بدء تنزيل عنصرين</item>
+        <item quantity="few">بدء تنزيل %d عناصر</item>
+        <item quantity="many">بدء تنزيل %d عنصرًا</item>
+    </plurals>
+    <plurals name="battery_stop">
+        <item quantity="other">تم تحسين البطارية! تم إيقاف %d تطبيق</item>
+        <item quantity="zero">تم تحسين البطارية! لم يتم إيقاف أي تطبيق</item>
+        <item quantity="one">تم تحسين البطارية! تم إيقاف تطبيق واحد</item>
+        <item quantity="two">تم تحسين البطارية! تم إيقاف تطبيقين</item>
+        <item quantity="few">تم تحسين البطارية! تم إيقاف %d تطبيقات</item>
+        <item quantity="many">تم تحسين البطارية! تم إيقاف %d تطبيقًا</item>
+    </plurals>
+    <plurals name="choose_audio">
+        <item quantity="other">%d ملف صوتي</item>
+        <item quantity="zero">لا توجد ملفات صوتية</item>
+        <item quantity="one">ملف صوتي واحد</item>
+        <item quantity="two">ملفان صوتيان</item>
+        <item quantity="few">%d ملفات صوتية</item>
+        <item quantity="many">%d ملفًا صوتيًا</item>
+    </plurals>
+    <plurals name="choose_picture">
+        <item quantity="other">%d صورة</item>
+        <item quantity="zero">لا توجد صور</item>
+        <item quantity="one">صورة واحدة</item>
+        <item quantity="two">صورتان</item>
+        <item quantity="few">%d صور</item>
+        <item quantity="many">%d صورةً</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d مقطع فيديو</item>
+        <item quantity="zero">لا توجد مقاطع فيديو</item>
+        <item quantity="one">مقطع فيديو واحد</item>
+        <item quantity="two">مقطعَا فيديو</item>
+        <item quantity="few">%d مقاطع فيديو</item>
+        <item quantity="many">%d مقطع فيديو</item>
+    </plurals>
+    <plurals name="clean_day_ago">
+        <item quantity="other">منذ %d يوم</item>
+        <item quantity="zero">منذ 0 يوم</item>
+        <item quantity="one">منذ يوم واحد</item>
+        <item quantity="two">منذ يومين</item>
+        <item quantity="few">منذ %d أيام</item>
+        <item quantity="many">منذ %d يومًا</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d تعليق</item>
+        <item quantity="zero">لا توجد تعليقات</item>
+        <item quantity="one">تعليق واحد</item>
+        <item quantity="two">تعليقان</item>
+        <item quantity="few">%d تعليقات</item>
+        <item quantity="many">%d تعليقًا</item>
+    </plurals>
+    <plurals name="count_video">
+        <item quantity="other">%d مقطع فيديو</item>
+        <item quantity="zero">لا توجد مقاطع فيديو</item>
+        <item quantity="one">مقطع فيديو واحد</item>
+        <item quantity="two">مقطعَا فيديو</item>
+        <item quantity="few">%d مقاطع فيديو</item>
+        <item quantity="many">%d مقطع فيديو</item>
+    </plurals>
+    <plurals name="count_video_selected">
+        <item quantity="other">تم تحديد %d مقطع فيديو</item>
+        <item quantity="zero">لم يتم تحديد أي مقطع فيديو</item>
+        <item quantity="one">تم تحديد مقطع فيديو واحد</item>
+        <item quantity="two">تم تحديد مقطعي فيديو</item>
+        <item quantity="few">تم تحديد %d مقاطع فيديو</item>
+        <item quantity="many">تم تحديد %d مقطع فيديو</item>
+    </plurals>
+    <plurals name="day_ago">
+        <item quantity="other">منذ %d يوم</item>
+        <item quantity="zero">منذ 0 يوم</item>
+        <item quantity="one">منذ يوم واحد</item>
+        <item quantity="two">منذ يومين</item>
+        <item quantity="few">منذ %d أيام</item>
+        <item quantity="many">منذ %d يومًا</item>
+    </plurals>
+    <plurals name="delete_file_failed">
+        <item quantity="other">تعذّر حذف %d ملف</item>
+        <item quantity="zero">لا توجد ملفات تعذّر حذفها</item>
+        <item quantity="one">تعذّر حذف ملف واحد</item>
+        <item quantity="two">تعذّر حذف ملفين</item>
+        <item quantity="few">تعذّر حذف %d ملفات</item>
+        <item quantity="many">تعذّر حذف %d ملفًا</item>
+    </plurals>
+    <plurals name="delete_file_plurals">
+        <item quantity="other">هل أنت متأكد أنك تريد حذف %d ملف؟</item>
+        <item quantity="zero">هل أنت متأكد أنك تريد حذف أي ملفات؟</item>
+        <item quantity="one">هل أنت متأكد أنك تريد حذف ملف واحد؟</item>
+        <item quantity="two">هل أنت متأكد أنك تريد حذف ملفين؟</item>
+        <item quantity="few">هل أنت متأكد أنك تريد حذف %d ملفات؟</item>
+        <item quantity="many">هل أنت متأكد أنك تريد حذف %d ملفًا؟</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="other">احذف %d عنصر</item>
+        <item quantity="zero">لا تحذف أي عنصر</item>
+        <item quantity="one">احذف عنصرًا واحدًا</item>
+        <item quantity="two">احذف عنصرين</item>
+        <item quantity="few">احذف %d عناصر</item>
+        <item quantity="many">احذف %d عنصرًا</item>
+    </plurals>
+    <plurals name="delete_item_subtitle">
+        <item quantity="other">سيتم حذف %d عنصر نهائيًا.</item>
+        <item quantity="zero">لن يتم حذف أي عنصر نهائيًا.</item>
+        <item quantity="one">سيتم حذف عنصر واحد نهائيًا.</item>
+        <item quantity="two">سيتم حذف عنصرين نهائيًا.</item>
+        <item quantity="few">سيتم حذف %d عناصر نهائيًا.</item>
+        <item quantity="many">سيتم حذف %d عنصرًا نهائيًا.</item>
+    </plurals>
+    <plurals name="delete_item_title">
+        <item quantity="other">حذف %d عنصر؟</item>
+        <item quantity="zero">حذف أي عناصر؟</item>
+        <item quantity="one">حذف عنصر واحد؟</item>
+        <item quantity="two">حذف عنصرين؟</item>
+        <item quantity="few">حذف %d عناصر؟</item>
+        <item quantity="many">حذف %d عنصرًا؟</item>
+    </plurals>
+    <plurals name="delete_moved_to_trash_success">
+        <item quantity="other">تم نقل %d ملف إلى سلة المهملات</item>
+        <item quantity="zero">لم يتم نقل أي ملف إلى سلة المهملات</item>
+        <item quantity="one">تم نقل ملف واحد إلى سلة المهملات</item>
+        <item quantity="two">تم نقل ملفين إلى سلة المهملات</item>
+        <item quantity="few">تم نقل %d ملفات إلى سلة المهملات</item>
+        <item quantity="many">تم نقل %d ملفًا إلى سلة المهملات</item>
+    </plurals>
+    <plurals name="delete_partly_failed">
+        <item quantity="other">تم حذف %1$d عنصر. فشل %2$d.</item>
+        <item quantity="zero">تم حذف 0 عنصر. فشل %d.</item>
+        <item quantity="one">تم حذف عنصر واحد. فشل %d.</item>
+        <item quantity="two">تم حذف عنصرين. فشل %d.</item>
+        <item quantity="few">تم حذف %1$d عناصر. فشل %2$d.</item>
+        <item quantity="many">تم حذف %1$d عنصرًا. فشل %2$d.</item>
+    </plurals>
+    <plurals name="delete_record_title">
+        <item quantity="other">هل تريد حذف %d سجل؟</item>
+        <item quantity="zero">هل تريد حذف أي سجلات؟</item>
+        <item quantity="one">هل تريد حذف سجل واحد؟</item>
+        <item quantity="two">هل تريد حذف سجلين؟</item>
+        <item quantity="few">هل تريد حذف %d سجلات؟</item>
+        <item quantity="many">هل تريد حذف %d سجلًا؟</item>
+    </plurals>
+    <plurals name="download_videos_as">
+        <item quantity="other">تنزيل %d فيديو بصيغة</item>
+        <item quantity="zero">تنزيل 0 مقاطع فيديو بصيغة</item>
+        <item quantity="one">تنزيل مقطع فيديو واحد بصيغة</item>
+        <item quantity="two">تنزيل مقطعي فيديو بصيغة</item>
+        <item quantity="few">تنزيل %d مقاطع فيديو بصيغة</item>
+        <item quantity="many">تنزيل %d مقطع فيديو بصيغة</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">جارٍ تنزيل %d مهمة...</item>
+        <item quantity="zero">جارٍ تنزيل 0 مهمة...</item>
+        <item quantity="one">جارٍ تنزيل مهمة واحدة...</item>
+        <item quantity="two">جارٍ تنزيل مهمتين...</item>
+        <item quantity="few">جارٍ تنزيل %d مهام...</item>
+        <item quantity="many">جارٍ تنزيل %d مهمة...</item>
+    </plurals>
+    <plurals name="file_delete_notice">
+        <item quantity="other">سيتم نقل %d ملف إلى [استعادة الملفات المحذوفة] وحذفها نهائيًا بعد 30 يومًا.</item>
+        <item quantity="zero">لن يتم نقل أي ملفات إلى [استعادة الملفات المحذوفة] وسيتم حذفها نهائيًا بعد 30 يومًا.</item>
+        <item quantity="one">سيتم نقل ملف واحد إلى [استعادة الملفات المحذوفة] وحذفه نهائيًا بعد 30 يومًا.</item>
+        <item quantity="two">سيتم نقل ملفين إلى [استعادة الملفات المحذوفة] وحذفهما نهائيًا بعد 30 يومًا.</item>
+        <item quantity="few">سيتم نقل %d ملفات إلى [استعادة الملفات المحذوفة] وحذفها نهائيًا بعد 30 يومًا.</item>
+        <item quantity="many">سيتم نقل %d ملفًا إلى [استعادة الملفات المحذوفة] وحذفها نهائيًا بعد 30 يومًا.</item>
+    </plurals>
+    <plurals name="file_deleted">
+        <item quantity="other">تم حذف %d ملف</item>
+        <item quantity="zero">لم يتم حذف أي ملف</item>
+        <item quantity="one">تم حذف ملف واحد</item>
+        <item quantity="two">تم حذف ملفين</item>
+        <item quantity="few">تم حذف %d ملفات</item>
+        <item quantity="many">تم حذف %d ملفًا</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">سيُغلق مربع الحوار هذا تلقائيًا في غضون %1$s ثانية.</item>
+        <item quantity="zero">سيُغلق مربع الحوار هذا تلقائيًا في غضون %1$s ثوانٍ.</item>
+        <item quantity="one">سيُغلق مربع الحوار هذا تلقائيًا في غضون ثانية واحدة.</item>
+        <item quantity="two">سيُغلق مربع الحوار هذا تلقائيًا في غضون ثانيتين.</item>
+        <item quantity="few">سيُغلق مربع الحوار هذا تلقائيًا في غضون %1$s ثوانٍ.</item>
+        <item quantity="many">سيُغلق مربع الحوار هذا تلقائيًا في غضون %1$s ثانية.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">يمكن إغلاق الإعلان بعد %d ثانية</item>
+        <item quantity="zero">يمكن إغلاق الإعلان بعد %d ثوانٍ</item>
+        <item quantity="one">يمكن إغلاق الإعلان بعد ثانية</item>
+        <item quantity="two">يمكن إغلاق الإعلان بعد ثانيتين</item>
+        <item quantity="few">يمكن إغلاق الإعلان بعد %d ثوانٍ</item>
+        <item quantity="many">يمكن إغلاق الإعلان بعد %d ثانية</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">تذكر الاختيار لمدة %1$s يوم</item>
+        <item quantity="zero">تذكر الاختيار لمدة %1$s أيام</item>
+        <item quantity="one">تذكر الاختيار لمدة يوم واحد</item>
+        <item quantity="two">تذكر الاختيار لمدة يومين</item>
+        <item quantity="few">تذكر الاختيار لمدة %1$s أيام</item>
+        <item quantity="many">تذكر الاختيار لمدة %1$s يومًا</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">استلم المكافأة بعد %d ثانية</item>
+        <item quantity="zero">استلم المكافأة بعد %d ثوانٍ</item>
+        <item quantity="one">استلم المكافأة بعد ثانية واحدة</item>
+        <item quantity="two">استلم المكافأة بعد ثانيتين</item>
+        <item quantity="few">استلم المكافأة بعد %d ثوانٍ</item>
+        <item quantity="many">استلم المكافأة بعد %d ثانية</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">شاهد لمدة %d ثانية للحصول على مكافأة.</item>
+        <item quantity="zero">شاهد لمدة %d ثوانٍ للحصول على مكافأة.</item>
+        <item quantity="one">شاهد لمدة ثانية واحدة للحصول على مكافأة.</item>
+        <item quantity="two">شاهد لمدة ثانيتين للحصول على مكافأة.</item>
+        <item quantity="few">شاهد لمدة %d ثوانٍ للحصول على مكافأة.</item>
+        <item quantity="many">شاهد لمدة %d ثانية للحصول على مكافأة.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d ثانية</item>
+        <item quantity="zero">%1$d ثوانٍ</item>
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">%1$d ثوانٍ</item>
+        <item quantity="many">%1$d ثانية</item>
+    </plurals>
+    <plurals name="hour_ago">
+        <item quantity="other">منذ %d ساعة</item>
+        <item quantity="zero">منذ ٠ ساعة</item>
+        <item quantity="one">منذ ساعة واحدة</item>
+        <item quantity="two">منذ ساعتين</item>
+        <item quantity="few">منذ %d ساعات</item>
+        <item quantity="many">منذ %d ساعة</item>
+    </plurals>
+    <plurals name="large_file_delete_notice">
+        <item quantity="other">سيتم نقل %d ملف إلى سلة المهملات وسيتم حذفه نهائيًا بعد 30 يومًا.</item>
+        <item quantity="zero">لن يتم نقل أي ملفات إلى سلة المهملات ولن يتم حذفها نهائيًا بعد 30 يومًا.</item>
+        <item quantity="one">سيتم نقل ملف واحد إلى سلة المهملات وسيتم حذفه نهائيًا بعد 30 يومًا.</item>
+        <item quantity="two">سيتم نقل ملفين إلى سلة المهملات وسيتم حذفهما نهائيًا بعد 30 يومًا.</item>
+        <item quantity="few">سيتم نقل %d ملفات إلى سلة المهملات وسيتم حذفها نهائيًا بعد 30 يومًا.</item>
+        <item quantity="many">سيتم نقل %d ملفًا إلى سلة المهملات وسيتم حذفه نهائيًا بعد 30 يومًا.</item>
+    </plurals>
+    <plurals name="like">
+        <item quantity="other">%d إعجاب</item>
+        <item quantity="zero">%d إعجاب</item>
+        <item quantity="one">إعجاب واحد</item>
+        <item quantity="two">إعجابان</item>
+        <item quantity="few">%d إعجابات</item>
+        <item quantity="many">%d إعجابًا</item>
+    </plurals>
+    <plurals name="minute_ago">
+        <item quantity="other">قبل %d دقيقة</item>
+        <item quantity="zero">قبل أقل من دقيقة</item>
+        <item quantity="one">منذ دقيقة واحدة</item>
+        <item quantity="two">قبل دقيقتين</item>
+        <item quantity="few">قبل %d دقائق</item>
+        <item quantity="many">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="month_ago">
+        <item quantity="other">قبل %d شهر</item>
+        <item quantity="zero">قبل 0 شهر</item>
+        <item quantity="one">قبل شهر واحد</item>
+        <item quantity="two">قبل شهرين</item>
+        <item quantity="few">قبل %d أشهر</item>
+        <item quantity="many">قبل %d شهرًا</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="new_comments">
+        <item quantity="other">%d تعليق جديد</item>
+        <item quantity="zero">لا توجد تعليقات جديدة</item>
+        <item quantity="one">تعليق جديد واحد</item>
+        <item quantity="two">تعليقان جديدان</item>
+        <item quantity="few">%d تعليقات جديدة</item>
+        <item quantity="many">%d تعليقًا جديدًا</item>
+    </plurals>
+    <plurals name="permanently_delete_check">
+        <item quantity="other">حذف %d ملف نهائيًا؟</item>
+        <item quantity="zero">حذف أي ملفات نهائيًا؟</item>
+        <item quantity="one">حذف ملف واحد نهائيًا؟</item>
+        <item quantity="two">حذف ملفين نهائيًا؟</item>
+        <item quantity="few">حذف %d ملفات نهائيًا؟</item>
+        <item quantity="many">حذف %d ملفًا نهائيًا؟</item>
+    </plurals>
+    <plurals name="photos">
+        <item quantity="other">%d صورة</item>
+        <item quantity="zero">لا توجد صور</item>
+        <item quantity="one">صورة واحدة</item>
+        <item quantity="two">صورتان</item>
+        <item quantity="few">%d صور</item>
+        <item quantity="many">%d صورةً</item>
+    </plurals>
+    <plurals name="playlist_videos">
+        <item quantity="other">%1$d مقطع فيديو · %2$s</item>
+        <item quantity="zero">لا توجد مقاطع فيديو · %2$s</item>
+        <item quantity="one">مقطع فيديو واحد · %2$s</item>
+        <item quantity="two">مقطعا فيديو · %2$s</item>
+        <item quantity="few">%1$d مقاطع فيديو · %2$s</item>
+        <item quantity="many">%1$d مقطع فيديو · %2$s</item>
+    </plurals>
+    <plurals name="recover_day">
+        <item quantity="other">%d يوم</item>
+        <item quantity="zero">%d يوم</item>
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d يومًا</item>
+    </plurals>
+    <plurals name="recover_deleted_files_number">
+        <item quantity="other">%d ملف لاستعادته</item>
+        <item quantity="zero">لا توجد ملفات لاستعادتها</item>
+        <item quantity="one">ملف واحد لاستعادته</item>
+        <item quantity="two">ملفان لاستعادتهما</item>
+        <item quantity="few">%d ملفات لاستعادتها</item>
+        <item quantity="many">%d ملفًا لاستعادتها</item>
+    </plurals>
+    <plurals name="recover_notice">
+        <item quantity="other">استعادة %d ملف</item>
+        <item quantity="zero">استعادة 0 ملف</item>
+        <item quantity="one">استعادة ملف واحد</item>
+        <item quantity="two">استعادة ملفين</item>
+        <item quantity="few">استعادة %d ملفات</item>
+        <item quantity="many">استعادة %d ملفًا</item>
+    </plurals>
+    <plurals name="recover_partly_failed">
+        <item quantity="other">تمت استعادة %1$d عنصر. فشل %2$d.</item>
+        <item quantity="zero">تمت استعادة 0 عنصر. فشل %d.</item>
+        <item quantity="one">تمت استعادة عنصر واحد. فشل %d.</item>
+        <item quantity="two">تمت استعادة عنصرين. فشل %d.</item>
+        <item quantity="few">تمت استعادة %1$d عناصر. فشل %2$d.</item>
+        <item quantity="many">تمت استعادة %1$d عنصرًا. فشل %2$d.</item>
+    </plurals>
+    <plurals name="select_file_num">
+        <item quantity="other">حدد %d ملف</item>
+        <item quantity="zero">لا تحدد أي ملفات</item>
+        <item quantity="one">حدد ملفًا واحدًا</item>
+        <item quantity="two">حدد ملفين</item>
+        <item quantity="few">حدد %d ملفات</item>
+        <item quantity="many">حدد %d ملفًا</item>
+    </plurals>
+    <plurals name="selected_item_count">
+        <item quantity="other">تم تحديد %1$d عنصر</item>
+        <item quantity="zero">لم يتم تحديد أي عنصر</item>
+        <item quantity="one">تم تحديد عنصر واحد</item>
+        <item quantity="two">تم تحديد عنصرين</item>
+        <item quantity="few">تم تحديد %1$d عناصر</item>
+        <item quantity="many">تم تحديد %1$d عنصرًا</item>
+    </plurals>
+    <plurals name="selected_items_num">
+        <item quantity="other">%d عنصر</item>
+        <item quantity="zero">لا توجد عناصر</item>
+        <item quantity="one">عنصر واحد</item>
+        <item quantity="two">عنصران</item>
+        <item quantity="few">%d عناصر</item>
+        <item quantity="many">%d عنصرًا</item>
+    </plurals>
+    <plurals name="setting_max_download_data_tasks">
+        <item quantity="other">بيانات الهاتف المحمول: %d مهمة</item>
+        <item quantity="zero">بيانات الهاتف المحمول: لا توجد مهام</item>
+        <item quantity="one">بيانات الهاتف المحمول: مهمة واحدة</item>
+        <item quantity="two">بيانات الهاتف المحمول: مهمتان</item>
+        <item quantity="few">بيانات الهاتف المحمول: %d مهام</item>
+        <item quantity="many">بيانات الهاتف المحمول: %d مهمة</item>
+    </plurals>
+    <plurals name="setting_max_download_wifi_tasks">
+        <item quantity="other">Wi-Fi: %d مهمة</item>
+        <item quantity="zero">Wi-Fi: لا توجد مهام</item>
+        <item quantity="one">Wi-Fi: مهمة واحدة</item>
+        <item quantity="two">Wi-Fi: مهمتان</item>
+        <item quantity="few">Wi-Fi: %d مهام</item>
+        <item quantity="many">Wi-Fi: %d مهمة</item>
+    </plurals>
+    <plurals name="top_feed_flash">
+        <item quantity="other">%d مقطع فيديو جديد لك. استمتع!</item>
+        <item quantity="zero">لا توجد مقاطع فيديو جديدة لك. استمتع!</item>
+        <item quantity="one">مقطع فيديو جديد واحد لك. استمتع!</item>
+        <item quantity="two">مقطعا فيديو جديدان لك. استمتع!</item>
+        <item quantity="few">%d مقاطع فيديو جديدة لك. استمتع!</item>
+        <item quantity="many">%d مقطع فيديو جديدًا لك. استمتع!</item>
+    </plurals>
+    <plurals name="vault_partial_failed_dialog_subtitle">
+        <item quantity="other">فشل قفل %d ملف، وتم قفل الملفات الأخرى بنجاح。</item>
+        <item quantity="zero">لم يتم قفل أي ملف، وتم قفل الملفات الأخرى بنجاح.</item>
+        <item quantity="one">فشل قفل ملف واحد، وتم قفل الملفات الأخرى بنجاح.</item>
+        <item quantity="two">فشل قفل ملفين، وتم قفل الملفات الأخرى بنجاح.</item>
+        <item quantity="few">فشل قفل %d ملفات، وتم قفل الملفات الأخرى بنجاح.</item>
+        <item quantity="many">فشل قفل %d ملفًا، وتم قفل الملفات الأخرى بنجاح.</item>
+    </plurals>
+    <plurals name="videos_found">
+        <item quantity="other">تم العثور على %d فيديو</item>
+        <item quantity="zero">لم يتم العثور على أي فيديوهات</item>
+        <item quantity="one">تم العثور على فيديو واحد</item>
+        <item quantity="two">تم العثور على فيديوهين</item>
+        <item quantity="few">تم العثور على %d فيديوهات</item>
+        <item quantity="many">تم العثور على %d فيديو</item>
+    </plurals>
+    <plurals name="view_count">
+        <item quantity="other">%s مشاهدة</item>
+        <item quantity="zero">لا توجد مشاهدات</item>
+        <item quantity="one">مشاهدة واحدة</item>
+        <item quantity="two">مشاهدتان</item>
+        <item quantity="few">%s مشاهدات</item>
+        <item quantity="many">%s مشاهدة</item>
+    </plurals>
+    <plurals name="wacleaner_delete_title">
+        <item quantity="other">هل تريد حذف %d ملف؟</item>
+        <item quantity="zero">هل تريد حذف أي ملفات؟</item>
+        <item quantity="one">هل تريد حذف ملف واحد؟</item>
+        <item quantity="two">هل تريد حذف ملفين؟</item>
+        <item quantity="few">هل تريد حذف %d ملفات؟</item>
+        <item quantity="many">هل تريد حذف %d ملفًا؟</item>
+    </plurals>
+    <plurals name="year_ago">
+        <item quantity="other">منذ %d عام</item>
+        <item quantity="zero">منذ 0 عام</item>
+        <item quantity="one">منذ عام واحد</item>
+        <item quantity="two">منذ عامين</item>
+        <item quantity="few">منذ %d أعوام</item>
+        <item quantity="many">منذ %d عامًا</item>
+    </plurals>
+</resources>

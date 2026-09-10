@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_lock" android:id="@id/action_menu_lock" android:title="@string/label_lock" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_unlock" android:id="@id/action_menu_unlock" android:title="@string/label_unlocking" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_share" android:id="@id/action_menu_share" android:title="@string/share" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_delete" android:id="@id/action_menu_delete" android:title="@string/delete" app:showAsAction="always" />
+</menu>

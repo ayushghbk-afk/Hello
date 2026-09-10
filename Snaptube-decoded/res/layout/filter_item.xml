@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:visibility="gone" android:layout_width="@dimen/small_icon_size" android:layout_height="@dimen/small_icon_size" android:layout_margin="@dimen/default_icon_margin" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" app:srcCompat="@drawable/ic_checked_with_red_background" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/tv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.Youtube.Text" />
+    <View android:id="@id/divider" android:background="@color/background_primary_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

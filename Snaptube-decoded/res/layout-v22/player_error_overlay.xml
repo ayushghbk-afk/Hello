@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back_btn" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_left_white" app:tint="@color/lib_gray100" />
+    <com.snaptube.mixed_list.WidthFixedLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/first_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iv_logo" android:layout_width="40.0dip" android:layout_height="40.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_youtube_filled" app:tint="#fffa1d0b" />
+            <TextView android:textColor="@color/white_opacity80" android:gravity="center" android:id="@id/error_tip" android:paddingLeft="48.0dip" android:paddingRight="48.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:paddingHorizontal="48.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_logo" style="@style/body_regular" />
+            <TextView android:textColor="@color/attention_main" android:gravity="center" android:id="@id/load_retry" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="16.0dip" android:text="@string/Retry" android:paddingHorizontal="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/error_tip" style="@style/body_cta_medium" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.snaptube.mixed_list.WidthFixedLayout>
+</RelativeLayout>

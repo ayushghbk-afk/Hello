@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="end" android:id="@id/left_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/pair_text_left" />
+    <TextView android:gravity="start" android:id="@id/right_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/middle_margin" android:layout_marginStart="@dimen/middle_margin" style="@style/pair_text_right" />
+</LinearLayout>

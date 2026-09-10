@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_block_normal_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/status_bar_view" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <com.snaptube.premium.search.ActionBarSearchNewView android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" />
+    <ViewStub android:id="@id/clipboard_prompt_stub" android:layout="@layout/clipboard_prompt" android:inflatedId="@id/clipboard_prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" />
+    <include layout="@layout/components_mixed_list_fragment" />
+</LinearLayout>

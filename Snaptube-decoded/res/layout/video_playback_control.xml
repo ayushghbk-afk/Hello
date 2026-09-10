@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/play_control" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_play_previous" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" android:minWidth="24.0dip" android:minHeight="24.0dip" android:layout_marginEnd="62.0dip" app:srcCompat="@drawable/ic_playlast" />
+    <ImageView android:id="@id/iv_play_pause" android:layout_width="40.0dip" android:layout_height="40.0dip" android:minWidth="24.0dip" android:minHeight="24.0dip" app:srcCompat="@drawable/ic_play_filled" />
+    <ImageView android:id="@id/iv_play_next" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" android:minWidth="24.0dip" android:minHeight="24.0dip" android:layout_marginStart="62.0dip" app:srcCompat="@drawable/ic_playnext" />
+</LinearLayout>

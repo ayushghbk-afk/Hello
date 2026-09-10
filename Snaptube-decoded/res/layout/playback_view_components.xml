@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout android:layout_gravity="center" android:id="@id/player_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.snaptube.playerv2.views.PlaybackGestureDetectorView android:id="@id/playback_gesture_detector" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.snaptube.playerv2.views.DefaultPlaybackControlView android:id="@id/playback_control" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.snaptube.playerv2.views.PlaybackTinyControlView android:id="@id/playback_tiny_progress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/waiting_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.snaptube.playerv2.views.PlaybackErrorOverlayView android:id="@id/playback_error_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:layout_gravity="start|bottom|center" android:id="@id/tv_extract_from" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="32.0dip" android:layout_marginStart="10.0dip" />
+    <FrameLayout android:id="@id/loading_wrapper" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

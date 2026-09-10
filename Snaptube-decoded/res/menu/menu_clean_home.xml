@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_cleaner_upgrade" android:id="@id/menu_cleaner_upgrade" android:title="@string/upgrade" app:actionProviderClass="com.dayuwuxian.clean.ui.main.CleanerUpgradeActionProvider" app:showAsAction="always" />
+    <item android:id="@id/menu_clean_home_more" android:title="@string/clean_manager_dialog_uninstall_more" app:actionProviderClass="com.dayuwuxian.clean.ui.menu.CleanMenuActionProvider" app:showAsAction="always" />
+</menu>

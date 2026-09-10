@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d ta rasm</item>
+        <item quantity="one">1 rasm</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d ta video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">%d ta vazifa yuklab olinmoqda...</item>
+        <item quantity="one">1 ta vazifa yuklab olinmoqda...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Oyna %1$s soniyadan keyin yopiladi.</item>
+        <item quantity="one">Oyna %1$s soniyadan keyin yopiladi.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Reklamani %d soniyadan keyin yopish mumkin</item>
+        <item quantity="one">Reklamani %d soniyadan keyin yopish mumkin</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Tanlov %1$s kunga eslab qolinsin</item>
+        <item quantity="one">Tanlov %1$s kunga eslab qolinsin</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">%d soniyadan keyin mukofot ishlab oling</item>
+        <item quantity="one">%d soniyadan keyin mukofot ishlab oling</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Mukofot ishlab olish uchun %d soniya tomosha qiling.</item>
+        <item quantity="one">Mukofot ishlab olish uchun %d soniya tomosha qiling.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d soniya</item>
+        <item quantity="one">%1$d soniya</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ta yangi bildirishnoma</item>
+        <item quantity="one">%d ta yangi bildirishnoma</item>
+    </plurals>
+</resources>

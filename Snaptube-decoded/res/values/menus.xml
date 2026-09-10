@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="menu" name="delete">false</item>
+    <item type="menu" name="hiad_land_page_menu">false</item>
+    <item type="menu" name="menu_back_to_home">false</item>
+    <item type="menu" name="menu_cover_report">false</item>
+    <item type="menu" name="menu_curator">false</item>
+    <item type="menu" name="menu_edit_done_white">false</item>
+    <item type="menu" name="menu_faq">false</item>
+    <item type="menu" name="menu_youtube_video">false</item>
+    <item type="menu" name="menu_youtube_watch_later_list_video">false</item>
+    <item type="menu" name="speed_dial_menu">false</item>
+</resources>

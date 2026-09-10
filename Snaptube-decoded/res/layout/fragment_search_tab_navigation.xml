@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.fragment.app.FragmentContainerView android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/nav_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:defaultNavHost="true" />
+    <com.snaptube.mixed_list.view.FABBatchDownload android:id="@id/fab_batch_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/batch_download_btn" />
+</FrameLayout>

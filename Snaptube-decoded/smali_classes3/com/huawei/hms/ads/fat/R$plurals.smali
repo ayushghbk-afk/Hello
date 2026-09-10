@@ -1,0 +1,38 @@
+.class public final Lcom/huawei/hms/ads/fat/R$plurals;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/hms/ads/fat/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "plurals"
+.end annotation
+
+
+# static fields
+.field public static final hiad_dismiss_dilaog:I = 0x7f0f001a
+
+.field public static final hiad_interstitial_time_countdown:I = 0x7f0f001b
+
+.field public static final hiad_no_prompt_in_days:I = 0x7f0f001c
+
+.field public static final hiad_reward_before_rw_time_countdown:I = 0x7f0f001d
+
+.field public static final hiad_reward_close_dialog_message:I = 0x7f0f001e
+
+.field public static final hiad_reward_countdown:I = 0x7f0f001f
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_block_normal_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/background_border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/cover" android:layout_width="120.0dip" android:layout_height="50.0dip" android:src="@drawable/bg_layer" android:scaleType="centerCrop" />
+            <TextView android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/cover" android:layout_alignBottom="@id/cover" android:layout_alignEnd="@id/cover" style="@style/card_video_duration" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/linear_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:layout_marginStart="10.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="@color/text_primary_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/text_secondary_color" android:ellipsize="end" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/download_image" android:background="@android:color/transparent" android:layout_marginLeft="@dimen/download_left_margin" android:layout_marginRight="17.0dip" android:scaleType="centerCrop" android:tint="@color/content_main" android:layout_marginStart="@dimen/download_left_margin" android:layout_marginEnd="17.0dip" app:srcCompat="@drawable/ic_download" style="@style/common_download_btn" />
+    </LinearLayout>
+</LinearLayout>

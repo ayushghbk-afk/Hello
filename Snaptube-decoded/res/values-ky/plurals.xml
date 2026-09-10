@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d сүрөт</item>
+        <item quantity="one">1 сүрөт</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d видео</item>
+        <item quantity="one">1 видео</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">%d тапшырма жүктөлүүдө...</item>
+        <item quantity="one">1 тапшырма жүктөлүүдө...</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d жаңы билдирме</item>
+        <item quantity="one">%d жаңы билдирме</item>
+    </plurals>
+</resources>

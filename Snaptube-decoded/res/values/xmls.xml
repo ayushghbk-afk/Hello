@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="xml" name="download_settings">false</item>
+    <item type="xml" name="fileprovider_paths">false</item>
+    <item type="xml" name="network_security_config">@xml/network_security_config_release</item>
+    <item type="xml" name="network_security_config_debug">false</item>
+    <item type="xml" name="theme_daynight_settings">false</item>
+</resources>

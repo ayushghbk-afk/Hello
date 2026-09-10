@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Continue">متابعة</string>
+    <string name="Log_in">تسجيل الدخول</string>
+    <string name="Retry">إعادة المحاولة</string>
+    <string name="_new">جديد</string>
+    <string name="abc_action_bar_home_description">التوجه إلى المنزل</string>
+    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
+    <string name="abc_action_menu_overflow_description">خيارات أكثر</string>
+    <string name="abc_action_mode_done">تم</string>
+    <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
+    <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
+    <string name="abc_capital_off">إيقاف</string>
+    <string name="abc_capital_on">مفعّلة</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">حذف</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">فضاء</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">القائمة+</string>
+    <string name="abc_search_hint">بحث…</string>
+    <string name="abc_searchview_description_clear">محو طلب البحث</string>
+    <string name="abc_searchview_description_query">طلب بحث</string>
+    <string name="abc_searchview_description_search">البحث</string>
+    <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
+    <string name="abc_searchview_description_voice">بحث صوتي</string>
+    <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
+    <string name="abc_shareactionprovider_share_with_application">مشاركة مع %s</string>
+    <string name="abc_toolbar_collapse_description">تصغير</string>
+    <string name="about_dialog_version">الإصدار:</string>
+    <string name="about_new_features">ميزات جديدة</string>
+    <string name="about_update_up_to_date">محدّث</string>
+    <string name="access_auth_hint1">يرجى السماح لـ Snaptube بالوصول إلى الوسائط والملفات حتى تتمكن من تنظيف المزيد من المساحة.</string>
+    <string name="access_pupup_files">السماح بالوصول إلى جميع الملفات</string>
+    <string name="account_login_youtube">تسجيل الدخول باستخدام YouTube</string>
+    <string name="account_youtube_history">السجل والمشاهدة لاحقًا</string>
+    <string name="account_youtube_library_description">مزامنة مكتبة YouTube الخاصة بك</string>
+    <string name="account_youtube_like_description">سجّل الإعجاب بمقاطع الفيديو باستخدام حساب YouTube الخاص بك</string>
+    <string name="account_youtube_restricted_mode_restart_tip">أعد تشغيل التطبيق لتفعيل الوضع المقيّد</string>
+    <string name="account_youtube_subscribe_description">مزامنة جميع القنوات التي اشتركت فيها</string>
+    <string name="account_youtube_watch_later_description">أضف إلى قائمة المشاهدة لاحقًا</string>
+    <string name="action_add">إضافة</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="actionmode_select_all">تحديد الكل</string>
+    <string name="actionmode_unselect_all">إلغاء تحديد الكل</string>
+    <string name="activate">تنشيط</string>
+    <string name="activate_guide_tip_format">تم تثبيت %1$s، انقر للفتح</string>
+    <string name="activated">مفعل</string>
+    <string name="ad_close">إغلاق %1$d</string>
+    <string name="ad_cta_downloads">التنزيلات</string>
+    <string name="ad_fb_all_media_title">كل الوسائط</string>
+    <string name="ad_fb_description_tips">إذا كان هناك أي شيء تريد إخبارنا به...</string>
+    <string name="ad_fb_thx_feedback">شكرًا على ملاحظاتك.</string>
+    <string name="ad_loading">جارٍ التحميل</string>
+    <string name="ad_tips">قد يعجبك أيضًا</string>
+    <string name="add_a_comment">أضف تعليقًا…</string>
+    <string name="add_another_reason">أضف سببًا آخر…</string>
+    <string name="add_more">إضافة المزيد</string>
+    <string name="add_more_detail">أضف المزيد من التفاصيل</string>
+    <string name="add_more_detail_ask">إضافة المزيد من التفاصيل؟</string>
+    <string name="add_new_site">إضافة موقع جديد</string>
+    <string name="add_site">إضافة مواقع</string>
+    <string name="add_successfully">تمت محاولة إنشاء اختصار، انقر فوق إضافة ثم ارجع إلى سطح المكتب للعرض</string>
+    <string name="add_to_playlist">إضافة إلى قائمة التشغيل</string>
+    <string name="add_to_watch_later">إضافة إلى المشاهدة لاحقًا</string>
+    <string name="add_to_watch_later_failed">فشل الإضافة إلى المشاهدة لاحقًا</string>
+    <string name="add_to_watch_later_success">تمت الإضافة إلى المشاهدة لاحقًا</string>
+    <string name="added_to_watch_later">تمت الإضافة إلى المشاهدة لاحقًا</string>
+    <string name="adjust_download_task_notice">ملاحظة: قد يؤدي رفع هذا الرقم إلى إبطاء هاتفك.</string>
+    <string name="advice_clean">نصيحة: تنظيف</string>
+    <string name="advice_clean2">"نصيحة: تنظيف
+الحالة: مثبت"</string>
+    <string name="album_name_all">جميع وسائل الإعلام</string>
+    <string name="all">الكل</string>
+    <string name="all_items">كل العناصر</string>
+    <string name="all_languages">كل اللغات</string>
+    <string name="all_selected">تم تحديد الكل</string>
+    <string name="all_subscription">جميع الاشتراكات</string>
+    <string name="allow">السماح</string>
+    <string name="allow_all_files_access_to_save">السماح بالوصول إلى جميع الملفات للحفظ</string>
+    <string name="allow_clean">السماح</string>
+    <string name="allow_files_access_to_change_download_path">السماح بالوصول إلى الملفات لتغيير مسار التنزيل</string>
+    <string name="allow_files_access_to_clean_junk">السماح بالوصول إلى الملفات لتنظيف الملفات غير المرغوب فيها</string>
+    <string name="allow_files_access_to_clean_whatsApp">السماح بالوصول إلى الملفات لتنظيف WhatsApp</string>
+    <string name="allow_files_access_to_save_downloaded_files">السماح بالوصول إلى الملفات لحفظ الملفات التي تم تنزيلها</string>
+    <string name="allow_files_access_to_use_vault">السماح بالوصول إلى الملفات لاستخدام الخزنة</string>
+    <string name="allow_files_access_to_view_and_download_status">السماح بالوصول إلى الملفات لعرض حالة التنزيل</string>
+    <string name="allow_permission">السماح بالإذن</string>
+    <string name="allow_storage_permission">السماح بالوصول إلى التخزين لإظهار الملفات التي تم تنزيلها</string>
+    <string name="anytime">في أي وقت</string>
+    <string name="apk_download_complete">اكتمل التنزيل، انقر للتثبيت</string>
+    <string name="apk_download_failed">فشل تنزيل %s</string>
+    <string name="apk_download_succeeded">نجح تنزيل %s</string>
+    <string name="apk_files">ملفات APK</string>
+    <string name="app_cache">ملفات التخزين المؤقت غير الضرورية</string>
+    <string name="app_download_status_success">انقر للتثبيت</string>
+    <string name="app_log_junk">مخلفات الإعلانات</string>
+    <string name="app_manage_select">المحدد: %1$d / %2$d</string>
+    <string name="app_manager_delete_hint" formatted="false">تشغل %d تطبيقات غير مستخدمة %s</string>
+    <string name="app_manager_delete_hint2">عرض التطبيقات نادرة الاستخدام</string>
+    <string name="app_manager_delete_hint3">التطبيقات نادرة الاستخدام تشغل مساحة تخزين كبيرة</string>
+    <string name="app_search_no_input">أدخل كلمات البحث</string>
+    <string name="app_theme">سمة التطبيق</string>
+    <string name="app_uninstaller_title">إلغاء تثبيت التطبيقات</string>
+    <string name="apply_curator">تطبيق قيّم Snaptube</string>
+    <string name="apply_curator_message">يفتح Snaptube باب التوظيف لمنصب قيّم محتوى إعلامي. بصفتك قيّمًا لدى Snaptube، يمكنك جمع الموسيقى والفيديوهات الرائعة وفهرستها وإدارتها وعرضها لأكثر من 30 مليون مستخدم حول العالم. اترك بريدك الإلكتروني أو معرف Facebook للتقديم.</string>
+    <string name="apply_new_language">هل تريد إعادة تشغيل Snaptube لتطبيق اللغة الجديدة؟</string>
+    <string name="apply_new_location">أعد تشغيل Snaptube ليصبح التغيير نافذًا.</string>
+    <string name="apply_now">تطبيق الآن</string>
+    <string name="april">أبريل</string>
+    <string name="aquarius">الدلو</string>
+    <string name="aries">الحمل</string>
+    <string name="audio">الموسيقى</string>
+    <string name="august">أغسطس</string>
+    <string name="auto">تلقائي</string>
+    <string name="auto_generate">تم الإنشاء تلقائيًا</string>
+    <string name="auto_play">تشغيل تلقائي</string>
+    <string name="auto_translate">ترجمة تلقائية</string>
+    <string name="autoplay_toast">تم %s للتشغيل التلقائي.</string>
+    <string name="back">رجوع</string>
+    <string name="back_to_home">العودة إلى الرئيسية</string>
+    <string name="back_to_snaptube_to_save">العودة إلى %s للحفظ</string>
+    <string name="batch_download_count">تنزيل (%d)</string>
+    <string name="batch_listen_count">استمع إلى %d</string>
+    <string name="battery_draining_apps">%s تطبيقات تستنزف البطارية</string>
+    <string name="battery_freeze_apps">تجميد %s تطبيقات</string>
+    <string name="battery_freeze_hint">يعمل %d تطبيقًا على إبطاء هاتفك</string>
+    <string name="battery">البطارية</string>
+    <string name="battery_freeze_hint2_">انقر لتجميد التطبيق المستنزف للبطارية</string>
+    <string name="battery_freezing">تجميد التطبيقات</string>
+    <string name="battery_hint">تجميد التطبيقات المستنزفة للبطارية</string>
+    <string name="battery_hint2">تبقّى %s من البطارية</string>
+    <string name="battery_hint_charging">تجميد التطبيقات لتسريع الشحن</string>
+    <string name="battery_hint_low">جمّد التطبيقات لإبطاء استنزاف البطارية</string>
+    <string name="battery_hint_normal">تجميد التطبيقات لتوفير البطارية</string>
+    <string name="battery_notification1_title">البطارية على وشك النفاد</string>
+    <string name="battery_notification2_hint">اضغط لتجميد التطبيقات لتسريع الشحن</string>
+    <string name="battery_notification2_title">تعمل %s من التطبيقات على إبطاء سرعة الشحن</string>
+    <string name="battery_optimized">تم تحسين البطارية!</string>
+    <string name="battery_power">طاقة البطارية</string>
+    <string name="battery_running_well">البطارية تعمل بشكل جيد!</string>
+    <string name="battery_temperature">درجة حرارة البطارية</string>
+    <string name="battery_time">الوقت المتبقي المقدر</string>
+    <string name="battery_voltage">جهد البطارية</string>
+    <string name="best">الأفضل</string>
+    <string name="bookmark_my_website">مواقعي الإلكترونية</string>
+    <string name="boost_desc">تعزيز بنقرة واحدة</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="browser_bookmarked">تمت الإضافة إلى الإشارات المرجعية</string>
+    <string name="browser_planb">المواقع</string>
+    <string name="browser_tab_incognito">التصفح الخفي</string>
+    <string name="browser_tab_normal">عادي</string>
+    <string name="battery_saver">موفر البطارية</string>
+    <string name="button_apply">تطبيق (%1$d)</string>
+    <string name="button_apply_default">تطبيق</string>
+    <string name="button_back">رجوع</string>
+    <string name="button_delete_rocord">حذف السجل</string>
+    <string name="button_download_again">تنزيل مرة أخرى</string>
+    <string name="button_ok">تم</string>
+    <string name="button_preview">معاينة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="cancel_clean">إلغاء</string>
+    <string name="cancer">السرطان</string>
+    <string name="capricorn">الجدي</string>
+    <string name="caption_auto_generate">%s (تم الإنشاء تلقائيًا)</string>
+    <string name="caption_turn_off">إغلاق التسميات التوضيحية (cc)</string>
+    <string name="caption_turn_on_toast">تم تشغيل الترجمة/CC‏ (%s).</string>
+    <string name="captions">التسميات التوضيحية</string>
+    <string name="careful_clean">نظّف بعناية</string>
+    <string name="change">تغيير</string>
+    <string name="change_folder">تغيير المجلد</string>
+    <string name="change_log_feature_content">"- دعم البحث ضمن الملفات المحلية في تبويب ملفاتي
+- تم تحسين الأداء لتقديم تجربة استخدام أكثر سلاسة."</string>
+    <string name="change_log_feature_title">متعة متجددة كلّ يوم</string>
+    <string name="change_log_title">%1$s ميزة جديدة</string>
+    <string name="change_log_title_beta">%1$s ميزة تجريبية جديدة</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="change_password_hint">غيّر كلمة المرور</string>
+    <string name="change_path_clean_junk">نظّف %s من الملفات غير المرغوب فيها</string>
+    <string name="change_path_notice1">مطلوب على الأقل %1$s%2$s، يرجى تغيير مسار التخزين</string>
+    <string name="channels">القنوات</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string name="chat_comment_notification">الرسائل والتعليقات</string>
+    <string name="check">تحقق</string>
+    <string name="check_download_history">تحقق من سجل التنزيلات المحذوفة للعثور على المزيد.</string>
+    <string name="check_for_updates">التحقق من وجود تحديثات</string>
+    <string name="check_the_content">تحقق من المحتوى</string>
+    <string name="check_video">تحقق من الفيديو</string>
+    <string name="checkbox_add_to_homepage">أضف أيضًا إلى الاتصال السريع</string>
+    <string name="checking">جارٍ التحقق</string>
+    <string name="choose_again">اختر مرة أخرى</string>
+    <string name="choose_music_info_provider">اختر مصدرًا آخر أو عدّل يدويًا</string>
+    <string name="choose_your_language">اختر لغتك</string>
+    <string name="clean_access_data_hint">للتنظيف العميق على Android 11 والإصدارات الأحدث، يُرجى السماح بالوصول إلى البيانات</string>
+    <string name="clean_access_data_title">السماح بالوصول إلى البيانات</string>
+    <string name="clean_access_files_hint">لفحص جميع الملفات على Android 11 وما فوق، يرجى السماح بالوصول إلى جميع الملفات</string>
+    <string name="clean_access_toast">يرجى النقر على الزر في الأسفل للسماح بالوصول</string>
+    <string name="clean_boost_no_need">هاتفك يعمل بشكل جيد!</string>
+    <string name="clean_clean_up">تنظيف</string>
+    <string name="clean_deep_hint">لم يتم العثور على الكثير من الملفات غير المرغوب فيها بعد، اضغط هنا للسماح لـ Snaptube بالعثور عليها وتنظيفها</string>
+    <string name="clean_deep_hint2">للتنظيف العميق على Android 11 والإصدارات الأحدث، يرجى السماح بالوصول</string>
+    <string name="clean_deep_title">تنظيف عميق</string>
+    <string name="clean_description_v1">%s من الملفات غير المرغوب فيها متاح للتنظيف</string>
+    <string name="clean_description_v2">تنظيف سريع لتحرير مساحة الهاتف</string>
+    <string name="clean_end_no_junk">لا توجد ملفات غير مهمة لتنظيفها. ممتاز!</string>
+    <string name="clean_end_no_junk2">تم تنظيف الملفات غير المرغوب فيها، حاول تحرير المزيد من المساحة</string>
+    <string name="clean_end_title">تنظيف الملفات غير المرغوب فيها</string>
+    <string name="clean_free_up">إخلاء مساحة</string>
+    <string name="clean_free_up_size">تحرير %s من المساحة</string>
+    <string name="clean_home_desc">تم العثور على ملفات غير مهمة في هاتفك، نظّف الآن لتحرير المساحة</string>
+    <string name="clean_home_desc_no_clean">تم تنظيف هاتفك للتو.</string>
+    <string name="clean_home_download_hint">احذف الملفات لتحرير مساحة التخزين</string>
+    <string name="clean_home_download_hint2">احذف الملفات نادرة الاستخدام</string>
+    <string name="clean_home_hint1">تم العثور على ملفات غير مهمة</string>
+    <string name="clean_home_ram">RAM: %s</string>
+    <string name="clean_home_title">المنظف</string>
+    <string name="clean_junk_selected">تم تحديد الملفات غير المرغوب فيها: %s</string>
+    <string name="clean_loading">جارٍ التنظيف</string>
+    <string name="clean_manager_banner">حدد لإلغاء تثبيت التطبيقات قليلة الاستخدام</string>
+    <string name="clean_manager_calculating">جارٍ الحساب...</string>
+    <string name="clean_manager_count">%s تطبيق</string>
+    <string name="clean_manager_data">بيانات التطبيق: %s</string>
+    <string name="clean_manager_dialog_uninstall_hint">سيتم تحرير %s من مساحة التخزين</string>
+    <string name="clean_manager_dialog_uninstall_more">إزالة تثبيت %s تطبيق</string>
+    <string name="clean_manager_dialog_uninstall_one">إزالة تثبيت %s</string>
+    <string name="clean_manager_hint">إلغاء تثبيت التطبيقات نادرة الاستخدام</string>
+    <string name="clean_manager_last">آخر استخدام: %s</string>
+    <string name="clean_manager_never">غير مستخدم مطلقًا</string>
+    <string name="clean_manager_seldom">غير مستخدم لمدة %s يومًا</string>
+    <string name="clean_manager_size">حجم التطبيق: %s</string>
+    <string name="clean_manager_sort_last">فرز حسب آخر استخدام</string>
+    <string name="clean_manager_sort_name">ترتيب حسب الاسم A-Z</string>
+    <string name="clean_manager_sort_size">فرز حسب الحجم</string>
+    <string name="clean_manager_tittle">مدير التطبيقات</string>
+    <string name="clean_manager_uninstall">إلغاء تثبيت %s</string>
+    <string name="clean_notification_apk_hint">اضغط للتنظيف وتحرير مساحة التخزين</string>
+    <string name="clean_notification_apk_tittle">تم العثور على %s من ملفات APK المتبقية</string>
+    <string name="clean_notification_apps_hint">اضغط لإلغاء تثبيتها لتفريغ مساحة</string>
+    <string name="clean_notification_apps_tittle" formatted="false">%s تطبيقات نادرة الاستخدام تشغل %s من المساحة</string>
+    <string name="clean_notification_junk_hint">اضغط لتنظيف الملفات غير المرغوب فيها</string>
+    <string name="clean_notification_manager_hint">انقر لتحرير مساحة باستخدام مدير التطبيقات</string>
+    <string name="clean_notification_manager_tittle">التطبيقات نادرة الاستخدام تشغل مساحة كبيرة</string>
+    <string name="clean_now">نظف الآن</string>
+    <string name="clean_outside_dialog_uninstall_hint">اضغط لتنظيف الملفات المتبقية</string>
+    <string name="clean_outside_dialog_uninstall_tittle">تم العثور على ملفات متبقية!</string>
+    <string name="clean_outside_dialog_uninstalled_more">اضغط لتحرير المزيد من مساحة التخزين</string>
+    <string name="clean_outside_dialog_uninstalled_tittle">تم تنظيف %s من الملفات غير المرغوب فيها</string>
+    <string name="clean_scan_junk_title">الملفات غير المرغوب فيها</string>
+    <string name="clean_setting_cache_title">ذاكرة التخزين المؤقت للتطبيق</string>
+    <string name="clean_setting_calculating">جارٍ الحساب...</string>
+    <string name="clean_setting_clean_tip">سيؤدي تنظيف بيانات التطبيق إلى إزالة بيانات السجل، مثل حالة تسجيل الدخول وما إلى ذلك.</string>
+    <string name="clean_setting_data_title">بيانات التطبيق</string>
+    <string name="clean_setting_delete">%1$s يمكن تنظيفه</string>
+    <string name="clean_setting_dialog_msg">سيؤدي مسح بيانات التطبيق إلى إعادة تعيين التطبيق، وسيتم حذف بيانات السجل نهائيًا. هل تريد المتابعة؟</string>
+    <string name="clean_setting_dialog_title">تنظيف بيانات التطبيق</string>
+    <string name="clean_setting_down_title">الملفات التي تم تنزيلها</string>
+    <string name="clean_setting_scanning">فحص الملفات</string>
+    <string name="clean_home_ram_boost">تعزيز</string>
+    <string name="clean_setting_title">تنظيف</string>
+    <string name="clean_start">تنظيف</string>
+    <string name="clean_title">مساحة تخزين هاتفك ممتلئة.</string>
+    <string name="clean_up">تنظيف</string>
+    <string name="clean_usage_access_allow">السماح</string>
+    <string name="clean_usage_access_description1">فحص سريع للتطبيقات قليلة الاستخدام</string>
+    <string name="clean_usage_access_description4">فحص التطبيقات نادرة الاستخدام بسرعة وحساب بيانات تخزينها بدقة.</string>
+    <string name="clean_usage_access_guide">يرجى تمكين إذن الوصول إلى الاستخدام لـ Snaptube لإدارة التطبيقات بشكل أفضل</string>
+    <string name="clean_usage_access_tittle">مطلوب إذن الوصول إلى الاستخدام</string>
+    <string name="clean_usage_access_toolbar_hint">قم بتفعيل شريط الأدوات في شريط الإشعارات لاستخدام الأدوات</string>
+    <string name="cleaner_dialog_hint">قم بترقية أداة التنظيف للحصول على تنظيف أعمق</string>
+    <string name="cleaner_dialog_tittle">ترقية المنظف</string>
+    <string name="cleaner_notificaiton">إشعار التنظيف</string>
+    <string name="cleaner_result_cleaned_hint">يرجى ترقية Cleaner للحصول على تنظيف أعمق</string>
+    <string name="cleaner_toast_to_gp">يرجى التحديث عبر Google Play Store</string>
+    <string name="cleaner_toast_with_apk">جارٍ ترقية المنظف، يرجى الانتظار...</string>
+    <string name="cleaner_upgrade_dialog_tip">قام 99% من المستخدمين بالترقية بالفعل</string>
+    <string name="cleaning">جارٍ التنظيف</string>
+    <string name="clear_browser_history">هل أنت متأكد أنك تريد مسح كل سجل التصفح؟</string>
+    <string name="clear_button">مسح</string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="click_more">انقر فوق المزيد</string>
+    <string name="click_share_again">انقر على \"مشاركة\" مرة أخرى</string>
+    <string name="click_share_in_app">انقر فوق المشاركة في التطبيق\"</string>
+    <string name="click_share_via">انقر فوق المشاركة عبر\"</string>
+    <string name="click_to_follow">انقر للمتابعة</string>
+    <string name="click_to_retry">انقر لإعادة المحاولة</string>
+    <string name="close_all_tabs">إغلاق علامات التبويب العادية</string>
+    <string name="close_batch_download">هل تريد بالتأكيد إيقاف تنزيل مقاطع الفيديو المحددة؟</string>
+    <string name="close_batch_download_title">إنهاء التنزيل</string>
+    <string name="close_incognito_tabs">إغلاق علامات تبويب التصفح المتخفي</string>
+    <string name="close_tab">إغلاق علامة التبويب</string>
+    <string name="comment_replies_failed">فشل الرد، يرجى المحاولة مرة أخرى لاحقًا</string>
+    <string name="comment_replies_hint">أضف ردًا...</string>
+    <string name="comment_replies_title">الردود</string>
+    <string name="comments">التعليقات</string>
+    <string name="common_google_play_services_enable_button">تفعيل</string>
+    <string name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تفعيل خدمات Google Play.</string>
+    <string name="common_google_play_services_enable_title">‏تفعيل خدمات Google Play</string>
+    <string name="common_google_play_services_install_button">تثبيت</string>
+    <string name="clean_setting_clean">تنظيف</string>
+    <string name="common_google_play_services_install_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك.</string>
+    <string name="common_google_play_services_install_title">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">‏مدى توفّر خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطأ في خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. يُرجى إعادة المحاولة.</string>
+    <string name="common_google_play_services_unsupported_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play التي لا يوفرها جهازك.</string>
+    <string name="common_google_play_services_update_button">تحديث</string>
+    <string name="common_google_play_services_update_text">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string name="common_google_play_services_update_title">‏تحديث خدمات Google Play</string>
+    <string name="common_google_play_services_updating_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="common_google_play_services_wear_update_text">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="common_open_on_phone">فتح على الهاتف</string>
+    <string name="common_signin_button_text">تسجل الدخول</string>
+    <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string name="community_policies">سياسات المجتمع</string>
+    <string name="compressed_files">الملفات المضغوطة</string>
+    <string name="confirm">تأكيد</string>
+    <string name="confirm_new">تأكيد</string>
+    <string name="confirm_pas">تأكيد كلمة المرور</string>
+    <string name="confirm_your_language">أكد لغتك</string>
+    <string name="contact_details">تفاصيل الاتصال</string>
+    <string name="content_location_description">تغيير المحتوى المعروض لك حسب الموقع</string>
+    <string name="content_permission_dialog">يؤدي النقر على زري الصفحة الرئيسية والرجوع أثناء المشاهدة إلى متابعة التشغيل في مشغل مصغر فوق التطبيقات الأخرى</string>
+    <string name="continue_download">استئناف</string>
+    <string name="continue_select">متابعة التحديد</string>
+    <string name="continue_string">متابعة</string>
+    <string name="convert_media_file_warning">لا توجد مساحة كافية للتحويل</string>
+    <string name="converting">جارٍ التحويل</string>
+    <string name="converting_mp3_progress">جارٍ التحويل %d%%…</string>
+    <string name="cool_lyrics_for_free">كلمات رائعة مجانًا.</string>
+    <string name="copy">نسخ</string>
+    <string name="copy_link_notification">إشعار نسخ الرابط</string>
+    <string name="copy_link_title">تنزيل من الرابط الذي نسخته؟</string>
+    <string name="copy_suc">تم النسخ بنجاح</string>
+    <string name="copy_toast_msg">تم نسخ الرابط إلى الحافظة.</string>
+    <string name="create_folder">إنشاء مجلد جديد</string>
+    <string name="create_folder_content">أدخل اسمًا للمجلد الجديد</string>
+    <string name="create_folder_hint">يرجى إدخال اسم المجلد هنا</string>
+    <string name="create_folder_title">إنشاء مجلد جديد</string>
+    <string name="creator_list_empty_subtitle">تابع للحصول على أحدث مقاطع الفيديو من منشئي المحتوى الذين تحبهم</string>
+    <string name="creator_list_empty_title">مقاطع فيديو جديدة لك</string>
+    <string name="creators_to_follow">منشئو محتوى جديرون بالمتابعة</string>
+    <string name="cta_try">جرّب</string>
+    <string name="current_value">الحالي: %1$s</string>
+    <string name="dark">داكن</string>
+    <string name="data_free_hint">بدون بيانات! نقل دون اتصال.</string>
+    <string name="data_saver">توفير البيانات</string>
+    <string name="debug_not_allowed">وضع التصحيح غير مسموح، اخرج من التطبيق</string>
+    <string name="december">ديسمبر</string>
+    <string name="default_campaign_text">انضم إلى الحملة الجديدة</string>
+    <string name="default_language">اللغة الافتراضية</string>
+    <string name="delete">حذف</string>
+    <string name="delete_all_uppercase">حذف</string>
+    <string name="delete_count">حذف %s</string>
+    <string name="delete_dialog_subtitle">سيتم حذف العنصر فورًا. لا يمكنك التراجع عن هذا الإجراء.</string>
+    <string name="delete_dialog_title">هل أنت متأكد؟</string>
+    <string name="delete_download_dialog_title">حذف المهمة</string>
+    <string name="delete_failed_try_again_later">فشل الحذف. حاول مرة أخرى لاحقًا.</string>
+    <string name="delete_file">حذف الملف</string>
+    <string name="delete_item_success">تم الحذف بنجاح.</string>
+    <string name="delete_permanent_days_tip">سيتم حذف الملفات نهائيًا بعد 30 يومًا.</string>
+    <string name="delete_photos">حذف %d صورة؟</string>
+    <string name="delete_record_subtitle">لا يمكنك استعادة هذه الملفات بعد الحذف</string>
+    <string name="delete_single_download_tasks_tips">هل أنت متأكد من حذف هذه المهمة؟</string>
+    <string name="deleting">جارٍ الحذف...</string>
+    <string name="desc_credits">شكرًا لجميع المتطوعين على مساعدة المطورين في بناء Snaptube أقوى معًا. نحن نقدر كل أشكال الدعم ونحتفظ بها في ذاكرتنا. شكرًا لكم.</string>
+    <string name="detail_video_duration">المدة</string>
+    <string name="detail_video_size">الحجم</string>
+    <string name="detail_video_source">المصدر</string>
+    <string name="detail_video_type">تنسيق</string>
+    <string name="details">التفاصيل</string>
+    <string name="dialog_adjust_download_speed_limit_message">إذا أصبح هاتفك بطيئًا أثناء التنزيل، يُرجى خفض الحد.</string>
+    <string name="dialog_close">إغلاق</string>
+    <string name="dialog_message_not_in_detail_page">يرجى اختيار فيديو تريد تنزيله. بعد ذلك، سيعثر Snaptube تلقائيًا على مورد الفيديو لتنزيله لك!</string>
+    <string name="dialog_message_wait_for_video_tag">يُرجى زيارة موقع فيديو وتشغيل الفيديو أولاً. بعد ذلك، سيعثر Snaptube تلقائيًا على مورد الفيديو لك، وسيصبح زر التنزيل متاحًا للنقر.</string>
+    <string name="dialog_msg">يستغرق التثبيت 10 ثوانٍ فقط، هل تريد إلغاءه الآن؟</string>
+    <string name="dialog_no_enough_storage_content">لا توجد مساحة تخزين كافية. قد يؤثر هذا بشكل خطير على تجربتك مع Snaptube. يرجى تنظيف هاتفك أولاً.</string>
+    <string name="dialog_no_enough_storage_title">سعة تخزين الهاتف أقل من %s</string>
+    <string name="dialog_plugin_fail_tip">فشل تنزيل التحديث. يرجى المحاولة مرة أخرى.</string>
+    <string name="dialog_plugin_has_update">نزّل التحديث لإصلاح الخطأ.</string>
+    <string name="dialog_plugin_progress">جارٍ تنزيل تحديث جديد لتجربة أفضل: %1$d%%</string>
+    <string name="dialog_plugin_succ_tip">تم تنزيل التحديث بنجاح.</string>
+    <string name="dialog_prompt_add_to_bookmark">يمكنك إضافة موقع ويب إلى الإشارات المرجعية</string>
+    <string name="dialog_subscription_cancel">إلغاء</string>
+    <string name="dialog_subscription_content">هل أنت متأكد أنك تريد إلغاء الاشتراك في %1$s؟</string>
+    <string name="dialog_subscription_ok">إلغاء الاشتراك</string>
+    <string name="dialog_title_not_in_detail_page">لم يتم العثور على مورد فيديو</string>
+    <string name="dialog_title_wait_for_video_tag">لم يتم العثور على مورد فيديو</string>
+    <string name="dislike">عدم الإعجاب</string>
+    <string name="display_error">خطأ في العرض</string>
+    <string name="do_not_ask_again">عدم السؤال مرة أخرى</string>
+    <string name="do_you_wanna_download_again">هل تريد التنزيل مرة أخرى؟</string>
+    <string name="done_applying_curator">لقد تقدمت بنجاح إلى Snaptube curator. شكرًا لك.</string>
+    <string name="download">تنزيل</string>
+    <string name="download_all">تنزيل الكل</string>
+    <string name="download_apk_to_upgrade">تنزيل APK للترقية</string>
+    <string name="download_as">تنزيل الفيديو بصيغة</string>
+    <string name="download_completed">اكتمل التنزيل</string>
+    <string name="download_completed_subtitle">أعلمني عند اكتمال التنزيل</string>
+    <string name="download_confirming_file_total_size">جارٍ تأكيد حجم الملف</string>
+    <string name="download_continue_all">متابعة الكل</string>
+    <string name="download_creating_file">جارٍ معالجة الملف %1$d%%</string>
+    <string name="download_device_info">%1$s | %2$s متاح</string>
+    <string name="download_download_unknown_title">بدون عنوان</string>
+    <string name="download_failed">فشل التنزيل</string>
+    <string name="download_folder_is_private_description">"أنت تختار حفظ الملفات في مجلد Snaptube الخاص، وبسبب قيود Android 4.4+‏ (KitKat أو أحدث)، سيحدث ما يلي:
+
+1. ستفقد كل هذه الملفات بمجرد إلغاء تثبيت Snaptube.
+
+2. لا يمكن عرض ملفات الوسائط في بطاقة SD إلا داخل Snaptube. ولن تتمكن من استعراضها وفتحها في مشغل الوسائط أو مدير الملفات.
+
+3. لا يُسمح لك باختيار مجلدات خارج مجلد Snaptube الخاص كمسار للتنزيل.
+
+نوصي باختيار وحدة التخزين الداخلية بدلاً من ذلك. هل أنت متأكد من المتابعة؟"</string>
+    <string name="download_folder_is_private_title">تحذير (اقرأها كلها)</string>
+    <string name="download_folder_notice_intro">بسبب قيود Android، بمجرد الحفظ في هذا المجلد:</string>
+    <string name="download_folder_notice_item_1">ستفقد كل هذه الملفات بمجرد إلغاء تثبيت Snaptube.</string>
+    <string name="download_folder_notice_item_2">لا يمكن فتح هذه الملفات بواسطة تطبيقات أو مشغلات وسائط أخرى.</string>
+    <string name="download_folder_notice_title">⚠️ تحذير مهم!</string>
+    <string name="download_from_all_social_media">تنزيل من جميع وسائل التواصل الاجتماعي</string>
+    <string name="download_login_guide_subtitle1">- بحث وتنزيل أسهل</string>
+    <string name="download_login_guide_subtitle2">تجاوز قيود تنزيل YouTube</string>
+    <string name="download_login_guide_title">سجّل الدخول قبل التنزيل</string>
+    <string name="download_notification_app_download_complete">اكتمل، انقر للتثبيت</string>
+    <string name="download_notification_download_pendding">جارٍ الانتظار…</string>
+    <string name="download_notification_resource_download_complete">اكتمل، انقر للتشغيل</string>
+    <string name="download_pause_all">إيقاف الكل مؤقتًا</string>
+    <string name="download_play_notification">تنزيل وتشغيل</string>
+    <string name="download_playlist_title">تنزيل قائمة التشغيل</string>
+    <string name="download_progress_notifcation">تقدم التنزيل</string>
+    <string name="download_started">بدأ التنزيل!</string>
+    <string name="download_task_empty">لا توجد مهمة تنزيل بعد</string>
+    <string name="download_tools">أدوات التنزيل</string>
+    <string name="download_viewed_status_from_whatsapp">تنزيل حالة المشاهدة من %s</string>
+    <string name="downloaded_files">الملفات التي تم تنزيلها</string>
+    <string name="downloading">جارٍ التنزيل</string>
+    <string name="downloading_codec_plugin">جارٍ تنزيل مكوّن ترميز وفك ترميز…</string>
+    <string name="downloading_number">جارٍ التنزيل (%1$d)</string>
+    <string name="drag_process_bar_guide">انقر نقرًا مزدوجًا على اليسار أو اليمين لتخطي 10 ثوانٍ.</string>
+    <string name="drawer_subtitle_upgrade">إصدار جديد</string>
+    <string name="drawer_title_about">حول</string>
+    <string name="drawer_title_share">مشاركة Snaptube</string>
+    <string name="easily_save_viewed_status_from_whatsapp">احفظ بسهولة حالات %s التي تمت مشاهدتها</string>
+    <string name="edit">تحرير</string>
+    <string name="edit_file_title">تحرير اسم الملف</string>
+    <string name="edit_info">تحرير المعلومات</string>
+    <string name="email_body">"%1$s
+
+
+المشكلة التي اواجهها هي:
+
+
+قمت بشراء النسخة الاحترافية في (الوقت) :
+
+
+حساب غوغل بلاي خاصتي هو:"</string>
+    <string name="email_intent_chooser">التواصل مع المطور</string>
+    <string name="email_subject">نسخة VIP الاحترافية لا تعمل!</string>
+    <string name="empty_folder">مجلدات فارغة</string>
+    <string name="empty_input">إدخال غير صالح</string>
+    <string name="empty_text">لا وسائل الإعلام حتى الآن</string>
+    <string name="enough_space_reminder">%1$s%2$s متاح</string>
+    <string name="ensure_not_choose_any_tags_subtitle">ما عليك سوى قضاء بضع ثوانٍ لتحديد الوسوم التي تهمك، حتى يتمكن Snaptube من توصية محتوى يناسب ذوقك بشكل أفضل.</string>
+    <string name="ensure_not_choose_any_tags_title">هل أنت متأكد أنك لا تريد اختيار أي علامات؟</string>
+    <string name="error">خطأ</string>
+    <string name="error_file_type">نوع ملف غير مدعوم</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="error_msg_file_not_exists">الملف غير موجود.</string>
+    <string name="error_msg_format_not_supported">التنسيق غير مدعوم.</string>
+    <string name="error_no_video_activity">لم يتم العثور على التطبيق دعم معاينة الفيديو</string>
+    <string name="error_over_count_default">لقد وصلت إلى الحد الأقصى للاختيار</string>
+    <string name="error_over_quality">فوق الجودة</string>
+    <string name="error_type_conflict">لا يمكن تحديد الصور ومقاطع الفيديو في نفس الوقت</string>
+    <string name="error_under_quality">تحت الجودة</string>
+    <string name="exceeds_limit_tip">عدد الصور/مقاطع الفيديو يتجاوز الحد</string>
+    <string name="exit_dialog_description">يوصي Snaptube بمقاطع فيديو متعلقة باهتماماتك ويمكنك تنزيلها!</string>
+    <string name="exit_dialog_quit_btn">إنهاء</string>
+    <string name="exit_dialog_stay_btn">اذهب!</string>
+    <string name="exit_dialog_title">هل تريد اكتشاف المزيد من الفيديوهات؟</string>
+    <string name="exo_controls_fastforward_description">تقديم سريع</string>
+    <string name="exo_controls_fullscreen_description">وضع ملء الشاشة</string>
+    <string name="exo_controls_hide">إخفاء عناصر التحكم بالمشغّل</string>
+    <string name="exo_controls_next_description">المقطع الصوتي التالي</string>
+    <string name="exo_controls_pause_description">إيقاف مؤقت</string>
+    <string name="exo_controls_play_description">تشغيل</string>
+    <string name="exo_controls_previous_description">المقطع الصوتي السابق</string>
+    <string name="exo_controls_repeat_all_description">تكرار الكل</string>
+    <string name="exo_controls_repeat_off_description">عدم التكرار</string>
+    <string name="exo_controls_repeat_one_description">تكرار مقطع صوتي واحد</string>
+    <string name="exo_controls_rewind_description">إرجاع</string>
+    <string name="exo_controls_show">عرض عناصر التحكم بالمشغّل</string>
+    <string name="exo_controls_shuffle_off_description">إيقاف الترتيب العشوائي</string>
+    <string name="exo_controls_shuffle_on_description">تفعيل الترتيب العشوائي</string>
+    <string name="exo_controls_stop_description">إيقاف</string>
+    <string name="exo_controls_vr_description">وضع VR</string>
+    <string name="exo_download_completed">اكتمل التنزيل</string>
+    <string name="exo_download_description">تنزيل</string>
+    <string name="exo_download_downloading">جارٍ التنزيل.</string>
+    <string name="exo_download_failed">تعذّر التنزيل</string>
+    <string name="exo_download_notification_channel_name">التنزيلات</string>
+    <string name="exo_download_paused">تمّ إيقاف عمليات التنزيل مؤقتًا.</string>
+    <string name="exo_download_paused_for_network">عمليات التنزيل في انتظار الاتصال بالشبكة</string>
+    <string name="exo_download_paused_for_wifi">عمليات التنزيل في انتظار اتصال Wi-Fi.</string>
+    <string name="exo_download_removing">جارٍ إزالة التنزيلات</string>
+    <string name="exo_item_list">%1$s، %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f ميغابت في الثانية</string>
+    <string name="exo_track_mono">قناة أحادية</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">بديل</string>
+    <string name="exo_track_role_closed_captions">الترجمة والشرح</string>
+    <string name="exo_track_role_commentary">التعليقات</string>
+    <string name="exo_track_role_supplementary">تكميلي</string>
+    <string name="exo_track_selection_auto">تلقائي</string>
+    <string name="exo_track_selection_none">بدون اختيار</string>
+    <string name="exo_track_selection_title_audio">صوت</string>
+    <string name="exo_track_selection_title_text">نص</string>
+    <string name="exo_track_selection_title_video">فيديو</string>
+    <string name="exo_track_stereo">استريو</string>
+    <string name="exo_track_surround">صوت مجسّم</string>
+    <string name="exo_track_surround_5_point_1">صوت مجسّم 5.1</string>
+    <string name="exo_track_surround_7_point_1">صوت مجسّم 7.1</string>
+    <string name="exo_track_unknown">غير معروف</string>
+    <string name="exoplayer_error_load_show_message">فشل تحميل الفيديو.</string>
+    <string name="exoplayer_mobile_network_warning">أنت تستخدم شبكة الجوال، وسيستهلك ذلك بيانات الجوال الخاصة بك.</string>
+    <string name="expand_button_title">إعدادات متقدمة</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string name="extract_audio">تحويل إلى صوت</string>
+    <string name="facebook_link">رابط Facebook</string>
+    <string name="fail_applying_curator">فشل التقديم على القَيّم، يُرجى المحاولة مرة أخرى لاحقًا.</string>
+    <string name="fail_sending_email">لم يتم العثور على تطبيق الايميل, تواصل عبر %1$s</string>
+    <string name="failed">فشل</string>
+    <string name="failed_live_video">فشل (فيديو مباشر)</string>
+    <string name="fallback_menu_item_copy_link">نسخ الرابط</string>
+    <string name="fallback_menu_item_open_in_browser">فتح في المتصفح</string>
+    <string name="fallback_menu_item_share_link">مشاركة الرابط</string>
+    <string name="fast_free">سريع ومجاني</string>
+    <string name="fast_transfer_hint">نقل سريع: أسرع 10 مرات</string>
+    <string name="february">فبراير</string>
+    <string name="feedback">ملاحظات</string>
+    <string name="feedback_details_hint">أخبرنا المزيد عن أسئلتك أو اقتراحاتك.</string>
+    <string name="feedback_details_tip">شكرًا على ملاحظاتك! ستتلقى إشعارًا بمجرد أن نرد عليها.</string>
+    <string name="feedback_select_hint">الرجاء التحديد</string>
+    <string name="feedback_title">ملاحظات</string>
+    <string name="feedback_too_frequent_notice">تم إرسال ملاحظاتك بشكل متكرر جدًا، يرجى المحاولة لاحقًا</string>
+    <string name="file_can_not_play">يتعذر تشغيل هذا الملف</string>
+    <string name="file_download_fail">يتعذر الوصول، يرجى تجربة ملفات أخرى</string>
+    <string name="file_exceeds_size_limit">الملف الذي حددته يتجاوز حد الحجم</string>
+    <string name="file_has_been_deleted">تم حذف هذا الملف.</string>
+    <string name="file_has_been_restored">تمت استعادة هذا الملف.</string>
+    <string name="file_name_exceed_limit">اسم الملف يتجاوز الحد.</string>
+    <string name="file_name_too_long">لا يمكن أن يتجاوز اسم الملف %d حرفًا</string>
+    <string name="file_page_empty">لا توجد ملفات بعد. جرّب الطرق أدناه للتنزيل</string>
+    <string name="file_unlocked_to_following_folder">تم إلغاء قفل الملف إلى المجلد التالي.</string>
+    <string name="files_manager_delete_hint" formatted="false">تشغل %s من الملفات نادرة الاستخدام %s</string>
+    <string name="files_manager_delete_hint2">عرض الملفات قليلة الاستخدام</string>
+    <string name="files_no_files">لا توجد ملفات بعد</string>
+    <string name="files_no_music">لا توجد موسيقى بعد</string>
+    <string name="files_no_picture">لا توجد صور بعد</string>
+    <string name="files_no_video">لا توجد فيديوهات بعد</string>
+    <string name="files_title">مدير الملفات</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_cancel">إلغاء التصفية</string>
+    <string name="filter_music">الموسيقى فقط</string>
+    <string name="filter_picture_more">الصور وغيرها</string>
+    <string name="filter_video">فيديو فقط</string>
+    <string name="find_and_click_snaptube">ابحث عن \"%s\" وانقر عليه</string>
+    <string name="finish">إنهاء</string>
+    <string name="fit_for_full_screen_perfectly">يلائم ملء الشاشة تمامًا</string>
+    <string name="floating_ball_guide_subtitle">يحتاج Snaptube إلى إذن العرض فوق التطبيقات الأخرى لسحب الكرة العائمة.</string>
+    <string name="floating_ball_guide_title">اسحب الكرة العائمة</string>
+    <string name="floating_guide_content">يحتاج Snaptube إلى إذن \"العرض فوق التطبيقات الأخرى\" لتشغيل الفيديوهات في نافذة عائمة فوق التطبيقات الأخرى</string>
+    <string name="floating_guide_title">تشغيل في نافذة عائمة</string>
+    <string name="floating_window_dialog_title">تشغيل مقاطع الفيديو في نافذة عائمة</string>
+    <string name="follow">متابعة</string>
+    <string name="follow_back">رد المتابعة</string>
+    <string name="follow_snaptube_fb">أكثر من 18 مليون متابع أعجبهم هذا</string>
+    <string name="follow_snaptube_ins">أمتع المحتويات لك</string>
+    <string name="follow_snaptube_tips2">تابع Snaptube لمعرفة آخر التحديثات 👋 😘</string>
+    <string name="following">متابَع</string>
+    <string name="force_update_subtitle">الإصدار الحالي لم يعد مدعومًا</string>
+    <string name="force_update_title">يرجى التحديث إلى أحدث إصدار %s</string>
+    <string name="force_update_toast_download_link">يرجى تنزيل الإصدار الجديد من صفحة Snaptube الرسمية وإعادة تثبيته.</string>
+    <string name="force_upgrade_dialog_title">التحديث مطلوب</string>
+    <string name="forget_password">نسيت كلمة المرور</string>
+    <string name="forward_to_wa">إعادة توجيه</string>
+    <string name="free_space">إخلاء المزيد من المساحة</string>
+    <string name="free_up">%s تم التنظيف</string>
+    <string name="freeing_up">تحرير مساحة</string>
+    <string name="freeze">تجميد</string>
+    <string name="gemini">الجوزاء</string>
+    <string name="general">عام</string>
+    <string name="get">احصل عليه</string>
+    <string name="get_started">ابدأ</string>
+    <string name="give_up">استسلام</string>
+    <string name="give_up_feedback_ask">تجاهل الملاحظات؟</string>
+    <string name="go">انتقال</string>
+    <string name="gp_overlay_install_tips">يرجى تثبيت %1$s لتشغيل %2$s</string>
+    <string name="grand_permission_fail">فشل منح الإذن</string>
+    <string name="guide_429_general">نظرًا لسياسة YouTube الجديدة، يُرجى تسجيل الدخول لتجاوز قيود عرض المحتوى وتنزيله</string>
+    <string name="guide_app_play_now">تم تثبيت %s، اضغط للتشغيل الآن</string>
+    <string name="guide_copy_link">انقر على \"نسخ الرابط\" ثم افتح Snaptube</string>
+    <string name="guide_facebook_share">افتح Facebook، وانقر على \"مشاركة\"</string>
+    <string name="guide_hint1">اضغط على الزر السفلي لتفعيل التنظيف العميق</string>
+    <string name="guide_hint2">اعثر على Snaptube وفعّل الوصول</string>
+    <string name="guide_instagram_more">افتح Instagram، وانقر على مشاركة</string>
+    <string name="guide_link">انقر فوق \"الرابط\" ثم افتح Snaptube</string>
+    <string name="guide_play_list_sub_title">تشغيل عشوائي، تكرار، إدارة قائمة التشغيل وغيرها.</string>
+    <string name="guide_tiktok_share">افتح TikTok، انقر على \"مشاركة\"</string>
+    <string name="guide_tips">هذا المكون مطلوب لتشغيل الموسيقى والفيديوهات التي تم تنزيلها.</string>
+    <string name="guide_tips_new">هل ترغب في تثبيت المكوّن اللازم لتشغيل الموسيقى والفيديو اللذين تم تنزيلهما؟</string>
+    <string name="guide_youtube_share">افتح YouTube، وانقر على مشاركة</string>
+    <string name="has_cleaned">تم التنظيف</string>
+    <string name="hiad_ad_experience_feedback">تقديم ملاحظات حول تصميم هذا الإعلان</string>
+    <string name="hiad_ad_label">إعلان</string>
+    <string name="hiad_ad_label_new">إعلان</string>
+    <string name="hiad_appGallery">متجر التطبيقات</string>
+    <string name="hiad_app_allow_continue_btn">تثبيت</string>
+    <string name="hiad_app_allow_continue_install">هل تريد تثبيت هذا التطبيق؟</string>
+    <string name="hiad_app_allow_dont_remind_again">عدم الإظهار مرةً أخرى</string>
+    <string name="hiad_app_allow_install_pure">لقد اجتاز هذا التطبيق فحوصات الأمان الخاصة بشركة هواوي وسيتم تثبيته عبر خدمة التثبيت الخاصة بها.</string>
+    <string name="hiad_app_allow_install_pure_t">لقد اجتاز هذا التطبيق فحوصات أمان متجر التطبيقات، حيث يتم توفير خدمة التثبيت بواسطة شركة هواوي</string>
+    <string name="hiad_app_allow_permi">سيتم تثبيت هذا التطبيق عبر خدمة التثبيت من هواوي.</string>
+    <string name="hiad_app_allow_permi_t">يتم توفير خدمة تثبيت التطبيق بواسطة شركة هواوي</string>
+    <string name="hiad_app_allow_pure_mode">لقد اجتاز هذا التطبيق فحوصات الأمان الخاصة بشركة هواوي وهو آمن للتثبيت.</string>
+    <string name="hiad_app_allow_pure_mode_t">لقد اجتاز هذا التطبيق فحوصات أمان متجر التطبيقات</string>
+    <string name="hiad_app_detail_version">الإصدار ‪%1$s‬</string>
+    <string name="hiad_app_installed">تم تثبيت تطبيق \"%1$s\"</string>
+    <string name="hiad_app_open_notification">اكتمل التثبيت. انقر هنا لفتحه.</string>
+    <string name="hiad_app_permission">الأذونات</string>
+    <string name="hiad_app_preorder">حجز مسبق</string>
+    <string name="hiad_app_preordered">تم الحجز</string>
+    <string name="hiad_auto_open_app_prompt_msg">تم تثبيت تطبيق %1$s وسيتم فتحه الآن</string>
+    <string name="hiad_autoplay_mobile_network_tips">تشغيل الفيديوهات تلقائيًا باستخدام بيانات الجوال</string>
+    <string name="hiad_back_skip_tv">اضغط زر الرجوع للتخطي</string>
+    <string name="hiad_calender_add">موافق</string>
+    <string name="hiad_calender_already_appoint">الحدث موجود بالفعل</string>
+    <string name="hiad_calender_appoint_dialog_message">هل تريد إضافة هذا الحدث إلى تقويمك؟</string>
+    <string name="hiad_calender_appoint_failed">تتعذر إضافة حدث</string>
+    <string name="hiad_calender_appoint_success">تمت إضافة الحدث</string>
+    <string name="download_notification_view">عرض جميع المهام</string>
+    <string name="hiad_calender_cancel_dialog_message">هل تريد حذف هذا الحدث من تقويمك؟</string>
+    <string name="hiad_calender_cancel_failed">يتعذر حذف الحدث</string>
+    <string name="hiad_calender_cancel_success">تم حذف الحدث</string>
+    <string name="hiad_calender_delete">حذف</string>
+    <string name="hiad_calender_description_new">يُستخدم هذا الإذن لإنشاء تذكيرات التقويم أو إنشاء أحداث للأنشطة الترويجية التي تخطط للمشاركة فيها.</string>
+    <string name="hiad_calender_dialog">تنويه</string>
+    <string name="hiad_calender_permission_appoint_message">يحتاج هذا التطبيق منحه إذن الوصول إلى التقويم ليتمكن من إنشاء الأحداث على التقويم. يمكنك منحه هذا الإذن من الإعدادات.</string>
+    <string name="hiad_calender_permission_cancel_message">يحتاج هذا التطبيق منحه إذن الوصول إلى التقويم لحذف الأحداث من التقويم. يمكنك منحه هذا الإذن من الإعدادات.</string>
+    <string name="hiad_calender_permission_description">يُستخدم هذا الإذن لإنشاء تذكيرات على التقويم حتى تتمكن من تعيين وتلقي تذكيرات للأحداث.</string>
+    <string name="hiad_calender_permission_dialog">إذن مطلوب</string>
+    <string name="hiad_calender_set">الإعدادات</string>
+    <string name="hiad_camera_permission_description">يُستخدم هذا الإذن لأجل الخدمات المتعلقة بالتفاعل مع الواقع المعزز.</string>
+    <string name="hiad_choices_ad_closed">الإعلان مخفي</string>
+    <string name="hiad_choices_ad_no_interest">غير مهتم</string>
+    <string name="hiad_choices_hide">إخفاء الإعلان</string>
+    <string name="hiad_choices_whythisad">ما سبب ظهور هذا الإعلان؟</string>
+    <string name="hiad_click_card_to_learn_more">انقر على البطاقة لمعرفة المزيد</string>
+    <string name="hiad_click_card_to_open">انقر على البطاقة لفتح %1$s</string>
+    <string name="hiad_click_material">انقر على المحتوى %1$s</string>
+    <string name="hiad_click_material_open">انقر هنا لفتح تطبيق %1$s</string>
+    <string name="hiad_click_open">فتح</string>
+    <string name="hiad_click_open_to">انقر هنا لفتح %1$s</string>
+    <string name="hiad_click_to_learn_more">انقر هنا لمعرفة المزيد</string>
+    <string name="hiad_click_to_open_harmony_service">انقر هنا لفتح خدمة HarmonyOS</string>
+    <string name="hiad_click_to_open_quick_app">انقر هنا لفتح التطبيق السريع</string>
+    <string name="hiad_click_to_open_wechat_mini_spec">انقر هنا لفتح البرنامج المصغر</string>
+    <string name="hiad_click_to_try_again">إعادة المحاولة</string>
+    <string name="hiad_comment">تعليق</string>
+    <string name="hiad_comments_card_collapse">إظهار محتوى أقل</string>
+    <string name="hiad_comments_card_like">إعجاب</string>
+    <string name="hiad_comments_card_unfold">إظهار المزيد</string>
+    <string name="hiad_confirm_download_app">هل تريد تثبيت هذا التطبيق؟</string>
+    <string name="hiad_confirm_restore_app">هل تريد استعادة هذا التطبيق؟</string>
+    <string name="hiad_consume_data_to_play_video">استخدام بيانات الجوال سيؤدي إلى استهلاك %1$s من البيانات. هل تريد المتابعة؟</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size">سيتم استخدام بيانات الجوال لتشغيل هذا الفيديو. هل ترغب في المتابعة؟</string>
+    <string name="hiad_consuming_data_to_play_video">أنت الآن تستخدم شبكة بيانات الجوال، ومتابعة مشاهدة هذا المحتوى الآن سيؤدي إلى استهلاك %1$s من بيانات الجوال.</string>
+    <string name="hiad_continue_browsing">متابعة التصفح</string>
+    <string name="hiad_continue_download">تنزيل</string>
+    <string name="hiad_continue_download_new">تنزيل</string>
+    <string name="hiad_continue_play">تشغيل</string>
+    <string name="hiad_continue_to_play">متابعة</string>
+    <string name="hiad_copy_link">نسخ الرابط</string>
+    <string name="hiad_data_size_prompt">%1$s م.ب</string>
+    <string name="hiad_default_app_name">اسم التطبيق:</string>
+    <string name="hiad_default_skip_text">تخطي</string>
+    <string name="hiad_default_skip_text_time">تخطي %d</string>
+    <string name="hiad_detail">التفاصيل</string>
+    <string name="hiad_detail_download_now">تنزيل</string>
+    <string name="hiad_dialog_accept">سماح</string>
+    <string name="hiad_dialog_allow">سماح</string>
+    <string name="hiad_dialog_allow_tmp">السماح أثناء الاستخدام فقط</string>
+    <string name="hiad_dialog_cancel">إلغاء</string>
+    <string name="hiad_dialog_close">حسنًا</string>
+    <string name="hiad_dialog_continue">تنزيل</string>
+    <string name="hiad_dialog_deny">رفض</string>
+    <string name="hiad_dialog_dismiss">حسنًا</string>
+    <string name="hiad_dialog_install_desc">هل تسمح أن يقوم \"%1$s\" بتثبيت تطبيق \"%2$s\"؟</string>
+    <string name="hiad_dialog_install_source">المصدر: %1$s</string>
+    <string name="hiad_dialog_ok">سماح</string>
+    <string name="hiad_dialog_open">فتح</string>
+    <string name="hiad_dialog_reject">رفض</string>
+    <string name="hiad_dialog_title">تنبيه</string>
+    <string name="hiad_dialog_title_tip">تنويه</string>
+    <string name="hiad_download_app_via_mobile_data">هل حقًا تريد استخدام بيانات الجوال للتنزيل؟</string>
+    <string name="hiad_download_download">تثبيت</string>
+    <string name="hiad_download_download_with_size">تنزيل (%1$s)</string>
+    <string name="hiad_download_downloading">قيد التنزيل</string>
+    <string name="hiad_download_failed_toast_content">حدثت مشكلة أثناء تنزيل \"%1$s\"</string>
+    <string name="hiad_download_file_corrupted">الملف معطوب، يُرجى إعادة تنزيله</string>
+    <string name="hiad_download_file_not_exist">الملف غير موجود، يُرجى إعادة المحاولة</string>
+    <string name="hiad_download_install">تثبيت</string>
+    <string name="hiad_download_installing">قيد التثبيت</string>
+    <string name="hiad_download_no_space">مساحة التخزين غير كافية، يُرجى تفريغ بعض المساحة وإعادة المحاولة</string>
+    <string name="hiad_download_open">فتح</string>
+    <string name="hiad_download_resume">استئناف</string>
+    <string name="hiad_download_retry_toast_content">حدثت مشكلة أثناء تنزيل \"%1$s\"، وسيتم إعادة بدء التنزيل</string>
+    <string name="hiad_download_status_retry">إعادة المحاولة</string>
+    <string name="hiad_download_use_mobile_network">جهازك غير متصل بشبكة لاسلكية، وتنزيل هذا المحتوى باستخدام بيانات الجوال سيؤدي إلى استهلاك %1$s. هل حقًا تريد تنزيله؟</string>
+    <string name="hiad_download_use_mobile_network_zh">جهازك غير متصل بشبكة لاسلكية، وتنزيل هذا المحتوى باستخدام بيانات الجوال سيؤدي إلى استهلاك %1$s. هل حقًا تريد تنزيله؟</string>
+    <string name="hiad_feedback_complaint">الإبلاغ عن هذا الإعلان</string>
+    <string name="hiad_feedback_had_feedback">نشكرك على التواصل معنا</string>
+    <string name="hiad_feedback_reduce_such_content">سنقترح محتوى أقل من هذا النوع</string>
+    <string name="hiad_feedback_think_of_this_ad">ما رأيك بهذا الإعلان؟</string>
+    <string name="hiad_focus_click">انقر هنا %1$s</string>
+    <string name="hiad_go_to_settings">الإعدادات</string>
+    <string name="hiad_harmony_service_spec">خدمة HarmonyOS ‏%1$s</string>
+    <string name="hiad_install_completed">تم</string>
+    <string name="hiad_installed_and_play_now">اكتمل التثبيت.</string>
+    <string name="hiad_installed_description">تم التثبيت بنجاح. انقر هنا لفتحه.</string>
+    <string name="hiad_installed_optimize_description">مُثبَّت</string>
+    <string name="hiad_interception_landing_page">يتعذر فتح تطبيق %1$s، يمكنك متابعة تصفح إصدار الويب</string>
+    <string name="hiad_intro">نبذة تعريفية</string>
+    <string name="hiad_introductory">نبذة تعريفية</string>
+    <string name="hiad_jump_desc">لعرض التفاصيل أو الانتقال إلى التطبيق</string>
+    <string name="hiad_landing_page_open_app">ترغب هذه الصفحة في فتح \"%1$s\".</string>
+    <string name="hiad_learn_more">لمعرفة المزيد</string>
+    <string name="hiad_link_already_copied">تم نسخ الرابط</string>
+    <string name="hiad_loading_tips">جارٍ التحميل…</string>
+    <string name="hiad_loc_message">يُستخدم هذا الإذن للبحث عن المتاجر والخدمات القريبة.</string>
+    <string name="hiad_loc_title">هل تسمح بالوصول إلى موقع هذا الجهاز؟</string>
+    <string name="hiad_mobile_download_prompt">سيستهلك هذا التنزيل حوالي %1$s من بيانات الجوال.</string>
+    <string name="hiad_net_error">مشكلة في الشبكة، يُرجى إعادة المحاولة</string>
+    <string name="hiad_network_disconnect_to_try">غير متصل بالإنترنت. اتصل بالإنترنت أولًا ثم أعد المحاولة.</string>
+    <string name="hiad_network_error">مشكلة في اتصال الشبكة</string>
+    <string name="hiad_network_no_available">غير متصل بالإنترنت، يُرجى التحقق من إعدادات الشبكة لديك</string>
+    <string name="hiad_no_more_remind">عدم التذكير مرةً أخرى</string>
+    <string name="hiad_non_wifi_download_prompt">الجهاز غير متصل بشبكة لاسلكية، وتنزيل هذا المحتوى الآن سيؤدي إلى استخدام بيانات الجوال. هل حقًا تريد تنزيله؟</string>
+    <string name="hiad_non_wifi_download_prompt_zh">الجهاز غير متصل بشبكة لاسلكية، وتنزيل هذا المحتوى الآن سيؤدي إلى استخدام بيانات الجوال. هل حقًا تريد تنزيله؟</string>
+    <string name="hiad_open_in_browser">فتح في المتصفح</string>
+    <string name="hiad_open_to">لفتح %1$s</string>
+    <string name="hiad_page_load_failed">تعذر تحميل الصفحة، يُرجى إعادة المحاولة</string>
+    <string name="hiad_permission_camera">هذه الميزة تحتاج إلى إذن الكاميرا. يمكنك منح هذا الإذن من الإعدادات.</string>
+    <string name="hiad_permission_dialog_title">يطلب تطبيق «%1$s» الحصول على الأذونات التالية:</string>
+    <string name="hiad_permissions">الأذونات</string>
+    <string name="install">تثبيت</string>
+    <string name="would_not">لا، شكرًا</string>
+    <string name="player_guide_larkplayer_default_notification_title">نزّل موسيقى مجانية في Lark Player</string>
+    <string name="player_guide_larkplayer_default_notification_body">Snaptube Music Mate: احصل على موسيقى مجانية</string>
+    <string name="hiad_phone_message">يُستخدم هذا الإذن لإدخال تفاصيل جهات الاتصال بسرعة.</string>
+    <string name="hiad_phone_num_title">هل تسمح بالوصول إلى رقم الهاتف الخاص بهذا الجهاز؟</string>
+    <string name="hiad_preinstall_cancel_restore">إلغاء</string>
+    <string name="hiad_preinstall_restore">استعادة</string>
+    <string name="hiad_preinstall_restore_and_open">استعادة وفتح</string>
+    <string name="hiad_preorder_download">حجز مسبق</string>
+    <string name="hiad_prepare_download">استخدام شبكة لاسلكية</string>
+    <string name="hiad_prepare_download_title">هل تريد التنزيل باستخدام بيانات الجوال؟</string>
+    <string name="hiad_prepare_download_zh">استخدام شبكة لاسلكية</string>
+    <string name="title_lark_player_guide">مشغل</string>
+    <string name="hiad_privacy">الخصوصية</string>
+    <string name="hiad_privacy_policy">الخصوصية</string>
+    <string name="hiad_refresh">تحديث المحتوى</string>
+    <string name="hiad_reminder_app_over_size">حجم التطبيق أكبر من %1$d ميغابايت</string>
+    <string name="hiad_reserve_success">تم الحجز، سيتم تنزيل التطبيق عبر الشبكة اللاسلكية بمجرد توفره</string>
+    <string name="hiad_reward_abort_download">إلغاء</string>
+    <string name="hiad_reward_app_developer">المطوّر: %1$s</string>
+    <string name="hiad_reward_app_version">الإصدار ‪%1$s‬</string>
+    <string name="hiad_reward_awarded_success">تم استلام المكافأة</string>
+    <string name="hiad_reward_close_dialog_close">تخطي</string>
+    <string name="hiad_reward_close_dialog_continue">استكمال المشاهدة</string>
+    <string name="hiad_reward_close_dialog_message">شاهد هذا الإعلان إلى نهايته لتحصل على مكافأة.</string>
+    <string name="hiad_setting_location_based_ad_new">الإعلانات المستندة إلى الموقع</string>
+    <string name="hiad_share">مشاركة</string>
+    <string name="hiad_share_app_not_install">تطبيق «%1$s» غير مثبت</string>
+    <string name="hiad_share_more">المزيد</string>
+    <string name="hiad_share_qq">‏QQ</string>
+    <string name="hiad_share_qzone">‏Qzone</string>
+    <string name="hiad_share_weibo">Weibo</string>
+    <string name="hiad_share_welink">‏WeLink</string>
+    <string name="hiad_share_wx">‏WeChat</string>
+    <string name="hiad_share_wx_moments">اللحظات</string>
+    <string name="hiad_splash_pro_desc">انقر هنا لفتح موقع الويب/التطبيق</string>
+    <string name="hiad_start_ownload_failed_downloading">التطبيق قيد التنزيل</string>
+    <string name="hiad_swipe_left_click_splice">اسحب لليسار أو انقر هنا %1$s</string>
+    <string name="hiad_swipe_right_click_splice">اسحب لليمين أو انقر هنا %1$s</string>
+    <string name="hiad_swipe_screen">اسحب</string>
+    <string name="hiad_third_party_page_hint">أنت الآن تتصفح صفحة طرف جارحي</string>
+    <string name="hiad_twist_screen">رجّ الهاتف</string>
+    <string name="hiad_unsupported_function">هذه الميزة غير مدعومة حاليًا</string>
+    <string name="hiad_version">الإصدار ‪%s‬</string>
+    <string name="hiad_video_cannot_play">تعذر تشغيل هذا الفيديو</string>
+    <string name="hiad_video_play_consumed_traffic">سيتم استخدام بيانات الجوال لتشغيل هذا</string>
+    <string name="hiad_video_play_internet_error">مشكلة في الاتصال. يُرجى التحقق من إعدادات الشبكة لديك.</string>
+    <string name="hiad_video_replay">إعادة التشغيل</string>
+    <string name="hiad_whether_download">هل تريد تنزيل هذا التطبيق؟</string>
+    <string name="hiad_wifi_loaded_already">تم تحميله مُسبقًا عبر الشبكة اللاسلكية</string>
+    <string name="hiad_wifi_loaded_already_zh">تم التحميل مُسبقًا</string>
+    <string name="hide">إخفاء</string>
+    <string name="hide_icon">إخفاء الايقونة</string>
+    <string name="hide_icon_waring">هل انت متأكد من إخفاء ايقونة نسخة VIP؟ لا يمكن التراجع عن هذا الأجراء.</string>
+    <string name="high">عالٍ</string>
+    <string name="high_quality">جودة عالية</string>
+    <string name="hint_apply_curator">بريدك الإلكتروني أو معرف Facebook</string>
+    <string name="hint_enter_title">أدخل العنوان هنا</string>
+    <string name="hint_enter_title_empty">يرجى إدخال عنوان</string>
+    <string name="hint_enter_url">أدخل عنوان الويب هنا</string>
+    <string name="hint_enter_url_empty">يرجى إدخال عنوان ويب صالح</string>
+    <string name="hint_input_filename">يرجى إدخال اسم ملف</string>
+    <string name="history">السجل</string>
+    <string name="history_feedback">سجل الملاحظات</string>
+    <string name="history_feedback_empty_tip">إذا كانت لديك أي أسئلة أو اقتراحات، فلا تتردد في إخبارنا</string>
+    <string name="history_no_video">لا يوجد شيء هنا</string>
+    <string name="home_login_guide_button">تسجيل الدخول إلى YouTube</string>
+    <string name="home_login_guide_content">سجّل الدخول الآن للحصول على فيديوهات YouTube المفضلة لديك.</string>
+    <string name="home_login_guide_title">ألا تجد الفيديوهات التي تعجبك؟</string>
+    <string name="homepage">الصفحة الرئيسية</string>
+    <string name="homepage_decoration">زخرفة الصفحة الرئيسية</string>
+    <string name="hot_query_clear_history">مسح عمليات البحث الأخيرة</string>
+    <string name="hot_searches">عمليات البحث الشائعة</string>
+    <string name="how_to_download">كيفية التنزيل</string>
+    <string name="how_to_start">كيفية البدء</string>
+    <string name="how_to_use_wa">كيفية الاستخدام</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="image">صورة</string>
+    <string name="incognito_mode">وضع التصفح المتخفي</string>
+    <string name="info_title">معلومات</string>
+    <string name="instagram_link">رابط Instagram</string>
+    <string name="install_first">يرجى تثبيت %s أولاً</string>
+    <string name="install_from_google_play">التثبيت من Google Play</string>
+    <string name="install_new_pkg_btn">ثبّت Snaptube الجديد</string>
+    <string name="install_new_pkg_btn_open">افتح Snaptube الجديد</string>
+    <string name="install_new_pkg_security_info">تم التحقق وفقًا لمعايير أمان Android</string>
+    <string name="install_new_pkg_subtitle">للامتثال لقواعد Google الجديدة، يُرجى تثبيت Snaptube الجديد للمتابعة.</string>
+    <string name="install_new_pkg_title">تحديث أمان Google</string>
+    <string name="install_no_enough_storage">لا توجد مساحة كافية لتثبيت التطبيق</string>
+    <string name="install_tips_title">مكون المشغل غير مثبت</string>
+    <string name="install_to_play">ثبّت للتشغيل</string>
+    <string name="install_webview_from_google_play">"تم تثبيت مكوّن WebView على جهازك بشكل غير طبيعي ولا يمكن تحميل الصفحة بشكل صحيح.
+
+يرجى التحقق مما إذا كانت خدمة WebView متاحة أو تحديث مكوّن WebView."</string>
+    <string name="installation_failed_try_again_later">فشل التثبيت. حاول مرة أخرى لاحقًا.</string>
+    <string name="installed">مثبت</string>
+    <string name="installing_app">جارٍ التثبيت</string>
+    <string name="intent_upgrade_dialog_message">يتوفر إصدار جديد</string>
+    <string name="internal_storage">التخزين الداخلي</string>
+    <string name="item_unavailable">هذا العنصر غير متاح</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="january">يناير</string>
+    <string name="july">يوليو</string>
+    <string name="june">يونيو</string>
+    <string name="junk_info_found">تم العثور على %s من الملفات غير المرغوب فيها</string>
+    <string name="just_now">الآن</string>
+    <string name="keep">احتفاظ</string>
+    <string name="keep_cleaning">مواصلة التنظيف</string>
+    <string name="keep_editing">متابعة التحرير</string>
+    <string name="keep_permission">كيفية الحفاظ على الإذن</string>
+    <string name="label_lock">قفل</string>
+    <string name="label_locking">جارٍ القفل...</string>
+    <string name="label_next">التالي</string>
+    <string name="label_pause">إيقاف مؤقت</string>
+    <string name="label_play">تشغيل</string>
+    <string name="label_previous">السابق</string>
+    <string name="label_unlocking">جارٍ إلغاء القفل...</string>
+    <string name="label_vault">الخزنة</string>
+    <string name="language">اللغة</string>
+    <string name="language_of_snaptube">لغة التطبيق</string>
+    <string name="large_files">الملفات الكبيرة</string>
+    <string name="large_files_clean_title">تنظيف الملفات الكبيرة</string>
+    <string name="large_files_delete_hint">احذف التطبيقات نادرة الاستخدام</string>
+    <string name="large_files_flash">نظّف الملفات في لمح البصر.</string>
+    <string name="large_files_found">تم العثور على ملف كبير واحد</string>
+    <string name="large_files_free">رائع! لا توجد ملفات كبيرة تشغل مساحتك.</string>
+    <string name="large_files_freeup">حرّر مساحة تخزين كبيرة</string>
+    <string name="large_files_junk_found">تم العثور على %s ملفًا كبيرًا غير مرغوب فيه</string>
+    <string name="large_files_no_found">لم يتم العثور على ملفات كبيرة</string>
+    <string name="large_files_occupy">الملفات الكبيرة تشغل %s</string>
+    <string name="lark_player_try_it">جرّبه!</string>
+    <string name="learn_more">معرفة المزيد</string>
+    <string name="left">المتبقي</string>
+    <string name="leo">الأسد</string>
+    <string name="libra">الميزان</string>
+    <string name="light">فاتح</string>
+    <string name="light_effcient">أخف وأكثر كفاءة</string>
+    <string name="like">إعجاب</string>
+    <string name="like_follower_notification">الإعجابات والمتابعون</string>
+    <string name="liked">تم الإعجاب</string>
+    <string name="link_succeed">تم الربط بنجاح</string>
+    <string name="link_you_copied">الرابط الذي نسخته</string>
+    <string name="link_you_shared">الرابط الذي شاركته</string>
+    <string name="listen">استماع</string>
+    <string name="live">مباشر</string>
+    <string name="live_download_fail_reason">تنزيل الفيديو المباشر غير مدعوم حاليًا.</string>
+    <string name="location">الموقع</string>
+    <string name="lock_into_vault">القفل في الخزنة</string>
+    <string name="lock_number_format">قفل %d ملف</string>
+    <string name="lock_one_file">قفل ملف واحد</string>
+    <string name="log_in_to_get_more_accurate_search_results">سجّل الدخول للحصول على نتائج بحث أكثر دقة</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_homepage">💗️️ سجّل الدخول لاكتشاف المزيد من الفيديوهات التي تحبها!</string>
+    <string name="login_in_to_download">سجّل الدخول للتنزيل</string>
+    <string name="login_required">مطلوب تسجيل الدخول</string>
+    <string name="loop_video">تكرار الفيديو</string>
+    <string name="love">إعجاب</string>
+    <string name="lucky_shot">تحديث</string>
+    <string name="lyrics">كلمات الأغنية</string>
+    <string name="march">مارس</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="may">مايو</string>
+    <string name="me">أنا</string>
+    <string name="me_youtube_library">مكتبة YouTube</string>
+    <string name="media_or_file_error">فشل حفظ الملف على بطاقة SD. أخرج بطاقة SD ثم أعد إدخالها للمحاولة مرة أخرى.</string>
+    <string name="media_playback_notifications">شريط إشعارات مشغل الوسائط</string>
+    <string name="memory_boost_hint1">تجاوزت الذاكرة %s</string>
+    <string name="memory_boost_hint2">تعزيز لتحرير المساحة</string>
+    <string name="memory_free">تم تحرير الذاكرة</string>
+    <string name="menu_sort_playlist_title">ترتيب</string>
+    <string name="message">رسالة</string>
+    <string name="middle">متوسط</string>
+    <string name="misleading_or_scam">مضلل أو احتيال</string>
+    <string name="mixes_are_playlist_youtube_makes_for_you">عمليات المزج هي قوائم تشغيل ينشئها %s لك</string>
+    <string name="more">المزيد</string>
+    <string name="more_formats">المزيد من التنسيقات</string>
+    <string name="more_songs">المزيد من الأغاني</string>
+    <string name="move_out_of_vault">إلغاء القفل من الخزنة</string>
+    <string name="movie">فيلم</string>
+    <string name="mp3_160k_discription">MP3 ‏(160K)، يدعم مكبر صوت Bluetooth والهاتف المحمول والسيارة والساعة وما إلى ذلك.</string>
+    <string name="msg_confirm_download">"هل تريد تنزيل الملف؟
+%1$s"</string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$s</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">انقر للتبديل إلى اختيار يوم</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">انقر للتبديل إلى اختيار عام</string>
+    <string name="multi_select">تحديد متعدد</string>
+    <string name="music_album">ألبوم</string>
+    <string name="music_artist">الفنان</string>
+    <string name="music_artwork">غلاف</string>
+    <string name="music_classic_160k_description">يدعم سماعات Bluetooth والهواتف وأجهزة السيارة والساعات الذكية وغيرها</string>
+    <string name="music_classic_320k_description">يدعم مكبرات صوت Bluetooth والهواتف وأجهزة السيارة والساعات الذكية وغيرها</string>
+    <string name="music_classic_320k_label">بطيء</string>
+    <string name="music_classic_option">تنزيل MP3 الكلاسيكي</string>
+    <string name="music_classic_title">MP3 كلاسيكي (%s)</string>
+    <string name="music_fast_128k_description">M4A، الخيار الأفضل للهاتف المحمول</string>
+    <string name="music_fast_70k_label">منخفض</string>
+    <string name="music_fast_discription">M4A ‏(128K)، الأفضل للتشغيل على الهاتف</string>
+    <string name="music_fast_option">سريع</string>
+    <string name="music_fast_title">سريع (%s)</string>
+    <string name="music_play_all">تشغيل الكل</string>
+    <string name="music_play_failed_toast">فشل التشغيل</string>
+    <string name="music_play_toast">الموسيقى قيد التشغيل.</string>
+    <string name="music_search_source">المصدر: %1$s</string>
+    <string name="music_title">العنوان</string>
+    <string name="my_things_title">ملفاتي</string>
+    <string name="myfiles_delete_confirm">هل أنت متأكد أنك تريد حذف الملفات من الهاتف؟</string>
+    <string name="myfiles_downloaded">تم التنزيل</string>
+    <string name="myfiles_search">البحث في الملفات المحلية</string>
+    <string name="myfiles_search_no_found">هل يتعذر العثور على النتيجة التي تريدها؟ ابحث عن %s عبر الإنترنت</string>
+    <string name="myfiles_search_no_result">لم يتم العثور على نتائج، ابحث عن %s عبر الإنترنت</string>
+    <string name="myfiles_wacleaner_hint1">تشغل ملفات WhatsApp مساحة تخزين تبلغ %s</string>
+    <string name="myfiles_wacleaner_hint2">تم العثور على %s من الملفات غير المرغوب فيها في WhatsApp</string>
+    <string name="nav_app_bar_navigate_up_description">التنقل إلى أعلى</string>
+    <string name="nav_app_bar_open_drawer_description">فتح لائحة التنقل</string>
+    <string name="net_error_tap_to_retry">يرجى التحقق من اتصال الشبكة والنقر لإعادة المحاولة</string>
+    <string name="network_check_tips">يرجى التحقق من اتصال الشبكة والمحاولة مرة أخرى</string>
+    <string name="network_check_tips2">يرجى التحقق من اتصالك وإعادة المحاولة.</string>
+    <string name="network_error">خطأ في الشبكة</string>
+    <string name="new_account_setting_gender_other">أخرى</string>
+    <string name="new_comments">تعليقات جديدة</string>
+    <string name="new_followers">متابعون جدد</string>
+    <string name="new_incognito_tab">علامة تبويب جديدة للتصفح الخفي</string>
+    <string name="new_likes">إعجابات جديدة</string>
+    <string name="new_reply">رد جديد</string>
+    <string name="new_tab">علامة تبويب جديدة</string>
+    <string name="new_toast_start_downloading">بدء التنزيل…</string>
+    <string name="next">متابعة</string>
+    <string name="no">لا</string>
+    <string name="no_available_subtitles_cc">لا توجد ترجمات/CC متاحة</string>
+    <string name="no_browser">لا يوجد متصفح مثبت على هاتفك.</string>
+    <string name="no_browser_tips">مطلوب تثبيت متصفح أولًا</string>
+    <string name="no_captions_prompt">لا توجد تسميات توضيحية متاحة لهذا الفيديو.</string>
+    <string name="no_comments_yet">لا توجد تعليقات بعد</string>
+    <string name="no_connection">لا يوجد اتصال بالشبكة.</string>
+    <string name="no_data_tips">عذرًا! لم يتم العثور على أي عناصر.</string>
+    <string name="no_enough_space">مساحة التخزين غير كافية</string>
+    <string name="no_enough_space_clean_message">لا توجد مساحة تخزين كافية للتنزيل. تنظيف أم إعادة المحاولة؟</string>
+    <string name="no_enough_space_dialog_message">يرجى اختيار مسار آخر أو تنظيف بعض الملفات الكبيرة.</string>
+    <string name="no_enough_space_warning_pick_dir">مسار التنزيل الحالي غير متاح. يرجى اختيار مسار آخر به مساحة كافية.</string>
+    <string name="no_enough_space_with_size">(لا توجد مساحة كافية)%1$s</string>
+    <string name="no_enough_storage_tips">لا توجد مساحة كافية على بطاقة SD، وتعذر إكمال المهمة. حرر بعض المساحة وحاول مرة أخرى.</string>
+    <string name="no_network">لا يوجد اتصال بالشبكة، اتصل وحاول مرة أخرى.</string>
+    <string name="no_network_tips2">لا يوجد اتصال بالشبكة!</string>
+    <string name="no_recently_deleted_file_found">لم يتم العثور على ملفات محذوفة مؤخرًا.</string>
+    <string name="no_subtitles">بدون ترجمة</string>
+    <string name="none">لا شيء</string>
+    <string name="not_enough_space_reminder">المساحة غير كافية، لم يتبق سوى %1$s %2$s</string>
+    <string name="not_installed">غير مثبت</string>
+    <string name="not_interested">غير مهتم</string>
+    <string name="not_interested_tips">سترى عددًا أقل من مقاطع الفيديو مثل هذا.</string>
+    <string name="not_now">ليس الآن</string>
+    <string name="not_now_thanks">ليس الآن، شكرًا</string>
+    <string name="not_show_in_days">لن يتم عرض هذا الإعلان خلال الأيام %d القادمة</string>
+    <string name="not_show_in_hours">لن يتم عرض هذا الإعلان خلال الساعات %d القادمة</string>
+    <string name="not_show_today">لن يظهر هذا الإعلان مرة أخرى اليوم</string>
+    <string name="not_updates_yet">أنت على أحدث إصدار</string>
+    <string name="nothing">لا يوجد شيء هنا</string>
+    <string name="notice_grand_permission_fail">قد تحتاج إلى منح إذن \"الرسم فوق التطبيقات الأخرى\" لتطبيق Snaptube يدويًا في الإعدادات -> التطبيقات -> الرسم فوق التطبيقات الأخرى.</string>
+    <string name="notification_category_download">إشعارات التنزيل</string>
+    <string name="notification_content_converting">اكتمل التنزيل، جارٍ التحويل</string>
+    <string name="notification_dialog_button">السماح بالإشعارات</string>
+    <string name="notification_dialog_subtitle">إظهاره في شريط الإشعارات؟</string>
+    <string name="notification_dialog_title">اعرض تقدم التنزيل بسهولة!</string>
+    <string name="notification_download_failed">فشلت المهمة</string>
+    <string name="notification_downloaded_play">اكتمل التنزيل، انقر للتشغيل</string>
+    <string name="notification_guide_content">قم بتشغيل إشعارات Snaptube حتى تتمكن من التحقق من وحدة التحكم في تشغيل الصوت في شريط الإشعارات العلوي</string>
+    <string name="notification_guide_detailview">لا تفوّت أي فيديوهات وموسيقى مختارة لك</string>
+    <string name="notification_title_converting_progress">جارٍ تحويل %1$s %2$s</string>
+    <string name="notification_title_doanloading_progress">جارٍ تنزيل %1$s %2$s</string>
+    <string name="notification_title_download_fail">فشل التنزيل، انقر لإعادة المحاولة</string>
+    <string name="notification_title_download_failed">فشل التنزيل</string>
+    <string name="notification_title_download_success">اكتمل التنزيل، انقر للتحقق</string>
+    <string name="notification_title_download_successful">اكتمل التنزيل</string>
+    <string name="notification_title_preparing_progress">جارٍ تحضير %s</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="november">نوفمبر</string>
+    <string name="october">أكتوبر</string>
+    <string name="off">إيقاف</string>
+    <string name="offline_tips">أنت غير متصل بالإنترنت</string>
+    <string name="ok">موافق</string>
+    <string name="on">تشغيل</string>
+    <string name="open_app">فتح</string>
+    <string name="open_click_more">افتح %s، وانقر المزيد\"</string>
+    <string name="open_connection_setting">إعدادات الشبكة</string>
+    <string name="open_facebook_click_share">افتح %s، وانقر على \"مشاركة\"</string>
+    <string name="open_file_not_exist">الملف غير موجود، فشل الفتح</string>
+    <string name="open_network_connect">يتعذر على Snaptube الاتصال، تحقق من شبكتك</string>
+    <string name="open_now">افتح الآن</string>
+    <string name="open_resource_failed">%1$s فشل في الفتح</string>
+    <string name="open_whatsapp">افتح %s.</string>
+    <string name="opendevice_ad_info">معلومات الإعلان</string>
+    <string name="opendevice_ad_privacy_statement">البيان المتعلق بالإعلانات والخصوصية</string>
+    <string name="opendevice_all_advertisers">جميع شركات الإعلان</string>
+    <string name="opendevice_bt_cancel">إلغاء</string>
+    <string name="opendevice_bt_reset">إعادة تعيين</string>
+    <string name="opendevice_directional_info">عرض معلومات استهداف الإعلانات</string>
+    <string name="opendevice_directional_info_desc_tv">لعرض معلومات تجزئة الإعلانات التي تستخدمها منصة إعلانات Petal لتزويدك بإعلانات مخصصة، انتقل إلى «مركز الخصوصية»‏ (‪%1$s‬) على هاتفك أو على أي جهاز آخر.</string>
+    <string name="opendevice_dlg_msg_ad_reset">سيتم تعيين معرّف إعلانات جديد.</string>
+    <string name="opendevice_dlg_title_reset_ad">إعادة تعيين معرّف الإعلانات</string>
+    <string name="opendevice_here">هنا</string>
+    <string name="opendevice_hw_ad_service">الإعلانات والخصوصية</string>
+    <string name="opendevice_hw_ad_service_new">الإعلانات</string>
+    <string name="opendevice_item_ad_reset_desc">يمكنك اختيار عدم تلقي الإعلانات المخصصة التي تستخدم معرّف الإعلانات الخاص بك. وفي حال القيام بذلك، لن تتوقف الإعلانات تمامًا، ولكن ستتلقى إعلانات أقل مواءمة لاهتماماتك. %1$s</string>
+    <string name="opendevice_item_collection_ad_desc_more_info">التعرف على المزيد حول استخدام البيانات وحقوقك</string>
+    <string name="opendevice_item_disable_collection_ad">إيقاف جمع إحصائيات معرّف الإعلانات</string>
+    <string name="opendevice_item_disable_collection_ad_desc">سنقوم بجمع معلومات الإجراءات التي تجريها على شاشة الإعدادات وحول التطبيقات التي تستخدم معرّف الإعلانات الخاص بك، وذلك بغرض تحسين خدماتنا. يمكنك النقر %1$s لمعرفة المزيد من المعلومات حول كيفية استخدامنا لهذه البيانات.</string>
+    <string name="opendevice_item_disable_collection_ad_desc_new">سنقوم بجمع معلومات الإجراءات التي تجريها على شاشة الإعدادات وحول التطبيقات التي تستخدم معرّف الإعلانات الخاص بك، وذلك بغرض تحسين خدماتنا.</string>
+    <string name="opendevice_item_more_settings">معلومات إضافية</string>
+    <string name="opendevice_item_oaid_desc">معرّف الإعلانات الخاص بك (يُعرف أيضًا بمعرّف OAID) عبارة عن معرّف مؤقت للجهاز يُستخدم من أجل تزويدك بالإعلانات المخصصة التي قد تناسبك اهتماماتك.</string>
+    <string name="opendevice_item_reset_ad">إعادة تعيين معرّف الإعلانات</string>
+    <string name="opendevice_item_reset_ad_des">يمكنك اختيار عدم تلقي الإعلانات المخصصة التي تستخدم معرّف الإعلانات الخاص بك. وفي حال القيام بذلك، لن يتم إيقاف تلقي الإعلانات تمامًا، ولكن ستتلقى إعلانات أقل مواءمة لاهتماماتك.</string>
+    <string name="opendevice_item_reset_ad_des_new">يمكنك اختيار عدم تلقي الإعلانات المخصصة التي تستخدم حساب الإعلانات الخاص بك. وفي حال القيام بذلك، لن يتم إيقاف تلقي الإعلانات تمامًا، ولكن ستتلقى إعلانات أقل مواءمة لاهتماماتك.</string>
+    <string name="opendevice_item_your_oaid">المعرّف الإعلاني المفتوح</string>
+    <string name="opendevice_item_your_oaid_desc">معرّف الإعلانات الخاص بك (يُعرف أيضًا بمعرّف OAID) عبارة عن معرّف مؤقت للجهاز يُستخدم من أجل تزويدك بالإعلانات التي قد تناسبك. يمكنك النقر %1$s لمعرفة المزيد من المعلومات حول ذلك.</string>
+    <string name="opendevice_limit_ad_tracking">إيقاف الإعلانات المخصصة</string>
+    <string name="opendevice_limit_ad_tracking_detail">معرفة المزيد</string>
+    <string name="opendevice_limit_recommend">الاقتراحات الذكية</string>
+    <string name="opendevice_network_no_available">غير متصل بالإنترنت</string>
+    <string name="opendevice_personalized_info_desc">يمكنك منع التطبيقات من استخدام هذه البيانات لتوفير إعلانات مخصصة عن طريق إيقاف ميزة «الإعلانات المخصصة» من إعداداتها. بمجرد إيقافها، ستظل تتلقى نفس العدد من الإعلانات، ولكنها ستكون أقل صلة بك.</string>
+    <string name="opendevice_petal_info_desc_tv">إعلانات هواوي هي خدمة إعلانية تقدمها شركة Huawei Software Technologies Co., Ltd.‎ عبر منصة إعلانات Petal الخاصة بها. علمًا بأن خصوصيتك محمية عند استخدام هذه الخدمة. يمكنك الاطلاع على ما يلي لمعرفة المزيد من المعلومات:</string>
+    <string name="opendevice_pps_privacy_allow_app_tracking">السماح لجميع التطبيقات بتتبع أنشطتك</string>
+    <string name="opendevice_pps_privacy_info_desc_more">معرفة المزيد</string>
+    <string name="opendevice_pps_privacy_info_desc_tv">عند تشغيل هذا الخيار، يمكن لجميع التطبيقات الوصول إلى المعرّف الإعلاني المفتوح (OAID) الخاص بك. وعند إغلاقه، يُسمح للتطبيقات المحددة أدناه فقط بالوصول إليه.</string>
+    <string name="opendevice_pps_privacy_oaid_desc">المعرّف الإعلاني المفتوح الخاص بك (OAID) هو معرّف جهاز غير دائم يسمح لمطوري التطبيقات بتتبع أنشطتك وتقديم محتوى مخصص دون الإفصاح عن بياناتك الشخصية. إذا أوقفت خيار التتبع على جميع التطبيقات، فسيتم تعيين معرّف إعلاني مفتوح جديد في المرة التالية التي تسمح فيها لأحد التطبيقات بتتبع أنشطتك.</string>
+    <string name="opendevice_pps_privacy_petal_ads">إعلانات هواوي</string>
+    <string name="opendevice_pps_privacy_track_app_info">ستظهر هنا التطبيقات التي طلبَت تتبع أنشطتك باستخدام المعرّف الخاص بك. يتم حظر نشاط التتبع للتطبيقات التي رفضتَ منحها صلاحية الوصول.</string>
+    <string name="opendevice_pps_privacy_view_oaid">عرض المعرّف الإعلاني المفتوح (OAID)</string>
+    <string name="opendevice_privacy_desc">خدمات الإعلانات المخصصة تقترح عليك المحتوى الذي قد يناسب اهتماماتك. علمًا بأن خصوصيتك محمية في كافة الأوقات. لمعرفة المزيد من التفاصيل، يُرجى الاطلاع على %1$s.</string>
+    <string name="opendevice_privacy_desc_new">خدمات الإعلانات المخصصة تقترح عليك المحتوى الذي قد يناسب اهتماماتك. علمًا بأن خصوصيتك محمية في كافة الأوقات. يمكنك الاطلاع على التالي لمعرفة المزيد من التفاصيل:</string>
+    <string name="opendevice_privacy_oversea_desc">تقدم منصة إعلانات Petal خدمات إعلانية لخدمات هواوي للجوال ولتطبيقات الأطراف الخارجية. إذا شغَّلت ميزة الإعلانات المخصصة، فربما يتم استخدام بياناتك الشخصية لتزويدك بإعلانات مفيدة وأكثر صلةً بك وباهتماماتك. يُرجى الاطلاع على %1$s لمعرفة المزيد حول كيفية استخدام بياناتك وعن حقوقك.</string>
+    <string name="opendevice_privacy_oversea_desc_new">تقدم منصة إعلانات Petal خدمات إعلانية لخدمات هواوي للجوال ولتطبيقات الأطراف الخارجية. إذا شغَّلت ميزة الإعلانات المخصصة، فربما يتم استخدام بياناتك الشخصية لتزويدك بإعلانات مفيدة وأكثر صلةً بك وباهتماماتك. يُرجى الاطلاع على التالي لمعرفة المزيد من المعلومات عن كيفية استخدام بياناتك وعن حقوقك:</string>
+    <string name="opendevice_recommend_ad_desc">توفر لك هواوي الإعلانات التي قد تجدها مفيدة أثناء استخدام التقنيات المتقدمة لحماية خصوصيتك.</string>
+    <string name="opendevice_recommend_desc">تستخدم هذه الميزة تقنية التعليم الموحّد لاقتراح المنتجات والخدمات التي ربما تكون مهتمًا فيها.</string>
+    <string name="opendevice_setting_network">إعدادات الشبكة</string>
+    <string name="opendevice_title_oaid">معرّف الجهاز</string>
+    <string name="opendevice_title_oaid_statement">البيان المتعلق بمعرّف الإعلانات OAID</string>
+    <string name="opendevice_title_stattistics_statement">بيان حول معرّفات الإعلانات والخصوصية</string>
+    <string name="opendevice_title_track">إدارة تتبع التطبيقات</string>
+    <string name="opendevice_view_ad_info">معلومات الإعلان</string>
+    <string name="operation_success">تم</string>
+    <string name="optimized">محسّن!</string>
+    <string name="other_error_tap_to_retry">عذرًا، حدث خطأ ما. اضغط لإعادة المحاولة.</string>
+    <string name="other_error_tips">عذرًا، حدث خطأ ما</string>
+    <string name="p4_my_thing_download_empty">لا توجد مهام بعد</string>
+    <string name="p4_my_thing_video_empty">لا توجد فيديوهات بعد</string>
+    <string name="p4_search_clean_history">مسح سجل البحث</string>
+    <string name="p4_search_clean_history_dialog_message">هل أنت متأكد أنك تريد مسح سجل البحث؟</string>
+    <string name="p4_search_clean_history_dialog_title">حذف سجل البحث</string>
+    <string name="p4_search_clean_history_toast">تم مسح سجل البحث</string>
+    <string name="p4_search_default_title">بحث Snaptube الكامل</string>
+    <string name="p4_search_no_result_tips">أمم… لم يتم العثور على شيء هنا</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="paste_Instagram_facebook_tiktok_youtube_link">الصق رابط Instagram / Facebook / TikTok / YouTube</string>
+    <string name="paste_link_to_download">لصق الرابط للتنزيل</string>
+    <string name="paste_to_download">الصق الرابط للتنزيل</string>
+    <string name="path_cannot_write_alert_detail">يتعذر على Snaptube الوصول إلى مسار التنزيل: %s، يرجى اختيار مسار آخر.</string>
+    <string name="path_error_alert_message">مسار التنزيل الذي اخترته مفقود، ربما بسبب إزالة بطاقة SD أو تلفها</string>
+    <string name="path_error_alert_title">خطأ في مسار التنزيل</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="phone_boost">تسريع الهاتف</string>
+    <string name="phone_clean_title">تنظيف الهاتف</string>
+    <string name="phone_storage">تخزين الهاتف</string>
+    <string name="photo_clean">تنظيف الصور</string>
+    <string name="photo_clean_unneeded">تنظيف الصور غير المطلوبة</string>
+    <string name="photo_cleaner">منظف الصور</string>
+    <string name="photo_duplicate">الصور المكررة</string>
+    <string name="photo_grid_capture">كاميرا</string>
+    <string name="photo_keep_all">الاحتفاظ بالكل</string>
+    <string name="photo_keep_list">قائمة الاحتفاظ</string>
+    <string name="photo_occupy">%1$d صورة تشغل %2$s</string>
+    <string name="photo_scanning">جارٍ فحص الصور</string>
+    <string name="photo_screenshots">لقطات الشاشة</string>
+    <string name="photo_selected">تم تحديد %s</string>
+    <string name="photo_similar">صور متشابهة</string>
+    <string name="photo_to_clean">صور لتنظيفها</string>
+    <string name="photos_and_videos">الصور ومقاطع الفيديو</string>
+    <string name="pic_in_pic_mode">وضع صورة داخل صورة</string>
+    <string name="picture">صورة</string>
+    <string name="pisces">الحوت</string>
+    <string name="play">تشغيل</string>
+    <string name="play_as_audio">تشغيل كصوت</string>
+    <string name="play_as_music">تشغيل كصوت</string>
+    <string name="play_live_video_toast">البث المباشر غير مدعوم</string>
+    <string name="play_mode_all_loop">تكرار قائمة التشغيل</string>
+    <string name="play_mode_random">تشغيل الكل عشوائيًا</string>
+    <string name="play_mode_single_loop">تكرار أغنية واحدة</string>
+    <string name="play_now">شغّل الآن</string>
+    <string name="play_queue_full_toast">تم بلوغ حد قائمة التشغيل</string>
+    <string name="play_queue_title">قائمة التشغيل</string>
+    <string name="play_the_video_you_want_to_download">1. شغّل الفيديو الذي تريد تنزيله.</string>
+    <string name="play_with_snaptube">تشغيل عبر Snaptube</string>
+    <string name="playback_speed">سرعة التشغيل</string>
+    <string name="player_audio_list_btn">كلمات الأغنية كاملة</string>
+    <string name="player_audio_lyrics_title">كل الأغاني</string>
+    <string name="player_audio_popup_list_title">هل تريد قائمة تشغيل؟</string>
+    <string name="player_audio_popup_lyrics_title">تجرب كلمات أغاني رائعة؟</string>
+    <string name="player_guide_larkplayer_description">أفضل مشغل موسيقى ومشغل MP3 مجاني 100%</string>
+    <string name="player_guide_larkplayer_subtitle">تشغيل الموسيقى دون اتصال، مع السمات والمعادل وكلمات الأغاني وغيرها.</string>
+    <string name="player_guide_larkplayer_subtitle2">تمتع بالوصول إلى ملايين الأغاني المجانية ومقاطع فيديو موسيقى YouTube مع Snaptube</string>
+    <string name="player_guide_larkplayer_title">مشغل موسيقى وفيديو مجاني</string>
+    <string name="player_guide_larkplayer_title_new">Lark Player —— مشغل موسيقى وفيديو مجاني</string>
+    <string name="player_video_list_title">كل الفيديوهات</string>
+    <string name="player_video_popup_fullscreen_title">هل تريد تشغيله بملء الشاشة؟</string>
+    <string name="player_video_popup_playasaudio_backbtn">العودة إلى الفيديو</string>
+    <string name="player_video_popup_playasaudio_title">هل تريد تشغيله كصوت؟</string>
+    <string name="player_video_popup_speed_title">تجربة سرعة مختلفة؟</string>
+    <string name="playing_as_audio_for_preview">التشغيل كصوت للمعاينة</string>
+    <string name="playlist">قائمة التشغيل</string>
+    <string name="playlist_batch_guide">قم بتنزيل كل مقاطع الفيديو هنا</string>
+    <string name="playlist_detail">تفاصيل قائمة التشغيل</string>
+    <string name="playlist_no_liked_video">لم تُعجب بأي فيديوهات بعد</string>
+    <string name="playlist_no_watch_later">احفظ مقاطع الفيديو للمشاهدة لاحقًا وشاهدها متى شئت</string>
+    <string name="please_enter_a_valid_download_link">يرجى إدخال رابط تنزيل صالح</string>
+    <string name="policies_guidelines">السياسات والإرشادات</string>
+    <string name="porn_text">"xnxx
+سكس
+xxx
+xxnx
+سكس
+http://www.xnxx.com/
+افلامسكس
+xnxx
+سكسمصري
+تيكتوك
+سكسعربي
+سكساجنبي
+نيك
+xnxxx
+xxxx
+xnxx
+sex
+سكسمترجم
+xnx
+pornhub
+سكسنيك
+http://www.pornhub.net/
+Xnxx
+porn
+pornhub
+افلامسكس
+
+xvideos
+سكسنار
+صورسكس
+xnxx.com
+فيديوهاتسكس
+https://www.xnxx.com/
+xnxx.com
+سكسبنات
+مقاطعسكس
+
+سكسمحارم
+xxx
+xxnxx
+xxxnx
+سكسامهات
+فيلمسكس
+pornhup
+xxxxx
+افلامسكساجنبي
+xxn
+xx
+www.xnxx.com
+كس
+حالاتواتسسكس
+افلامسكسعربي
+XNXX
+سكسماياخليفه
+سكسجامد
+xxx
+رقصسكس
+pornhup
+http://www.xvideos.com
+xnxxمترجم
+سكس
+xnxn
+xxxn
+سكسي
+xxii
+xvideo
+xlxx
+xxiv
+سكسمصرى
+سكسالعرب
+xnxc
+فديوهاتسكس
+سكسهندي
+سكساجنبي
+xxnx
+porno
+بزاز
+سحاق
+سكسعربي
+xnnx
+موقعسكس
+سكسامريكي
+فيديوسكس
+جنس
+سكسجديد
+xnxx2020
+xnxxمترجم
+brazzer
+xxooxxootheweeknd
+xxxxxx
+سكسمصر
+سكسعربى
+سكساغتصاب
+سكسمصري
+سيكس
+نيك
+قصصسكس
+هيفاءوهبي
+سكسساخن
+أفلامسكس
+xhxx
+سكسحيوانات
+سكسسارهجاي
+سكسمترجم
+سكسعنيف
+اغتصاب
+مكالماتسكس
+xvideos
+سكساجنبى
+XXX
+xNxx
+مواقعسكس
+عربنار
+سكس2020
+xnxxمصري
+سارهجاي
+سكساطفال
+سكسxxx
+xvideo
+سكسصيني
+فلمسكس
+سكسنيك
+xhamster
+wwwsixsixshow
+سكسسكس
+سكساجنبيمترجم
+Brazzers
+wwwsixxsensecomnikkisixx2015
+xnxubd2018nvidiashieldtv2018xhd
+سكسمحارممترجم
+مقطعسكس
+xnxxxx
+xnxxcom
+xmxx
+سكسمصريجامد
+سكسرومانسي
+بورنو
+حالاتسكس
+سكسروسي
+xxnx
+طيز
+سكساخوات
+xnxx2020
+Xxx
+xxv2020
+سكسبنات
+سكسمساج
+xxarxx
+فديوسكس
+سكسxnxx
+xnxubd2019nvidiageforcexxboxonexvideos2017xedition
+sexy
+xnxxmom
+سكسxxx
+xzxx
+سكسفيالحمام
+xnxx
+xnxx.com
+xnxubd2019nvidiavideojapanxxboxonexother_gamesdownloadvirus
+سكسمنقبات
+سكسبناتمعبعض
+مقطعفيديولعلاقةغيرشرعية
+سكسياباني
+سكسصغار
+ixxx
+xnxxمصري
+نودز
+افلامسكسمترجم
+www.xnxx.com
+xxxxxxx
+سكسكرتون
+xn
+RedTube
+Youporn
+Thumbzilla
+"</string>
+    <string name="post">منشور</string>
+    <string name="preparing_install">جارٍ تحضير التثبيت…</string>
+    <string name="preparing_to_download">جارٍ التحضير للتنزيل...</string>
+    <string name="preparing_to_log_in">جارٍ التحضير لتسجيل الدخول</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="process_tips">%s ثانية</string>
+    <string name="processing_mp3_meta">جارٍ الحصول على معلومات الموسيقى…</string>
+    <string name="product_updates_notification">تحديثات Snaptube</string>
+    <string name="profile_found">تم العثور على الملف الشخصي</string>
+    <string name="prompt_no_bookmark">ستظهر المواقع التي أضفتها إلى الإشارات المرجعية هنا</string>
+    <string name="protect_private_files">احتفظ بملفاتك الخاصة هنا</string>
+    <string name="push_notification">إشعارات الدفع</string>
+    <string name="pw_setting_right">تم تعيين كلمة المرور</string>
+    <string name="quality">الجودة</string>
+    <string name="quit">إنهاء</string>
+    <string name="quit_setting">إنهاء</string>
+    <string name="quit_setting_email_content">يرجى تعيين بريد إلكتروني للأمان لمساعدتك في استعادة كلمة المرور عند الحاجة</string>
+    <string name="quit_setting_email_title">إنهاء إعداد البريد الإلكتروني؟</string>
+    <string name="reached_the_limit">تم بلوغ الحد الأقصى للاختيار</string>
+    <string name="read_more">اقرأ المزيد</string>
+    <string name="read_music_meta_failed">فشل في قراءة معلومات الملف</string>
+    <string name="ready_to_download">2. جاهز للتنزيل!</string>
+    <string name="recent_searches">عمليات البحث الأخيرة</string>
+    <string name="recommend">موصى به</string>
+    <string name="recommended">موصى به</string>
+    <string name="recommended_content_notification">محتوى موصى به</string>
+    <string name="recover">استعادة</string>
+    <string name="recover_deleted_files_title">استعادة الملفات المحذوفة</string>
+    <string name="recover_failed_try_again_later">فشلت الاستعادة. حاول مرة أخرى لاحقًا.</string>
+    <string name="recover_files_download_task_start">بدأ التنزيل</string>
+    <string name="recover_files_no_files_tips">لا توجد ملفات بعد</string>
+    <string name="recovering">جارٍ الاسترداد...</string>
+    <string name="recycle_bin">سلة المحذوفات</string>
+    <string name="reels">ريلز</string>
+    <string name="region">المنطقة</string>
+    <string name="related">المحتوى ذي الصلة</string>
+    <string name="reload">تحديث</string>
+    <string name="reload_webview_page">إعادة تحميل الصفحة</string>
+    <string name="remain_time2" formatted="false">الوقت المتبقي حتى %s %s</string>
+    <string name="remember_my_choice">تذكر اختياري</string>
+    <string name="remove">إزالة</string>
+    <string name="remove_from_watch_history">إزالة من سجل المشاهدة</string>
+    <string name="remove_from_watch_history_failed">فشل في الإزالة من سجل المشاهدة</string>
+    <string name="remove_from_watch_history_success">تمت الإزالة من سجل المشاهدة</string>
+    <string name="remove_from_watch_later">إزالة من المشاهدة لاحقًا</string>
+    <string name="remove_from_watch_later_failed">فشل في الإزالة من المشاهدة لاحقًا</string>
+    <string name="remove_from_watch_later_success">تمت الإزالة من المشاهدة لاحقًا</string>
+    <string name="remove_saved_site">إزالة الموقع المحفوظ؟</string>
+    <string name="repeated">مكرر</string>
+    <string name="replay">إعادة التشغيل</string>
+    <string name="reply">رد</string>
+    <string name="reply_feedback">الرد على الملاحظات</string>
+    <string name="report">إبلاغ</string>
+    <string name="request_storage_permission_tips">يرجى السماح لـ Snaptube بالوصول إلى الوسائط والملفات حتى تتمكن من تنزيل مقاطع الفيديو والموسيقى.</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="resolution_fail">يتعذر تبديل دقة هذا الفيديو.</string>
+    <string name="resolve_failed">فشل في解析 الرابط</string>
+    <string name="resolve_url">جارٍ تحليل الرابط…</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="retry_download">إعادة محاولة التنزيل</string>
+    <string name="sagittarius">القوس</string>
+    <string name="save">حفظ</string>
+    <string name="save_music_info_failed">فشل حفظ معلومات الملف</string>
+    <string name="save_music_info_success">تم حفظ معلومات الملف بنجاح</string>
+    <string name="save_to_sites">حفظ إلى المواقع</string>
+    <string name="saved">تم الحفظ</string>
+    <string name="saving_music_info">جارٍ حفظ معلومات الموسيقى</string>
+    <string name="scan_file_name">ملفات التطبيقات غير المهمة</string>
+    <string name="scan_finish">تنظيف الملفات غير المرغوب فيها</string>
+    <string name="scan_pause">إيقاف مؤقت</string>
+    <string name="scan_stop_desc">شارفت عملية التنظيف على الانتهاء. هل أنت متأكد من أنك تريد الخروج قبل اكتمالها؟</string>
+    <string name="scanning">جارٍ الفحص</string>
+    <string name="scorpio">العقرب</string>
+    <string name="sd_card_storage">بطاقة SD</string>
+    <string name="sdcard_pull_out_toast">تم إخراج بطاقة SD وسيتم تخزين الملف الذي تم تنزيله في وحدة التخزين الداخلية</string>
+    <string name="sdcard_use_notice_action_yes">المتابعة باستخدام بطاقة SD</string>
+    <string name="sdcard_use_notice_content">وفقًا لسياسة Android، ستفقد الملفات الموجودة على بطاقة SD عند إلغاء تثبيت Snaptube</string>
+    <string name="sdcard_use_notice_title">إشعار استخدام بطاقة SD</string>
+    <string name="search_menu_title">البحث</string>
+    <string name="search_no_results_subtitle">جرّب كلمات رئيسية مختلفة أو أزل عوامل تصفية البحث</string>
+    <string name="search_no_results_title">لم يتم العثور على نتائج</string>
+    <string name="search_to_download">ابحث للتنزيل</string>
+    <string name="search_video">مقاطع الفيديو</string>
+    <string name="searching">جارٍ البحث</string>
+    <string name="security_email">البريد الإلكتروني الآمن</string>
+    <string name="security_email_hint">لإعادة تعيين كلمة المرور في حال نسيتها</string>
+    <string name="security_prepare">جارٍ التحقق الأمني...</string>
+    <string name="security_setting">إعدادات الأمان</string>
+    <string name="security_verified">تم التحقق من الأمان. حدّث في snaptube</string>
+    <string name="select">تحديد</string>
+    <string name="select2">تحديد</string>
+    <string name="select_anyway">اختر على أي حال</string>
+    <string name="select_folder_content">هل تريد استخدام هذا المجلد كمسار التنزيل؟</string>
+    <string name="select_folder_title">اختر مجلدًا</string>
+    <string name="select_format_toast">يرجى تحديد تنسيق</string>
+    <string name="select_image">حدد الصورة</string>
+    <string name="select_region">اختر المنطقة</string>
+    <string name="selected_tips">تم تحديد %s</string>
+    <string name="self_update_install">تم حفظ بيانات %1$s، انقر للتثبيت</string>
+    <string name="self_update_notify_install">الإصدار الجديد من Snaptube جاهز</string>
+    <string name="self_upgrade_task_title">ترقية Snaptube</string>
+    <string name="send">إرسال</string>
+    <string name="send_feedback">إرسال ملاحظات</string>
+    <string name="send_feedback_ask">إرسال ملاحظات؟</string>
+    <string name="send_reply_ask">إرسال رد؟</string>
+    <string name="sending">جارٍ الإرسال</string>
+    <string name="september">سبتمبر</string>
+    <string name="set_as_default">تعيين كافتراضي</string>
+    <string name="set_email_success">تم تعيين البريد الإلكتروني الآمن</string>
+    <string name="setting_apk_location">مسار التنزيل</string>
+    <string name="setting_category_download">إعدادات التنزيل</string>
+    <string name="setting_category_feedback">ملاحظات</string>
+    <string name="setting_category_others">أخرى</string>
+    <string name="setting_dialog_already_new_version">هذا هو أحدث إصدار</string>
+    <string name="setting_dialog_checking_update">جارٍ التحقق من التحديث…</string>
+    <string name="setting_dialog_content_update">جارٍ التحقق من التحديث…</string>
+    <string name="setting_download_data">التنزيل عبر بيانات الهاتف المحمول</string>
+    <string name="setting_download_data_desc">سيتم تنزيل الوسائط باستخدام بيانات الجوال</string>
+    <string name="setting_download_progress_desc">أبلغني بتقدم التنزيل</string>
+    <string name="setting_download_task">الحد الأقصى لمهام التنزيل</string>
+    <string name="setting_floating_window_desc">تمكين تشغيل الفيديوهات في نافذة عائمة</string>
+    <string name="setting_label">الإعدادات</string>
+    <string name="setting_music_lockscreen">تشغيل الموسيقى على شاشة القفل</string>
+    <string name="setting_music_lockscreen_desc">تمكين تشغيل الموسيقى على شاشة القفل</string>
+    <string name="setting_notification_download_completed">اكتمل التنزيل (مهم‼️)</string>
+    <string name="setting_notification_download_progress">تقدم التنزيل (مهم‼️)</string>
+    <string name="setting_recommend_content_desc">أبلغني بمقاطع الفيديو والموسيقى التي قد تعجبني</string>
+    <string name="setting_system_setting_theme">استخدام إعدادات النظام</string>
+    <string name="setting_toast_update_failed">فشلت العملية، يرجى المحاولة مرة أخرى</string>
+    <string name="setting_toolbar_desc">وصول سريع إلى الأدوات في شريط الإشعارات</string>
+    <string name="setting_updates">تحديثات Snaptube</string>
+    <string name="setting_updates_desc">أبلغني بإصدار Snaptube الجديد</string>
+    <string name="settings_notifications">إعدادات الإشعارات</string>
+    <string name="settings_playback">إعدادات التشغيل</string>
+    <string name="settings_restricted_mode">الوضع المقيّد</string>
+    <string name="settings_restricted_mode_desc">يساعد هذا في إخفاء المحتوى الذي قد يكون للبالغين. لا يوجد مرشح دقته 100%</string>
+    <string name="sexual">جنسي</string>
+    <string name="sexual_or_violent">جنسي أو عنيف</string>
+    <string name="share">مشاركة</string>
+    <string name="share_apk">مشاركة APK</string>
+    <string name="share_audio_via">مشاركة الصوت عبر</string>
+    <string name="share_bluetooth_hint">شارك مع صديق قريب</string>
+    <string name="share_by_system">المزيد</string>
+    <string name="share_content_install_apk">شارك صديقك فيديوً شائعًا معك من Snaptube. انقر على التطبيق لمشاهدة هذا الفيديو. 👇</string>
+    <string name="share_copy_url">نسخ الرابط</string>
+    <string name="share_download_link">مشاركة رابط التنزيل</string>
+    <string name="share_downloaded_audio_msg_text">"تم تنزيل هذا الصوت ومشاركته عبر SNAPTUBE.
+ثبّت تطبيق Snaptube لتنزيل الموسيقى ومقاطع الفيديو مجانًا! 👇رابط التنزيل👇"</string>
+    <string name="share_downloaded_video_msg_text">"تم تنزيل هذا الفيديو ومشاركته عبر Snaptube.
+ثبّت تطبيق Snaptube لتنزيل الموسيقى ومقاطع الفيديو مجانًا! 👇رابط التنزيل👇"</string>
+    <string name="share_link_msg_text">هذا الفيديو الرائج تمت مشاركته من تطبيق Snaptube. انقر على الرابط لمشاهدته.👆</string>
+    <string name="share_link_via">مشاركة الرابط عبر</string>
+    <string name="share_local_audio_msg_text">"شارك صديقك ملفه/ملفها الصوتي معك عبر Snaptube😊
+نزّل الفيديوهات والموسيقى عبر الإنترنت. أدر الملفات المُنزّلة وشاركها. 📲جرّب تطبيق Snaptube👇"</string>
+    <string name="share_local_video_msg_text">"شارك صديقك الفيديو الخاص به معك عبر SNAPTUBE😊
+قم بتنزيل مقاطع الفيديو والموسيقى عبر الإنترنت. قم بإدارة الملفات التي تم تنزيلها ومشاركتها. 📲جرّب تطبيق Snaptube👇"</string>
+    <string name="share_more_hint">انسخ الرابط، وأرسله إلى Facebook وغير ذلك.</string>
+    <string name="share_playlist">قائمة تشغيل من Snaptube، اضغط على الرابط للتحقق:</string>
+    <string name="share_popup_link_icon">مشاركة الرابط</string>
+    <string name="share_popup_title">مشاركة إلى</string>
+    <string name="share_snaptube">Snaptube، نزّل فيديوهات YouTube وحالات WhatsApp وملفات MP3 مجانًا! جرّبه الآن!!!</string>
+    <string name="share_snaptube_dialog_button">مشاركة Snaptube</string>
+    <string name="share_snaptube_dialog_subtitle">أخبر أصدقاءك عن هذا التطبيق الرائع!</string>
+    <string name="share_snaptube_dialog_title">اكتملت %d مهام تنزيل!</string>
+    <string name="share_snaptube_from_changelog">Snaptube الجديد</string>
+    <string name="share_snaptube_via">مشاركة Snaptube عبر</string>
+    <string name="share_tip">شارك إذا أعجبك</string>
+    <string name="share_to_whatsapp_via">مشاركة إلى WhatsApp</string>
+    <string name="share_toast_processing">يرجى الانتظار، جارٍ المعالجة…</string>
+    <string name="share_url_copied">تم نسخ رابط المشاركة.</string>
+    <string name="share_via">مشاركة عبر</string>
+    <string name="share_video_file_downloading">جارٍ تنزيل الفيديو...</string>
+    <string name="share_video_file_icon">مشاركة ملف الفيديو</string>
+    <string name="share_video_via">مشاركة الفيديو عبر</string>
+    <string name="show_location">موقع الملف</string>
+    <string name="show_notification_title">إظهار الإشعارات</string>
+    <string name="sign_in_expired_tip">انتهت صلاحية تسجيل الدخول، يُرجى تسجيل الدخول مرة أخرى للمتابعة.</string>
+    <string name="sign_in_required_tip">تسجيل الدخول مطلوب، يرجى تسجيل الدخول للمتابعة.</string>
+    <string name="site_already_exist">الموقع موجود بالفعل.</string>
+    <string name="skip_interests">تخطي</string>
+    <string name="snack_lock_failed">فشل القفل، يرجى التحقق وإعادة المحاولة</string>
+    <string name="snack_lock_success">تم القفل بنجاح</string>
+    <string name="snaptube_curator">منسق Snaptube</string>
+    <string name="social_saver">%s أداة التنزيل</string>
+    <string name="sort_by_date_oldest">ترتيب حسب الأقدم إضافة</string>
+    <string name="sort_by_date_recently">الترتيب حسب الأحدث إضافةً</string>
+    <string name="sort_by_length_largest">ترتيب حسب أكبر ملف</string>
+    <string name="sort_by_length_smallest">فرز حسب أصغر ملف</string>
+    <string name="sound_problem">مشكلة في الصوت</string>
+    <string name="speed_limit">حد سرعة التنزيل</string>
+    <string name="start_converting">بدأ التحويل</string>
+    <string name="start_download">بدء التنزيل</string>
+    <string name="status">الحالة</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_canceled">تم الإلغاء</string>
+    <string name="status_downloading">جارٍ التنزيل…</string>
+    <string name="status_failed">فشل، انقر لإعادة المحاولة</string>
+    <string name="status_failed_no_enough_space">فشل، لا توجد مساحة تخزين كافية</string>
+    <string name="status_offline_wifi_excuting">بانتظار الشبكة</string>
+    <string name="status_paused">متوقف مؤقتًا</string>
+    <string name="status_pending">قيد الانتظار…</string>
+    <string name="status_pending_for_wifi">في انتظار Wi-Fi</string>
+    <string name="status_saver">منزّل الحالات</string>
+    <string name="status_success">اكتمل التنزيل</string>
+    <string name="status_waiting_for_sdcard">تمت إزالة بطاقة SD</string>
+    <string name="stay">البقاء</string>
+    <string name="stop">إيقاف</string>
+    <string name="storage">التخزين</string>
+    <string name="storage_dialog_subtitle">لتنزيل الموسيقى ومقاطع الفيديو</string>
+    <string name="storage_dialog_title">السماح بالوصول إلى التخزين</string>
+    <string name="storage_options_Sdcard">بطاقة SD</string>
+    <string name="storage_options_phone">التخزين الداخلي</string>
+    <string name="storage_release">يمكن تحرير %s من مساحة التخزين.</string>
+    <string name="story">قصة</string>
+    <string name="story_saver">تنزيل القصص</string>
+    <string name="sub">اشتراك</string>
+    <string name="submit">إرسال</string>
+    <string name="subscribe">اشتراك</string>
+    <string name="subscribed">تم الاشتراك</string>
+    <string name="subtitles_cc">ترجمة/CC</string>
+    <string name="suggested_languages">اللغات المقترحة</string>
+    <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
+    <string name="super_clean">المنظف الفائق</string>
+    <string name="super_cleaner_upgrade4">قم بترقية المنظف للحصول على تنظيف أعمق</string>
+    <string name="sure_unlock_files">هل أنت متأكد من أنك تريد إلغاء قفل الملفات المحددة؟</string>
+    <string name="switch_resolution_toast">الشبكة ضعيفة، هل تريد تبديل الدقة لضمان السلاسة؟</string>
+    <string name="switch_speed_for_preview">تبديل سرعة المعاينة</string>
+    <string name="tab_sites">مواقع الفيديو</string>
+    <string name="tab_title_all_musics">الموسيقى</string>
+    <string name="tab_title_all_videos">فيديو</string>
+    <string name="tab_title_download">تنزيل</string>
+    <string name="tab_title_playlist">قائمة التشغيل</string>
+    <string name="taurus">الثور</string>
+    <string name="temp_file_junk">ملفات مؤقتة</string>
+    <string name="thanks_for_your_feedback">شكرًا على ملاحظاتك :)</string>
+    <string name="the_comment">تعليق</string>
+    <string name="the_content_might_be_unavailable">قد يكون المحتوى غير متاح.</string>
+    <string name="the_end">النهاية</string>
+    <string name="the_video_may_be_unplayable">قد يتعذر تشغيل الفيديو.</string>
+    <string name="the_video_resolution_is_not_supported_on_your_device">دقة الفيديو غير مدعومة على جهازك.</string>
+    <string name="theme">السمة</string>
+    <string name="this_is_ai_generated_content">هذا محتوى مولد بالذكاء الاصطناعي</string>
+    <string name="thumbnail">صورة مصغرة</string>
+    <string name="tiktok_link">رابط TikTok</string>
+    <string name="tip_comments_closed">تم إيقاف التعليقات لهذا الفيديو</string>
+    <string name="tip_create_more_tabs">يمكن إنشاء %d علامات تبويب فقط</string>
+    <string name="tip_delete_file_fail">لا إذن للحذف</string>
+    <string name="tip_download_files">لا توجد ملفات هنا، يرجى التنزيل أولاً</string>
+    <string name="tip_error_system_busy">النظام مشغول.</string>
+    <string name="tip_no_network_title">لا توجد شبكة</string>
+    <string name="tip_reply_discard_cancel">متابعة</string>
+    <string name="tip_reply_discard_comfirm">إنهاء</string>
+    <string name="tip_reply_discard_title">تجاهل الرد؟</string>
+    <string name="tip_reply_error_by_channel">يتعذر الرد لأنه لم يتم إنشاء القناة</string>
+    <string name="tip_reply_error_by_login">لقد تم تسجيل خروجك</string>
+    <string name="tips_no_notwork">لا توجد شبكة، تحقق من إعدادات الشبكة لديك.</string>
+    <string name="tips_refresh_failed">فشل التحديث، يرجى المحاولة مرة أخرى لاحقًا.</string>
+    <string name="title_account">الحساب</string>
+    <string name="title_add_to_bookmark">إضافة إلى الإشارات المرجعية</string>
+    <string name="title_add_to_homepage">إضافة إلى الاتصال السريع</string>
+    <string name="title_bookmark">إشارة مرجعية</string>
+    <string name="title_confirm_download">تأكيد التنزيل</string>
+    <string name="title_credits">شكر خاص</string>
+    <string name="title_delete_from_bookmark">حذف الإشارة المرجعية؟</string>
+    <string name="title_enter_pw">أدخل كلمة المرور</string>
+    <string name="title_enter_your_pw">أدخل كلمة المرور الخاصة بك</string>
+    <string name="title_speeddial">مواقع الفيديو</string>
+    <string name="title_window_permission">وضع صورة داخل صورة في Snaptube</string>
+    <string name="to_settings">انتقل إلى الإعدادات</string>
+    <string name="toast_add_to_homepage">تمت إضافة الإشارة المرجعية إلى الاتصال السريع</string>
+    <string name="toast_added_to_playlist">تمت إضافة الملف إلى قائمة التشغيل</string>
+    <string name="toast_addfolder_failed">فشل إنشاء المجلد</string>
+    <string name="toast_bookmark_deleted">تم حذف %1$s من الإشارات المرجعية</string>
+    <string name="toast_delete_from_speeddial">تم حذف الإشارة المرجعية من الاتصال السريع</string>
+    <string name="toast_double_click_back">انقر رجوع مرة أخرى للخروج.</string>
+    <string name="toast_fail_add_to_homepage">فشل إضافة الاختصار السريع</string>
+    <string name="toast_fail_delete_from_speeddial">تعذر الحذف من الاتصال السريع</string>
+    <string name="toast_file_exist">الملف موجود بالفعل</string>
+    <string name="toast_load_err">فشل تحميل البيانات</string>
+    <string name="toast_multi_add_to_homepage">تمت إضافة %1$s من الإشارات المرجعية إلى الاتصال السريع</string>
+    <string name="toast_no_bookmark_added">لا توجد إشارة مرجعية مضافة إلى الاتصال السريع</string>
+    <string name="toast_not_input_foldername">يرجى إدخال اسم المجلد</string>
+    <string name="toast_operation_failed">فشلت العملية، يرجى المحاولة مرة أخرى.</string>
+    <string name="toast_pkg_download_failed">فشل تنزيل الحزمة، يرجى إعادة المحاولة.</string>
+    <string name="toast_sdcard_unmounted">فشلت العملية. يرجى إدخال بطاقة SD.</string>
+    <string name="toast_start_downloading">بدء تنزيل %1$s …</string>
+    <string name="toast_subscription_added">تمت إضافة الاشتراك</string>
+    <string name="toast_subscription_removed">تمت إزالة الاشتراك</string>
+    <string name="toast_webview_bookmark_added">تمت الإضافة بنجاح</string>
+    <string name="today">اليوم</string>
+    <string name="too_many_ads">إعلانات كثيرة جدًا</string>
+    <string name="tool_notification">إشعارات الأداة</string>
+    <string name="tool_notification_desc">أبلغني عند إصدار أدوات جديدة</string>
+    <string name="tool_title_credits">شكر وتقدير</string>
+    <string name="toolbar_notification_channel_title">شريط الأدوات، اتركه مفعّلًا لتنظيف أسرع</string>
+    <string name="toolsbar_dialog_off_hint">بمجرد إيقاف شريط الأدوات، لن تتمكن من الوصول السريع إلى أدوات التنظيف (غير مستحسن)</string>
+    <string name="toolsbar_dialog_off_tittle">إيقاف شريط الأدوات؟</string>
+    <string name="top">الأعلى</string>
+    <string name="transfer">نقل</string>
+    <string name="paused">متوقف مؤقتًا</string>
+    <string name="trash">سلة المحذوفات</string>
+    <string name="trash_audio">صوت</string>
+    <string name="trash_clean">تنظيف سلة المهملات</string>
+    <string name="trash_download_all_failed">فشل في إضافة مهام التنزيل.</string>
+    <string name="trash_download_some_failed">تمت إضافة %1$s مهمة. فشلت إضافة %2$s مهمة.</string>
+    <string name="trash_is_empty">سلة المهملات فارغة</string>
+    <string name="trial_play">التشغيل الآن</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    <string name="try_larkplayer">جرّب LarkPlayer</string>
+    <string name="try_now">جرّب الآن</string>
+    <string name="tt_ad_close_text">الإعلان الذي تم إغلاقه</string>
+    <string name="tt_ad_is_closed">االإعلانات مغلقة</string>
+    <string name="tt_ad_logo_txt">AD</string>
+    <string name="tt_add_bad_reason">أضِف السبب الذي يجعلك تعتقد أنه سيئ</string>
+    <string name="tt_bad">سيئ</string>
+    <string name="tt_choose_language">ar</string>
+    <string name="tt_comment_num">%1$s مراجعات</string>
+    <string name="tt_count_down_view">تخطي</string>
+    <string name="tt_dislike_header_tv_back">رجوع</string>
+    <string name="tt_dislike_header_tv_title">تحديد</string>
+    <string name="tt_display_error">خطأ في العرض</string>
+    <string name="tt_done">تمَّ</string>
+    <string name="tt_feedback_experience_text">سنُواصل تحسين خدمتنا.</string>
+    <string name="tt_feedback_submit_text">لقد أرسلتَ الملاحظات! يُرجى عدم الإرسال مرّة أخرى.</string>
+    <string name="tt_feedback_thank_text">شكرًا على تقديم ملاحظاتك!</string>
+    <string name="tt_feel_hint">أخبِرنا عن شعورك بعد مشاهدة هذا الإعلان</string>
+    <string name="tt_good">جيِّد</string>
+    <string name="tt_like_this_ad">هل أعجبك هذا الإعلان؟</string>
+    <string name="tt_logo_en">إعلان</string>
+    <string name="tt_msgPlayable">قم بإستكمال التشغيل للحصول على المكافآت</string>
+    <string name="tt_multiple_ad_indicator">إعلان %1$d من %2$d</string>
+    <string name="tt_negtiveBtnBtnText">مغادرة</string>
+    <string name="tt_negtive_txt">إلغاء</string>
+    <string name="tt_no_network">لا يوجد اتصال بالشبكة، يرجى إعادة المحاولة لاحقًا.</string>
+    <string name="tt_not_bad">ليس سيئًا</string>
+    <string name="tt_other_reason">أسباب أخرى</string>
+    <string name="tt_postiveBtnText">استئناف</string>
+    <string name="tt_postiveBtnTextPlayable">متابعة التشغيل</string>
+    <string name="tt_postive_txt">حسنًا</string>
+    <string name="tt_privacy_title">سياسية الخصوصية</string>
+    <string name="tt_report_this_ad">قدِّم ملاحظاتك حول هذا الإعلان لمساعدتنا في التحسين</string>
+    <string name="tt_reward_feedback">الملاحظات</string>
+    <string name="tt_reward_full_skip">تخطِّي بعد %1$s ثوانٍ</string>
+    <string name="tt_reward_msg">شاهِد الفيديو بأكمله للحصول على مكافأتك</string>
+    <string name="tt_reward_screen_skip_tx">تخطي</string>
+    <string name="tt_select_reason">يُرجى تحديد سبب</string>
+    <string name="tt_skip_ad_time_text">تخطي بعد s%d ثانية</string>
+    <string name="tt_suggestion_commit">إرسال</string>
+    <string name="tt_suggestion_description">أدخِل وصفًا للخطأ في العرض، وانقر على الزر ”إرسال”. سيتمّ أيضًا إرسال التصميم الإبداعي للإعلان مرة أخرى إلى Pangle للمساعدة في استكشاف المشكلة وإصلاحها.</string>
+    <string name="tt_try_now">جرب الآن</string>
+    <string name="tt_video_bytesize">بيانات</string>
+    <string name="tt_video_dial_phone">اتصل الآن</string>
+    <string name="tt_video_download_apk">نزِّل الآن</string>
+    <string name="tt_video_mobile_go_detail">العرض الآن</string>
+    <string name="tt_video_retry_des_txt">تعذر التحميل. يرجى المحاولة مرة أخرى.</string>
+    <string name="tt_video_without_wifi_tips">سيؤدي تشغيل هذا المحتوى إلى استخدام بيانات بحجم %.2f ميجابايت</string>
+    <string name="tt_web_title_default">الإعلان</string>
+    <string name="turn_on">تشغيل</string>
+    <string name="unable_to_play">تعذر التشغيل</string>
+    <string name="unavailable">غير متاح</string>
+    <string name="undo">تراجع</string>
+    <string name="uninstall">الملفات المتبقية</string>
+    <string name="unit_kilo">%sK</string>
+    <string name="unit_mega">%sM</string>
+    <string name="unknown">غير معروف</string>
+    <string name="unlimited">غير محدود</string>
+    <string name="unlink_failed">فشل إلغاء الربط</string>
+    <string name="unlink_succeed">تم إلغاء الربط بنجاح</string>
+    <string name="unlock">إلغاء القفل</string>
+    <string name="unlock_files">إلغاء قفل الملفات</string>
+    <string name="unlock_successfully">تم الفتح بنجاح！</string>
+    <string name="unsent_feedback_remind">لديك ملاحظات غير مرسلة. هل أنت متأكد أنك تريد المغادرة؟</string>
+    <string name="up_next">التالي</string>
+    <string name="update">تحديث</string>
+    <string name="update_for_crack">يرجى التحديث إلى أحدث إصدار من Snaptube.</string>
+    <string name="update_no_enough_storage">لا توجد مساحة تخزين كافية للتحديث، يرجى تنظيف مساحة التخزين أولاً</string>
+    <string name="update_now">حدّث الآن</string>
+    <string name="update_official">التحديث إلى الإصدار الرسمي</string>
+    <string name="update_official_tips1">"يرجى تحديث Snaptube إلى أحدث إصدار: 
+الخطوة 1: نزّل الإصدار الرسمي من %1$s واعثر على ملف APK 
+الخطوة 2: أزل تثبيت Snaptube الحالي 
+الخطوة 3: ثبّت الإصدار الجديد باستخدام ملف APK الجديد"</string>
+    <string name="upgrade">ترقية</string>
+    <string name="upgrade_custom_title_version_format">%1$s V%2$s</string>
+    <string name="upgrade_default_title_version_format">اكتشف الإصدار الجديد V%1$s</string>
+    <string name="upgrade_ignore">ربما لاحقًا</string>
+    <string name="upper_clean">تنظيف</string>
+    <string name="use_folder">استخدم هذا المجلد</string>
+    <string name="used">مستخدم</string>
+    <string name="v7_preference_off">إيقاف</string>
+    <string name="v7_preference_on">تفعيل</string>
+    <string name="vault_all_locks_failed">فشل القفل</string>
+    <string name="vault_all_unlocks_failed">فشل إلغاء القفل</string>
+    <string name="vault_check_in_snaptube">تحقق في خزنة Snaptube</string>
+    <string name="vault_dialog_outside_locking">القفل في خزنة Snaptube</string>
+    <string name="vault_dialog_private_quit_keep">إبقاؤه قيد التشغيل</string>
+    <string name="vault_dialog_private_quit_off">إيقاف</string>
+    <string name="vault_email_set_guide_change">تغيير</string>
+    <string name="vault_email_set_guide_hint">اختر بريداً إلكترونياً لتعيينه كبريد أمان في حال نسيت كلمة المرور</string>
+    <string name="vault_email_set_guide_hint2">يرجى تعيين بريد إلكتروني للأمان</string>
+    <string name="vault_email_set_guide_set">تعيين</string>
+    <string name="vault_email_verify_guide_verify">سجّل الدخول إلى حساب بريدك الإلكتروني الآمن للتحقق من كلمة المرور وإعادة تعيينها</string>
+    <string name="vault_empty_tips">لن تظهر الملفات في الخزنة في علامة تبويب التشغيل</string>
+    <string name="vault_forget_verify_guide">تحقق من بريدك الإلكتروني الآمن لإعادة تعيين كلمة المرور.</string>
+    <string name="vault_format_switch_on_toast">وضع القفل قيد التشغيل. سيتم تنزيل هذا الملف بشكل خاص وقفله في الخزنة.</string>
+    <string name="vault_guide_lock">كيفية قفل الملفات من المعرض</string>
+    <string name="vault_lock_failed_no_access">لا توجد صلاحية لقفل ملفات النظام</string>
+    <string name="vault_lock_failed_no_space">لا توجد مساحة كافية، يرجى تحرير مساحة تخزين الهاتف</string>
+    <string name="vault_lock_failed_not_exist">هذا الملف الأصلي غير موجود</string>
+    <string name="vault_lock_no_access">لا يوجد إذن لإدارة ملفات النظام</string>
+    <string name="vault_locked_successfully">تم القفل بنجاح!</string>
+    <string name="vault_partial_failed_dialog_title">حدث خطأ ما</string>
+    <string name="vault_password_dialog_exit">الخروج على أي حال</string>
+    <string name="vault_password_dialog_hint">نقترح عليك تعيين كلمة مرور للخزنة</string>
+    <string name="vault_password_dialog_set">تعيين كلمة المرور</string>
+    <string name="vault_password_dialog_tittle">حماية الملفات الخاصة</string>
+    <string name="search">بحث</string>
+    <string name="vault_photo">صورة</string>
+    <string name="vault_pull_down">اسحب لأسفل إلى الخزنة</string>
+    <string name="vault_search">البحث عن الملفات الخاصة</string>
+    <string name="vault_setting_password_hint">قم بتعيين كلمة مرور لحماية الخزنة</string>
+    <string name="vault_setting_password_tittle">كلمة مرور الخزنة</string>
+    <string name="vault_unlock_batch_failed" formatted="false">تم إلغاء قفل %s ملفًا بنجاح. فشل إلغاء قفل %s ملفًا.</string>
+    <string name="vault_unlock_sdcard_no_path">فشل إلغاء القفل</string>
+    <string name="vault_unlock_to_back_up_folder_check">المسار الأصلي غير متاح. هل تريد إلغاء قفل الملف(الملفات) إلى مجلد النسخ الاحتياطي؟</string>
+    <string name="vault_unlockpage_snackbar">لتنزيل الملفات إلى الخزنة، يرجى تعيين كلمة مرور أولاً</string>
+    <string name="verify">تحقق</string>
+    <string name="verify_success">تم التحقق من البريد الإلكتروني</string>
+    <string name="verifying_package">جارٍ التحقق من الحزمة…</string>
+    <string name="version">الإصدار %1$s</string>
+    <string name="version_format_short">الإصدار V%1$s</string>
+    <string name="very_high">عالٍ جدًا</string>
+    <string name="video">فيديو</string>
+    <string name="video_1080p_description">تفاصيل عالية للعرض بملء الشاشة</string>
+    <string name="video_144p_description">جودة فيديو ضعيفة</string>
+    <string name="video_144p_label">منخفض</string>
+    <string name="video_240p_description">جودة منخفضة للتشغيل السريع</string>
+    <string name="video_2K_description">تفاصيل عالية للتشغيل على الشاشات الكبيرة</string>
+    <string name="video_360p_description">جودة عادية للتشغيل السريع</string>
+    <string name="video_480p_description">جودة عادية للتشغيل السريع</string>
+    <string name="video_4K_description">تفاصيل عالية للشاشة الكبيرة</string>
+    <string name="video_720p_description">عرض واضح وتشغيل سريع</string>
+    <string name="video_delete_success">تم الحذف</string>
+    <string name="video_description_load_fail">فشل التحميل، اضغط لإعادة المحاولة.</string>
+    <string name="video_description_loading">جارٍ التحميل...</string>
+    <string name="video_detail_author">المؤلف:</string>
+    <string name="video_detail_from">من:</string>
+    <string name="video_fast_option">سريع (%s)</string>
+    <string name="video_filter_duration">المدة</string>
+    <string name="video_filter_duration_long_name">20+ دقيقة</string>
+    <string name="video_filter_duration_medium">متوسط</string>
+    <string name="video_filter_duration_medium_name">4-20 دقيقة</string>
+    <string name="video_filter_duration_short">قصير</string>
+    <string name="video_filter_duration_short_name">0-4 دقائق</string>
+    <string name="video_filter_upload_time">وقت الرفع</string>
+    <string name="video_filter_uploadtime_month_name">هذا الشهر</string>
+    <string name="video_filter_uploadtime_today_name">اليوم</string>
+    <string name="video_filter_uploadtime_week_name">هذا الأسبوع</string>
+    <string name="video_go_to_website_all_uppercase">اذهب إلى الموقع الإلكتروني</string>
+    <string name="video_go_to_website_first_uppercase">الانتقال إلى الموقع الإلكتروني</string>
+    <string name="video_high_quality_option">جودة عالية (%s)</string>
+    <string name="video_info_query_failure">فشلت العملية، يرجى المحاولة مرة أخرى</string>
+    <string name="video_player_fill_parent">ملاءمة تلقائية</string>
+    <string name="video_player_fill_parent_height">ملاءمة للارتفاع</string>
+    <string name="video_player_fill_parent_width">ملاءمة للعرض</string>
+    <string name="video_player_wrap_content">أصلي</string>
+    <string name="videos_saver">حافظ الفيديوهات</string>
+    <string name="view">عرض</string>
+    <string name="view_all">عرض الكل</string>
+    <string name="view_download_history">عرض سجل التنزيلات</string>
+    <string name="view_more">عرض المزيد</string>
+    <string name="view_sites">عرض المواقع</string>
+    <string name="view_status_in_whatsapp_to_update">عرض الحالة في %s للتحديث</string>
+    <string name="view_with_snaptube">عرض باستخدام Snaptube</string>
+    <string name="views">المشاهدات</string>
+    <string name="vip_contact_us_underlined"><u>إن لم يعمل ذلك , رجاءً تواصل معنا مباشرة.</u></string>
+    <string name="vip_fail_launch_google_play">فشل في تشغيل Google Play</string>
+    <string name="vip_licence_message">"تهانينا لك لتفعيلك نسخة VIP الاحترافية. الميزات التالية أصبحت متوفرة الآن:
+
+
+- ازالة اعلانات التطبيق بشكل نهائي.
+- أصبحت داعما لتطبيق رائع."</string>
+    <string name="vip_note">ملاحظة: لا يمكننا منع الإعلانات المضمنة في المواقع العامة.</string>
+    <string name="virgo">العذراء</string>
+    <string name="vpn_browse_adult_hint">نقترح استخدام VPN</string>
+    <string name="vpn_browse_adult_tittle">لزيارة المواقع بخصوصية</string>
+    <string name="vpn_speedup_button">تسريع</string>
+    <string name="wa_no_storage_permission_prompt">يرجى السماح لـ Snaptube بالوصول إلى الوسائط والملفات حتى تتمكن من حفظ حالة WhatsApp.</string>
+    <string name="wa_status_title">حافظ الحالة</string>
+    <string name="wa_status_updated">تم تحديث %s من الحالات</string>
+    <string name="waclean_clean_hint">تشغل ملفات WhatsApp %s</string>
+    <string name="waclean_clean_hint2">تنظيف الملفات غير المفيدة</string>
+    <string name="wacleaner_audio_title">الصوتيات</string>
+    <string name="wacleaner_audios_hint">تنظيف الملفات الصوتية قليلة الاستخدام</string>
+    <string name="wacleaner_delete_done" formatted="false">تم حذف %s من الملفات وتحرير %s من مساحة التخزين</string>
+    <string name="wacleaner_delete_hint">لا يمكن استعادة الملفات المحذوفة، هل تريد المتابعة؟</string>
+    <string name="wacleaner_documents_hint">تنظيف المستندات نادرة الاستخدام</string>
+    <string name="wacleaner_documents_title">المستندات</string>
+    <string name="wacleaner_free">لا توجد ملفات WhatsApp تشغل مساحة تخزين الهاتف</string>
+    <string name="wacleaner_hint">تنظيف ملفات WhatsApp غير المستخدمة</string>
+    <string name="wacleaner_home_desc">تم فحص ملفات WhatsApp</string>
+    <string name="wacleaner_images_hint">تنظيف الصور نادرة الاستخدام</string>
+    <string name="wacleaner_images_title">الصور</string>
+    <string name="wacleaner_junk_button">تم التنظيف</string>
+    <string name="wacleaner_junk_hint">لا يشمل الرسائل</string>
+    <string name="wacleaner_notification_hint2">اضغط لتنظيف الملفات غير المرغوب فيها</string>
+    <string name="wacleaner_scanning_text">جارٍ فحص استخدام WhatsApp...</string>
+    <string name="wacleaner_stickers_hint">تنظيف الملصقات قليلة الاستخدام</string>
+    <string name="wacleaner_stickers_title">ملصقات</string>
+    <string name="wacleaner_title">منظف WhatsApp</string>
+    <string name="wacleaner_videos_hint">تنظيف مقاطع الفيديو التي تمت مشاهدتها</string>
+    <string name="wacleaner_voice_hint">تنظيف الملاحظات الصوتية نادرة الاستخدام</string>
+    <string name="wacleaner_voice_title">ملاحظات صوتية</string>
+    <string name="wait_applying_curator">جارٍ التقديم على منسّق Snaptube، يرجى الانتظار…</string>
+    <string name="wait_loading">جارٍ تحميل معرّف البيانات، يُرجى الانتظار…</string>
+    <string name="wait_muxing">جارٍ الدمج...</string>
+    <string name="watch_ad_to_download">شاهد إعلانًا للتنزيل</string>
+    <string name="watch_full_status_you_want_to_download">شاهد الحالة كاملة التي تريد تنزيلها</string>
+    <string name="watch_status_you_want_to_save">شاهد الحالة التي تريد حفظها</string>
+    <string name="webview_playlist_guide_description">"يمكنك الآن تنزيل كل ما يلي من حسابك على YouTube مجانًا:
+
+1. السجل
+2. قوائم التشغيل
+3. فيديوهاتي
+4. المشاهدة لاحقًا
+"</string>
+    <string name="webview_playlist_guide_title">تم تفعيل التنزيل المجمع!</string>
+    <string name="whatsapp_clean_hint">نظّف ملفات واتساب نادرة الاستخدام</string>
+    <string name="whatsapp_clean_title">تنظيف WhatsApp</string>
+    <string name="whatsapp_number_or_email">%s رقم أو بريد إلكتروني</string>
+    <string name="whatsapp_status_open">افتح حالة WhatsApp</string>
+    <string name="whatsapp_status_saver">منزل حالات WhatsApp</string>
+    <string name="whatsapp_status_saver_new">%s أداة حفظ الحالة</string>
+    <string name="wifi_autoplay">التشغيل التلقائي عبر Wi‑Fi فقط</string>
+    <string name="wifi_autoplay_detail">تشغيل الحالة تلقائيًا عبر Wi‑Fi فقط</string>
+    <string name="yes">نعم</string>
+    <string name="yesterday">أمس</string>
+    <string name="you_copied">%s الذي نسخته</string>
+    <string name="your_feedback_have_new_reply">لدى ملاحظاتك رد جديد</string>
+    <string name="youtube_hint_empty_channel">سجّل الدخول لرؤية اقتراحات القنوات من YouTube</string>
+    <string name="youtube_hint_logout_subscription">سجّل الدخول لرؤية تحديثات قنوات YouTube المفضلة لديك</string>
+    <string name="youtube_link">رابط YouTube</string>
+    <string name="youtube_menu_history">السجل</string>
+    <string name="youtube_menu_playlist">قوائم التشغيل</string>
+    <string name="youtube_menu_watch_later">المشاهدة لاحقًا</string>
+    <string name="youtube_sign_in">تسجيل الدخول</string>
+    <string name="youtube_sign_in_hint_desc_4">اشترك في القنوات الجديدة</string>
+    <string name="youtube_sign_in_with_description">احصل على جميع ميزات YouTube على Snaptube</string>
+    <string name="youtube_sign_out">تسجيل الخروج</string>
+    <string name="youtube_switch_account">تبديل الحساب</string>
+    <string name="youtube_wait_loading_hint">العملية قيد التنفيذ، يرجى الانتظار…</string>
+    <string name="yt_extract_fail_sign_in">قد يكون هذا الفيديو خاصًا أو غير مناسب. سجّل الدخول إلى YouTube لمتابعة التنزيل.</string>
+    <string name="tools_bar_tittle">شريط الأدوات</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="vault_private_download_tittle">تنزيل خاص</string>
+</resources>

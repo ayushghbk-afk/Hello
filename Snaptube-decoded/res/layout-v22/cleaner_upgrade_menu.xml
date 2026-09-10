@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ll_upgrade" android:background="@drawable/bg_corner_12_white" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:paddingHorizontal="4.0dip">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_animation" android:layout_width="16.0dip" android:layout_height="16.0dip" app:lottie_autoPlay="true" app:lottie_rawRes="@raw/animation_clean_home_cleaner_guide" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/text_primary_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/upgrade" android:layout_marginStart="4.0dip" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+</FrameLayout>

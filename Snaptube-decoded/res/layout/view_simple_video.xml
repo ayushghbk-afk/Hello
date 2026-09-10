@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="24.0dip" app:cardElevation="0.0dip">
+        <com.google.android.exoplayer2.ui.PlayerView android:id="@id/player_view" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:surface_type="texture_view" />
+    </androidx.cardview.widget.CardView>
+    <com.snaptube.mixed_list.widget.FixedAspectRatioFrameLayout android:id="@id/fl_mask" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.snaptube.ui.PreviewImageView android:layout_gravity="center" android:id="@id/gallery_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <ImageView android:layout_gravity="center" android:id="@id/play_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:srcCompat="@drawable/ic_play_filled" />
+</merge>

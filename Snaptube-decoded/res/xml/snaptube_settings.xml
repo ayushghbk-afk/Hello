@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="setting_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snaptube.premium.views.SettingPreferenceCategory android:layout="@layout/preference_settings_title" android:title="@string/general" android:selectable="false" />
+    <com.snaptube.premium.views.SettingCompatSvgPreference android:icon="@drawable/ic_download" android:layout="@layout/preference_settings" android:title="@string/setting_category_download" android:key="download_settings" />
+    <com.snaptube.premium.views.SettingCompatSvgPreference android:icon="@drawable/ic_notification" android:layout="@layout/preference_settings" android:title="@string/settings_notifications" android:key="setting_enable_push" />
+    <com.snaptube.premium.views.SettingCompatSvgPreference android:icon="@drawable/ic_theme_dark" android:layout="@layout/preference_settings" android:title="@string/theme" android:key="setting_night_mode" android:defaultValue="false" />
+    <com.snaptube.premium.views.SettingPreferenceCategory android:layout="@layout/preference_settings_title" android:title="@string/download_tools" android:selectable="false" />
+    <com.snaptube.premium.views.SettingCompatSvgPreference android:icon="@drawable/ic_recover_deleted_files" android:layout="@layout/preference_settings" android:title="@string/recover_deleted_files_title" android:key="recover_deleted_files_settings" />
+    <com.snaptube.premium.views.SettingSummaryIconPreference android:icon="@drawable/ic_whatsapp" android:layout="@layout/preference_settings_summary_icon" android:title="@string/whatsapp_status_saver" android:key="whatsapp_status_saver" />
+    <com.snaptube.premium.views.SettingCompatSvgPreference android:icon="@drawable/ic_lock" android:layout="@layout/preference_settings" android:title="@string/label_vault" android:key="vault_settings" />
+    <com.snaptube.premium.views.SettingPreferenceCategory android:layout="@layout/preference_settings_title" android:title="@string/phone_clean_title" android:selectable="false" />
+    <com.snaptube.premium.views.SettingSummaryIconPreference android:icon="@drawable/ic_cleaner" android:layout="@layout/preference_settings_summary_icon" android:title="@string/clean_end_title" android:key="clean_junk" android:defaultValue="false" />
+    <com.snaptube.premium.views.SettingSummaryIconPreference android:icon="@drawable/ic_boost" android:layout="@layout/preference_settings_summary_icon" android:title="@string/clean_home_ram_boost" android:key="clean_boost" />
+    <com.snaptube.premium.views.SettingSummaryIconPreference android:icon="@drawable/ic_battery" android:layout="@layout/preference_settings_summary_icon" android:title="@string/battery_saver" android:key="clean_battery_saver" />
+    <com.snaptube.premium.views.SettingSummaryIconPreference android:icon="@drawable/ic_file" android:layout="@layout/preference_settings_summary_icon" android:title="@string/large_files_clean_title" android:key="clean_large_files" />
+    <com.snaptube.premium.views.SettingSummaryIconPreference android:icon="@drawable/ic_recycle_bin" android:layout="@layout/preference_settings_summary_icon" android:title="@string/trash_clean" android:key="clean_trash" />
+    <com.snaptube.premium.views.SettingSummaryIconPreference android:icon="@drawable/ic_whatsapp" android:layout="@layout/preference_settings_summary_icon" android:title="@string/whatsapp_clean_title" android:key="clean_whatsapp" />
+    <com.snaptube.premium.views.SettingSummaryIconPreference android:icon="@drawable/ic_image" android:layout="@layout/preference_settings_summary_icon" android:title="@string/photo_clean" android:key="photo_clean" />
+    <com.snaptube.premium.views.SettingSummaryIconPreference android:icon="@drawable/ic_appmanager" android:layout="@layout/preference_settings_summary_icon" android:title="@string/app_uninstaller_title" android:key="clean_app_uninstaller" />
+    <com.snaptube.premium.views.SettingPreferenceCategory android:layout="@layout/preference_settings_title" android:title="@string/info_title" android:selectable="false" />
+    <com.snaptube.premium.views.SettingCompatSvgPreference android:icon="@drawable/ic_account" android:layout="@layout/preference_settings" android:title="@string/title_account" android:key="setting_account" />
+    <com.snaptube.premium.views.SettingCompatSvgPreference android:icon="@drawable/ic_website" android:layout="@layout/preference_settings" android:title="@string/language" android:key="setting_language_of_snaptube" />
+    <com.snaptube.premium.views.SettingSummaryIconPreference android:icon="@drawable/ic_feedback" android:layout="@layout/preference_settings_summary_icon" android:title="@string/setting_category_feedback" android:key="setting_feedback" />
+    <com.snaptube.premium.views.SettingCompatSvgPreference android:icon="@drawable/ic_share" android:layout="@layout/preference_settings" android:title="@string/drawer_title_share" android:key="setting_share_st" />
+    <com.snaptube.premium.views.SettingCompatSvgPreference android:icon="@drawable/ic_information" android:layout="@layout/preference_settings" android:title="@string/drawer_title_about" android:key="setting_about" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snaptube.premium.views.SettingPreferenceCategory android:layout="@layout/preference_settings_title_secondary" android:title="@string/notification_category_download" android:selectable="false" />
+    <com.snaptube.premium.views.SettingSwitchPreference android:layout="@layout/preference_settings_switch" android:title="@string/download_progress_notifcation" android:key="setting_setting_channel_download" android:summary="@string/setting_download_progress_desc" />
+    <com.snaptube.premium.views.SettingSwitchPreference android:layout="@layout/preference_settings_switch" android:title="@string/download_completed" android:key="setting_setting_channel_download_complete" android:summary="@string/download_completed_subtitle" />
+    <com.snaptube.premium.views.SettingPreferenceCategory android:layout="@layout/preference_settings_divider" android:selectable="false" />
+    <com.snaptube.premium.views.SettingPreferenceCategory android:layout="@layout/preference_settings_title_secondary" android:title="@string/push_notification" android:selectable="false" />
+    <com.snaptube.premium.views.SettingSwitchPreference android:layout="@layout/preference_settings_switch" android:title="@string/recommended_content_notification" android:key="setting_setting_channel_push" android:summary="@string/setting_recommend_content_desc" />
+    <com.snaptube.premium.views.SettingSwitchPreference android:layout="@layout/preference_settings_switch" android:title="@string/setting_updates" android:key="setting_setting_channel_upgrade" android:summary="@string/setting_updates_desc" app:isPreferenceVisible="false" />
+    <com.snaptube.premium.views.SettingSwitchPreference android:layout="@layout/preference_settings_switch" android:title="@string/tool_notification" android:key="setting_setting_channel_cleaner" android:summary="@string/tool_notification_desc" />
+    <com.snaptube.premium.views.SettingSwitchPreference android:layout="@layout/preference_settings_switch" android:title="@string/tools_bar_tittle" android:key="setting_show_music_tools_bar" android:summary="@string/setting_toolbar_desc" android:defaultValue="true" />
+</PreferenceScreen>

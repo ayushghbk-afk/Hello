@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_root_view_container" android:background="@drawable/shape_corner_8dp_bg" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/custom_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/icon" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="10.0dip" android:layout_marginEnd="10.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/content_main" android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" style="@style/Theme.Youtube.Text.Title" />
+        </LinearLayout>
+        <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/content_soft" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.Youtube.Text" />
+        </ScrollView>
+    </LinearLayout>
+    <include layout="@layout/widget_dialog_bottom_bar" />
+</LinearLayout>

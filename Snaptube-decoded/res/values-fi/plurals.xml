@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d kuvaa</item>
+        <item quantity="one">1 kuva</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d videota</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Ladataan %d tehtävää...</item>
+        <item quantity="one">Ladataan 1 tehtävää...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Ikkuna sulkeutuu %1$s sekunnin kuluttua.</item>
+        <item quantity="one">Ikkuna sulkeutuu %1$s sekunnin kuluttua.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Mainoksen voi sulkea %d sekunnin kuluttua</item>
+        <item quantity="one">Mainoksen voi sulkea %d sekunnin kuluttua</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Muista valinta %1$s päivää</item>
+        <item quantity="one">Muista valinta %1$s päivän</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">Ansaitse palkkio %d sekunnissa</item>
+        <item quantity="one">Ansaitse palkkio %d sekunnissa</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Katso %d sekuntia, niin ansaitset palkinnon.</item>
+        <item quantity="one">Katso %d sekunti, niin ansaitset palkinnon.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+</resources>

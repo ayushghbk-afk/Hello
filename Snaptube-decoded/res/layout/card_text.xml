@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/background" android:background="@color/background_block_normal_color" android:paddingLeft="@dimen/card_standard_spacing" android:paddingTop="9.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/card_standard_spacing" android:paddingEnd="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ms.square.android.expandabletextview.ExpandableTextView android:id="@id/expand_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:animAlphaStart="1.0" app:maxCollapsedLines="3">
+        <TextView android:textSize="12.0dip" android:textColor="@color/text_primary_color" android:ellipsize="end" android:id="@id/expandable_text" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageButton android:layout_gravity="center" android:id="@id/expand_collapse" android:background="@android:color/transparent" android:padding="16.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    </com.ms.square.android.expandabletextview.ExpandableTextView>
+</LinearLayout>

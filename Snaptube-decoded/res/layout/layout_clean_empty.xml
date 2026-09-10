@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_empty_img" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/pic_trash" app:tint="@color/gray_soft" />
+    <TextView android:textAppearance="@style/body_regular" android:textColor="@color/content_soft" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_empty_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/no_recently_deleted_file_found" />
+</LinearLayout>

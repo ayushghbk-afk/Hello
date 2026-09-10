@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.snaptube.search.view.SearchSiteLoginGuideView android:id="@id/login_guide" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" app:layout_scrollFlags="scroll" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <ProgressBar android:id="@id/progress" android:visibility="invisible" android:indeterminate="true" android:layout_centerInParent="true" style="@style/progress_circle" />
+    <include android:id="@id/list_no_network_tips_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/no_network_tips_view" />
+</RelativeLayout>

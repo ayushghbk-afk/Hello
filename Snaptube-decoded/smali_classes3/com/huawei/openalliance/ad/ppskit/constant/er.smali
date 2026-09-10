@@ -1,0 +1,9 @@
+.class public interface abstract Lcom/huawei/openalliance/ad/ppskit/constant/er;
+.super Ljava/lang/Object;
+.source ""
+
+
+# static fields
+.field public static final a:Ljava/lang/String; = "android"
+
+.field public static final b:Ljava/lang/String; = "harmonyos"

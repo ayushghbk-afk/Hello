@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d slika</item>
+        <item quantity="one">1 slika</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d videozapisa</item>
+        <item quantity="one">1 videozapis</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Preuzimanje %d zadataka...</item>
+        <item quantity="one">Preuzimanje 1 zadatka...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Prozor se zatvara za %1$s sekundi.</item>
+        <item quantity="one">Prozor se zatvara za %1$s sekundu.</item>
+        <item quantity="few">Prozor se zatvara za %1$s sekunde.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Oglas možete zatvoriti za %d s</item>
+        <item quantity="one">Oglas možete zatvoriti za %d s</item>
+        <item quantity="few">Oglas možete zatvoriti za %d s</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Zapamti odabir za ovoliko dana: %1$s</item>
+        <item quantity="one">Zapamti odabir za %1$s dan</item>
+        <item quantity="few">Zapamti odabir za ovoliko dana: %1$s</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">Osvojite nagradu za %d s</item>
+        <item quantity="one">Osvojite nagradu za %d s</item>
+        <item quantity="few">Osvojite nagradu za %d s</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Gledajte %d s da biste osvojili nagradu.</item>
+        <item quantity="one">Gledajte %d s da biste osvojili nagradu.</item>
+        <item quantity="few">Gledajte %d s da biste osvojili nagradu.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+        <item quantity="few">%1$d s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obavijesti</item>
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">%d nove obavijesti</item>
+    </plurals>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d малюнкаў</item>
+        <item quantity="one">1 выява</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d відэа</item>
+        <item quantity="one">1 відэа</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Спампоўка %d задач...</item>
+        <item quantity="one">Спампоўка 1 задачы...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Акно закрыецца праз %1$s секунд.</item>
+        <item quantity="one">Акно закрыецца праз %1$s секунду.</item>
+        <item quantity="few">Акно закрыецца праз %1$s секунд.</item>
+        <item quantity="many">Акно закрыецца праз %1$s секунд.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Можна закрыць рэкламу праз %d с</item>
+        <item quantity="one">Можна закрыць рэкламу праз %d с</item>
+        <item quantity="few">Можна закрыць рэкламу праз %d с</item>
+        <item quantity="many">Можна закрыць рэкламу праз %d с</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Запомніць выбар на %1$s дзён</item>
+        <item quantity="one">Запомніць выбар на %1$s дзень</item>
+        <item quantity="few">Запомніць выбар на %1$s дні</item>
+        <item quantity="many">Запомніць выбар на %1$s дзён</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">Зарабіць узнагароду можна праз %d с</item>
+        <item quantity="one">Зарабіць узнагароду можна праз %d с</item>
+        <item quantity="few">Зарабіць узнагароду можна праз %d с</item>
+        <item quantity="many">Зарабіць узнагароду можна праз %d с</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Каб зарабіць узнагароду, трэба паглядзець %d с.</item>
+        <item quantity="one">Каб зарабіць узнагароду, трэба паглядзець %d с.</item>
+        <item quantity="few">Каб зарабіць узнагароду, трэба паглядзець %d с.</item>
+        <item quantity="many">Каб зарабіць узнагароду, трэба паглядзець %d с.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d с</item>
+        <item quantity="one">%1$d с</item>
+        <item quantity="few">%1$d с</item>
+        <item quantity="many">%1$d с</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d новага апавяшчэння</item>
+        <item quantity="one">%d новае апавяшчэнне</item>
+        <item quantity="few">%d новыя апавяшчэнні</item>
+        <item quantity="many">%d новых апавяшчэнняў</item>
+    </plurals>
+</resources>

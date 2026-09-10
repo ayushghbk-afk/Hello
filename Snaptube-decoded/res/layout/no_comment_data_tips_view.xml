@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="80.0dip" android:layout_height="80.0dip" app:srcCompat="@drawable/ic_comment" app:tint="@color/gray_soft" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/content_soft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/no_comments_yet" style="@style/body_regular" />
+</LinearLayout>

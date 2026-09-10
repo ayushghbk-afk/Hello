@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/playerContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.snaptube.premium.behavior.FloatingVideoBehavior">
+        <com.snaptube.playerv2.views.AdPlaybackView android:id="@id/player_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/play_btn" android:visibility="gone" android:clickable="false" android:layout_width="60.0dip" android:layout_height="60.0dip" android:alpha="0.6" app:srcCompat="@drawable/ic_play_filled" />
+</FrameLayout>

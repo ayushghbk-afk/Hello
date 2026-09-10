@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snaptube.premium.views.ContentCardView android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/card_item_my_thing_video_height" layout="@layout/item_downloaded_file" />
+</com.snaptube.premium.views.ContentCardView>

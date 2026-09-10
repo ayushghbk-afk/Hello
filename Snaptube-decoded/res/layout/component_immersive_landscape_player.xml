@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/playerContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snaptube.premium.views.playback.ImmersiveLandscapePlaybackView android:id="@id/player_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/layout_play_ended" android:layout="@layout/view_play_end_ad" android:inflatedId="@id/layout_play_ended" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/layout_network_warning" android:layout="@layout/player_mobile_network_overlay" android:inflatedId="@id/layout_network_warning" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

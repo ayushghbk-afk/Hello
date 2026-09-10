@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="66.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/round_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/bg_layer" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.phoenix.view.button.SubActionButton android:id="@id/sub_action_button" android:layout_marginEnd="0.0dip" app:always_show_as_action="false" app:layout_constraintBottom_toBottomOf="@id/round_icon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/round_icon" style="@style/Theme.Youtube.Icon.marginsEnd" />
+    <ImageView android:id="@id/local_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="0.0dip" app:layout_constraintBottom_toBottomOf="@id/round_icon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/round_icon" />
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/round_icon" app:layout_constraintEnd_toStartOf="@id/local_icon" app:layout_constraintStart_toEndOf="@id/round_icon" app:layout_constraintTop_toTopOf="@id/round_icon">
+        <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:minLines="1" style="@style/card_title_short_video" />
+        <TextView android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:textDirection="ltr" style="@style/card_sub_title" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

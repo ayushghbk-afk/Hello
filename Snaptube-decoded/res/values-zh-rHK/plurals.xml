@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d 張圖片</item>
+        <item quantity="one">1 張圖片</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d 個影片</item>
+        <item quantity="one">1 個影片</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">正在下載 %d 個任務...</item>
+        <item quantity="one">正在下載 1 個任務...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">%1$s 秒後自動略過</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">%d 秒後可關閉廣告</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">%1$s 天內不再提示</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">%d 秒後領取獎勵</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">觀看影片至 %d 秒方可獲取獎勵</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 個新通知</item>
+        <item quantity="one">%d 個新通知</item>
+    </plurals>
+</resources>

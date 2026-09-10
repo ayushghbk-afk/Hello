@@ -1,0 +1,554 @@
+.class public final Lcom/huawei/hms/ads/lite/R$id;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/hms/ads/lite/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "id"
+.end annotation
+
+
+# static fields
+.field public static final accessibility_action_clickable_span:I = 0x7f090022
+
+.field public static final accessibility_custom_action_0:I = 0x7f090023
+
+.field public static final accessibility_custom_action_1:I = 0x7f090024
+
+.field public static final accessibility_custom_action_10:I = 0x7f090025
+
+.field public static final accessibility_custom_action_11:I = 0x7f090026
+
+.field public static final accessibility_custom_action_12:I = 0x7f090027
+
+.field public static final accessibility_custom_action_13:I = 0x7f090028
+
+.field public static final accessibility_custom_action_14:I = 0x7f090029
+
+.field public static final accessibility_custom_action_15:I = 0x7f09002a
+
+.field public static final accessibility_custom_action_16:I = 0x7f09002b
+
+.field public static final accessibility_custom_action_17:I = 0x7f09002c
+
+.field public static final accessibility_custom_action_18:I = 0x7f09002d
+
+.field public static final accessibility_custom_action_19:I = 0x7f09002e
+
+.field public static final accessibility_custom_action_2:I = 0x7f09002f
+
+.field public static final accessibility_custom_action_20:I = 0x7f090030
+
+.field public static final accessibility_custom_action_21:I = 0x7f090031
+
+.field public static final accessibility_custom_action_22:I = 0x7f090032
+
+.field public static final accessibility_custom_action_23:I = 0x7f090033
+
+.field public static final accessibility_custom_action_24:I = 0x7f090034
+
+.field public static final accessibility_custom_action_25:I = 0x7f090035
+
+.field public static final accessibility_custom_action_26:I = 0x7f090036
+
+.field public static final accessibility_custom_action_27:I = 0x7f090037
+
+.field public static final accessibility_custom_action_28:I = 0x7f090038
+
+.field public static final accessibility_custom_action_29:I = 0x7f090039
+
+.field public static final accessibility_custom_action_3:I = 0x7f09003a
+
+.field public static final accessibility_custom_action_30:I = 0x7f09003b
+
+.field public static final accessibility_custom_action_31:I = 0x7f09003c
+
+.field public static final accessibility_custom_action_4:I = 0x7f09003d
+
+.field public static final accessibility_custom_action_5:I = 0x7f09003e
+
+.field public static final accessibility_custom_action_6:I = 0x7f09003f
+
+.field public static final accessibility_custom_action_7:I = 0x7f090040
+
+.field public static final accessibility_custom_action_8:I = 0x7f090041
+
+.field public static final accessibility_custom_action_9:I = 0x7f090042
+
+.field public static final action_container:I = 0x7f090051
+
+.field public static final action_divider:I = 0x7f090054
+
+.field public static final action_image:I = 0x7f090056
+
+.field public static final action_text:I = 0x7f090089
+
+.field public static final actions:I = 0x7f09008e
+
+.field public static final anchor_view:I = 0x7f0900cc
+
+.field public static final async:I = 0x7f0900fb
+
+.field public static final blocking:I = 0x7f090124
+
+.field public static final bottom:I = 0x7f09012d
+
+.field public static final bottom_advertiser_iv:I = 0x7f09012f
+
+.field public static final bottom_advertiser_ll:I = 0x7f090130
+
+.field public static final bottom_advertiser_view:I = 0x7f090131
+
+.field public static final bottom_compliance_iv:I = 0x7f090134
+
+.field public static final bottom_compliance_ll:I = 0x7f090135
+
+.field public static final bottom_compliance_view:I = 0x7f090136
+
+.field public static final bottom_dsa_iv:I = 0x7f09013b
+
+.field public static final bottom_dsa_ll:I = 0x7f09013c
+
+.field public static final bottom_dsa_view:I = 0x7f09013d
+
+.field public static final bottom_feedback_iv:I = 0x7f09013e
+
+.field public static final bottom_feedback_ll:I = 0x7f09013f
+
+.field public static final bottom_feedback_view:I = 0x7f090140
+
+.field public static final browser_actions_header_text:I = 0x7f09014a
+
+.field public static final browser_actions_menu_item_icon:I = 0x7f09014b
+
+.field public static final browser_actions_menu_item_text:I = 0x7f09014c
+
+.field public static final browser_actions_menu_items:I = 0x7f09014d
+
+.field public static final browser_actions_menu_view:I = 0x7f09014e
+
+.field public static final chronometer:I = 0x7f0901b0
+
+.field public static final complain_extra_area:I = 0x7f0901f7
+
+.field public static final complain_icon:I = 0x7f0901f8
+
+.field public static final complain_line:I = 0x7f0901f9
+
+.field public static final complain_tv:I = 0x7f0901fa
+
+.field public static final compliance_activity_root:I = 0x7f0901fe
+
+.field public static final compliance_anchor_view:I = 0x7f0901ff
+
+.field public static final compliance_icon:I = 0x7f090200
+
+.field public static final compliance_icon_banner:I = 0x7f090201
+
+.field public static final compliance_info:I = 0x7f090202
+
+.field public static final compliance_scrollview:I = 0x7f090203
+
+.field public static final compliance_view_root:I = 0x7f090204
+
+.field public static final content_layout:I = 0x7f090211
+
+.field public static final custom_ad_bg_layout:I = 0x7f090242
+
+.field public static final custom_ad_bg_layout_container:I = 0x7f090243
+
+.field public static final dialog_button:I = 0x7f09027b
+
+.field public static final divider:I = 0x7f090286
+
+.field public static final dom_dsa_view_root:I = 0x7f09028e
+
+.field public static final dsa_extra_area:I = 0x7f0902b9
+
+.field public static final dsa_icon:I = 0x7f0902ba
+
+.field public static final dsa_line:I = 0x7f0902bb
+
+.field public static final dsa_right_arrow:I = 0x7f0902bc
+
+.field public static final dsa_scrollview:I = 0x7f0902bd
+
+.field public static final dsa_tv:I = 0x7f0902be
+
+.field public static final feedback_activity_root:I = 0x7f09032f
+
+.field public static final feedback_anchor_view:I = 0x7f090330
+
+.field public static final feedback_negative_flv:I = 0x7f090332
+
+.field public static final feedback_negative_ll:I = 0x7f090333
+
+.field public static final feedback_negative_tv:I = 0x7f090334
+
+.field public static final feedback_positive_flv:I = 0x7f090335
+
+.field public static final feedback_positive_ll:I = 0x7f090336
+
+.field public static final feedback_positive_tv:I = 0x7f090337
+
+.field public static final feedback_scrollview:I = 0x7f090338
+
+.field public static final feedback_view_root:I = 0x7f090339
+
+.field public static final feedback_viewstub:I = 0x7f09033a
+
+.field public static final forever:I = 0x7f09038b
+
+.field public static final haid_advertiser_info_dialog_root:I = 0x7f0903c4
+
+.field public static final haid_down_btn_progress:I = 0x7f0903c5
+
+.field public static final haid_transparency_dialog_root:I = 0x7f0903c6
+
+.field public static final hiad_ad_jump_text:I = 0x7f0903d8
+
+.field public static final hiad_ad_label:I = 0x7f0903d9
+
+.field public static final hiad_ad_label_wls:I = 0x7f0903da
+
+.field public static final hiad_ad_source:I = 0x7f0903db
+
+.field public static final hiad_ad_source_wls:I = 0x7f0903dc
+
+.field public static final hiad_ar_group:I = 0x7f0903e4
+
+.field public static final hiad_ar_main_image:I = 0x7f0903e7
+
+.field public static final hiad_arrow:I = 0x7f0903e8
+
+.field public static final hiad_arrow_layout:I = 0x7f0903e9
+
+.field public static final hiad_banner_ad:I = 0x7f0903ea
+
+.field public static final hiad_banner_close_button:I = 0x7f0903eb
+
+.field public static final hiad_banner_image_1:I = 0x7f0903ec
+
+.field public static final hiad_banner_image_2:I = 0x7f0903ed
+
+.field public static final hiad_banner_layout_1:I = 0x7f0903ee
+
+.field public static final hiad_banner_layout_2:I = 0x7f0903ef
+
+.field public static final hiad_btn_non_wifi_play:I = 0x7f0903f0
+
+.field public static final hiad_btn_play_or_pause:I = 0x7f0903f1
+
+.field public static final hiad_btn_skip:I = 0x7f0903f2
+
+.field public static final hiad_cb_sound:I = 0x7f0903f3
+
+.field public static final hiad_choice_view:I = 0x7f0903f4
+
+.field public static final hiad_choices_icon:I = 0x7f0903f5
+
+.field public static final hiad_click_arrow:I = 0x7f0903f8
+
+.field public static final hiad_click_arrow_layout:I = 0x7f0903f9
+
+.field public static final hiad_click_phone_jpg:I = 0x7f0903fc
+
+.field public static final hiad_click_swipe_desc:I = 0x7f0903fd
+
+.field public static final hiad_click_swipe_string:I = 0x7f0903fe
+
+.field public static final hiad_click_twist_desc:I = 0x7f0903ff
+
+.field public static final hiad_click_twist_string:I = 0x7f090400
+
+.field public static final hiad_closed_hint:I = 0x7f090401
+
+.field public static final hiad_count_progress:I = 0x7f090402
+
+.field public static final hiad_feedback_horizional_ll_wrapper:I = 0x7f090406
+
+.field public static final hiad_feedback_horizontal_List:I = 0x7f090407
+
+.field public static final hiad_feedback_rl:I = 0x7f090408
+
+.field public static final hiad_feedback_vertical_feedback_List:I = 0x7f090409
+
+.field public static final hiad_feedback_vertical_ll_wrapper:I = 0x7f09040a
+
+.field public static final hiad_feedback_wrapper:I = 0x7f09040b
+
+.field public static final hiad_full_logo_region:I = 0x7f09040c
+
+.field public static final hiad_full_mode_logo:I = 0x7f09040d
+
+.field public static final hiad_id_video_surface_view:I = 0x7f090412
+
+.field public static final hiad_id_video_texture_view:I = 0x7f090413
+
+.field public static final hiad_id_video_view:I = 0x7f090414
+
+.field public static final hiad_iv_preview_video:I = 0x7f090419
+
+.field public static final hiad_linked_video_view:I = 0x7f090433
+
+.field public static final hiad_loading_dialog_content_tv:I = 0x7f090434
+
+.field public static final hiad_logo_container:I = 0x7f090435
+
+.field public static final hiad_logo_stub:I = 0x7f090436
+
+.field public static final hiad_media_name:I = 0x7f090437
+
+.field public static final hiad_mute_icon:I = 0x7f09043d
+
+.field public static final hiad_native_video_control_panel:I = 0x7f09043e
+
+.field public static final hiad_native_video_ctrl_panel:I = 0x7f09043f
+
+.field public static final hiad_non_wifi_alert_msg:I = 0x7f090440
+
+.field public static final hiad_open_app_nomore_remind:I = 0x7f090441
+
+.field public static final hiad_open_app_tips:I = 0x7f090442
+
+.field public static final hiad_pb_buffering:I = 0x7f090443
+
+.field public static final hiad_permissions_dialog_child_tv:I = 0x7f090444
+
+.field public static final hiad_permissions_dialog_content_lv:I = 0x7f090445
+
+.field public static final hiad_permissions_dialog_content_title_tv:I = 0x7f090446
+
+.field public static final hiad_permissions_dialog_parent_tv:I = 0x7f090447
+
+.field public static final hiad_phone_jpg:I = 0x7f090448
+
+.field public static final hiad_pro_arrow:I = 0x7f090449
+
+.field public static final hiad_pro_desc:I = 0x7f09044a
+
+.field public static final hiad_pro_desc_layout:I = 0x7f09044b
+
+.field public static final hiad_pro_layout:I = 0x7f09044c
+
+.field public static final hiad_rl_non_wifi_alert:I = 0x7f090450
+
+.field public static final hiad_scanning_view:I = 0x7f090451
+
+.field public static final hiad_skip_text:I = 0x7f090452
+
+.field public static final hiad_splash_pro_view:I = 0x7f090453
+
+.field public static final hiad_splash_swipe_click_view:I = 0x7f090454
+
+.field public static final hiad_splash_swipe_view:I = 0x7f090455
+
+.field public static final hiad_splash_twist_click_view:I = 0x7f090456
+
+.field public static final hiad_splash_twist_view:I = 0x7f090457
+
+.field public static final hiad_swipe_click_layout:I = 0x7f090458
+
+.field public static final hiad_swipe_desc:I = 0x7f090459
+
+.field public static final hiad_swipe_layout:I = 0x7f09045a
+
+.field public static final hiad_swipe_string:I = 0x7f09045b
+
+.field public static final hiad_twist_click_layout:I = 0x7f09045d
+
+.field public static final hiad_twist_desc:I = 0x7f09045e
+
+.field public static final hiad_twist_layout:I = 0x7f09045f
+
+.field public static final hiad_twist_string:I = 0x7f090460
+
+.field public static final hiad_view_adchoice:I = 0x7f090461
+
+.field public static final hiad_view_adchoice_wrapper:I = 0x7f090462
+
+.field public static final hiad_whythisad_horizional_ll_wrapper:I = 0x7f090465
+
+.field public static final hiad_whythisad_horizontal_List:I = 0x7f090466
+
+.field public static final hiad_whythisad_vertical_feedback_List:I = 0x7f090467
+
+.field public static final hiad_whythisad_vertical_ll_wrapper:I = 0x7f090468
+
+.field public static final hiad_whythisad_wrapper:I = 0x7f090469
+
+.field public static final icon:I = 0x7f09067c
+
+.field public static final icon_group:I = 0x7f090491
+
+.field public static final icon_more:I = 0x7f090494
+
+.field public static final icon_qq:I = 0x7f090496
+
+.field public static final icon_qq_qzone:I = 0x7f090497
+
+.field public static final icon_weLink:I = 0x7f09049b
+
+.field public static final icon_weibo:I = 0x7f09049c
+
+.field public static final icon_wx:I = 0x7f09049d
+
+.field public static final icon_wx_moments:I = 0x7f09049e
+
+.field public static final info:I = 0x7f0904b1
+
+.field public static final italic:I = 0x7f0904d9
+
+.field public static final iv_ad_content:I = 0x7f0904e8
+
+.field public static final label_title:I = 0x7f0905d0
+
+.field public static final layoutRadius:I = 0x7f0905da
+
+.field public static final layoutScanImage:I = 0x7f0905db
+
+.field public static final left:I = 0x7f090605
+
+.field public static final line1:I = 0x7f090611
+
+.field public static final line3:I = 0x7f090613
+
+.field public static final loading_progress:I = 0x7f090679
+
+.field public static final margin_view:I = 0x7f0906aa
+
+.field public static final normal:I = 0x7f090840
+
+.field public static final notification_background:I = 0x7f090843
+
+.field public static final notification_main_column:I = 0x7f090848
+
+.field public static final notification_main_column_container:I = 0x7f090849
+
+.field public static final right:I = 0x7f090933
+
+.field public static final right_arrow:I = 0x7f090935
+
+.field public static final right_icon:I = 0x7f090936
+
+.field public static final right_side:I = 0x7f090938
+
+.field public static final rl_splash_container:I = 0x7f090946
+
+.field public static final scanning_view:I = 0x7f090964
+
+.field public static final scroll_view_text_view:I = 0x7f09096f
+
+.field public static final share_activity_root:I = 0x7f0909d0
+
+.field public static final share_bg:I = 0x7f0909d5
+
+.field public static final share_more:I = 0x7f0909e3
+
+.field public static final share_qq:I = 0x7f0909e6
+
+.field public static final share_qq_qzone:I = 0x7f0909e7
+
+.field public static final share_weLink:I = 0x7f0909eb
+
+.field public static final share_weibo:I = 0x7f0909ec
+
+.field public static final share_wx:I = 0x7f0909ef
+
+.field public static final share_wx_moments:I = 0x7f0909f0
+
+.field public static final splash_ad_source_view:I = 0x7f090a31
+
+.field public static final splash_feedback_btn:I = 0x7f090a34
+
+.field public static final splash_feedback_line:I = 0x7f090a35
+
+.field public static final splash_feedback_right_arrow:I = 0x7f090a36
+
+.field public static final splash_feedback_tv:I = 0x7f090a37
+
+.field public static final splash_why_this_ad:I = 0x7f090a39
+
+.field public static final splash_wls_view:I = 0x7f090a3a
+
+.field public static final swipe_click_area:I = 0x7f090a7d
+
+.field public static final tag_accessibility_actions:I = 0x7f090a91
+
+.field public static final tag_accessibility_clickable_spans:I = 0x7f090a92
+
+.field public static final tag_accessibility_heading:I = 0x7f090a93
+
+.field public static final tag_accessibility_pane_title:I = 0x7f090a94
+
+.field public static final tag_screen_reader_focusable:I = 0x7f090a9b
+
+.field public static final tag_transition_group:I = 0x7f090a9d
+
+.field public static final tag_unhandled_key_event_manager:I = 0x7f090a9e
+
+.field public static final tag_unhandled_key_listeners:I = 0x7f090a9f
+
+.field public static final text:I = 0x7f090aa8
+
+.field public static final text2:I = 0x7f090aa9
+
+.field public static final time:I = 0x7f090acb
+
+.field public static final title:I = 0x7f090b8f
+
+.field public static final top:I = 0x7f090af6
+
+.field public static final top_advertiser_iv:I = 0x7f090af9
+
+.field public static final top_advertiser_ll:I = 0x7f090afa
+
+.field public static final top_advertiser_view:I = 0x7f090afb
+
+.field public static final top_compliance_iv:I = 0x7f090afe
+
+.field public static final top_compliance_ll:I = 0x7f090aff
+
+.field public static final top_compliance_view:I = 0x7f090b00
+
+.field public static final top_dsa_iv:I = 0x7f090b03
+
+.field public static final top_dsa_ll:I = 0x7f090b04
+
+.field public static final top_dsa_view:I = 0x7f090b05
+
+.field public static final top_feedback_iv:I = 0x7f090b06
+
+.field public static final top_feedback_ll:I = 0x7f090b07
+
+.field public static final top_feedback_view:I = 0x7f090b08
+
+.field public static final twist_click_area:I = 0x7f090c7c
+
+.field public static final why_this_ad_btn:I = 0x7f090d13
+
+.field public static final why_this_ad_line:I = 0x7f090d14
+
+.field public static final why_this_ad_right_arrow:I = 0x7f090d15
+
+.field public static final why_this_ad_tv:I = 0x7f090d16
+
+.field public static final window_image_content:I = 0x7f090d19
+
+.field public static final window_image_progress:I = 0x7f090d1a
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

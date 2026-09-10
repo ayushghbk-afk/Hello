@@ -1,0 +1,34 @@
+.class public final synthetic Lo/nec;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Ljava/util/Comparator;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/dayuwuxian/clean/bean/SpecialItem;
+
+    check-cast p2, Lcom/dayuwuxian/clean/bean/SpecialItem;
+
+    invoke-static {p1, p2}, Lcom/dayuwuxian/clean/ui/specailclean/WhatsAppListFragment;->v3(Lcom/dayuwuxian/clean/bean/SpecialItem;Lcom/dayuwuxian/clean/bean/SpecialItem;)I
+
+    move-result p1
+
+    return p1
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snaptube.premium.views.SettingSwitchPreference android:layout="@layout/preference_settings_switch" android:title="@string/pic_in_pic_mode" android:key="setting_enable_window_play" android:summary="@string/setting_floating_window_desc" android:defaultValue="false" />
+    <com.snaptube.premium.views.SettingSwitchPreference android:layout="@layout/preference_settings_switch" android:title="@string/setting_music_lockscreen" android:key="setting_experiments_music_locker" android:summary="@string/setting_music_lockscreen_desc" android:defaultValue="true" />
+    <com.snaptube.premium.views.SettingSwitchPreference android:layout="@layout/preference_settings_switch" android:title="@string/wifi_autoplay" android:key="setting_wifi_autoplay" android:summary="@string/wifi_autoplay_detail" android:defaultValue="false" />
+</PreferenceScreen>

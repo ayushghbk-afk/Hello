@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_indicator" android:src="@drawable/shape_dropdown_indicator" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ST.DropdownIndicator" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_primary_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/player_video_popup_speed_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_indicator" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_speed" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/play_guide_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.snaptube.premium.localplay.view.SpeedItemView android:icon="@drawable/ic_speed_percent50" android:id="@id/speed_view_percent_50" android:layout_marginTop="24.0dip" android:title="@string/video_play_speed_slow_half" style="@style/SpeedItemView" />
+            <com.snaptube.premium.localplay.view.SpeedItemView android:icon="@drawable/ic_speed_percent100" android:id="@id/speed_view_percent_100" android:layout_marginTop="16.0dip" android:title="@string/video_play_speed_normal" style="@style/SpeedItemView" />
+            <com.snaptube.premium.localplay.view.SpeedItemView android:icon="@drawable/ic_speed_percent150" android:id="@id/speed_view_percent_150" android:layout_marginTop="16.0dip" android:title="@string/video_play_speed_fast_half" style="@style/SpeedItemView" />
+            <com.snaptube.premium.localplay.view.SpeedItemView android:icon="@drawable/ic_speed_percent200" android:id="@id/speed_view_percent_200" android:layout_marginTop="16.0dip" android:title="@string/video_play_speed_fast_double" style="@style/SpeedItemView" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.snaptube.premium.preview.guide.view.PlayGuideButton android:id="@id/play_guide_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

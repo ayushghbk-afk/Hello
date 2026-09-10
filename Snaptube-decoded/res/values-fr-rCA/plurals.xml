@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d images</item>
+        <item quantity="one">1 image</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d vidéos</item>
+        <item quantity="one">1 vidéo</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Téléchargement de %d tâches...</item>
+        <item quantity="one">"Téléchargement d'1 tâche..."</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nouvelles notifications</item>
+        <item quantity="one">%d nouvelle notification</item>
+    </plurals>
+</resources>

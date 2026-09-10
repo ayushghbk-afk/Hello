@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/background_block_normal_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/head_portrait" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="80.0dip" android:src="@drawable/bg_layer" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxHeight="80.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" android:layout_marginStart="15.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/text_primary_overlay_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/text_secondary_color" android:ellipsize="end" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

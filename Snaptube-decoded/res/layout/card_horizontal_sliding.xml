@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_standard_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/card_list_header" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/horizontal_sliding_card" android:background="@color/background_block_normal_color" android:paddingLeft="10.0dip" android:paddingBottom="10.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip" />
+</LinearLayout>

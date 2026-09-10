@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="design_layout_snackbar">false</item>
+    <item type="layout" name="hiad_interstitial_half_layout">false</item>
+    <item type="layout" name="hiad_interstitial_layout3">false</item>
+    <item type="layout" name="hiad_interstitial_layout5">false</item>
+    <item type="layout" name="hiad_landing_elderly_friendly_detail_half">false</item>
+    <item type="layout" name="hiad_landing_expand_button_detail_half">false</item>
+    <item type="layout" name="hiad_reward_layout5">false</item>
+    <item type="layout" name="pure_webview_status_view">false</item>
+</resources>

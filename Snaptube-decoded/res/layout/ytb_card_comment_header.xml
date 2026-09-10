@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_middle" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Theme.Youtube.Text.Title" />
+    <com.snaptube.premium.base.ui.DrawableCompatTextView android:gravity="center" android:id="@id/tv_sort" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawablePadding="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toEndOf="@id/tv_title" app:layout_constraintTop_toTopOf="parent" style="@style/Theme.Youtube.Text.Secondary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

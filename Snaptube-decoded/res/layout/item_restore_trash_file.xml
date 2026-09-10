@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="76.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snaptube.premium.files.view.DownloadThumbView android:id="@id/icon_layout" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerVertical="true" app:cardBackgroundColor="@android:color/transparent" />
+    <ImageView android:id="@id/iv_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerVertical="true" app:cardBackgroundColor="@android:color/transparent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/right_arrow" android:layout_toEndOf="@id/icon_layout">
+        <TextView android:textColor="@color/content_main" android:ellipsize="middle" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/body_regular" />
+        <LinearLayout android:id="@id/cl_meta_infos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/tv_title">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_type" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="1.0dip" app:srcCompat="@drawable/ic_music" app:tint="@color/content_soft" />
+            <TextView android:textAppearance="@style/body_regular" android:gravity="center" android:id="@id/tv_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" style="@style/card_sub_title" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_divider_file_size" style="@style/MediaMetaDividerImageView" />
+            <TextView android:textAppearance="@style/body_regular" android:gravity="center_vertical" android:id="@id/tv_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/card_sub_title" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/iv_divider_subtitle" android:visibility="invisible" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/tv_file_size" app:layout_constraintTop_toTopOf="parent" style="@style/MediaMetaDividerImageView" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_subtitle" android:visibility="invisible" android:layout_width="16.0dip" android:layout_height="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/iv_divider_subtitle" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_caption" app:tint="@color/content_soft" />
+        </LinearLayout>
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/right_arrow" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_arrow_right_small" app:tint="@color/content_soft" />
+</RelativeLayout>

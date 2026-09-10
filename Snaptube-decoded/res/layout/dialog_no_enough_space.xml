@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/background_block_normal_color" android:layout_width="280.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/top_banner" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+    <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/top_banner" style="@style/Theme.Youtube.Text.Title" />
+    <TextView android:textSize="@dimen/text_size_large" android:id="@id/content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:text="@string/dialog_no_enough_storage_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/Theme.Youtube.Text.Secondary.Large" />
+    <Button android:id="@id/btn_ok" android:layout_width="232.0dip" android:layout_height="@dimen/default_dialog_button_height" android:layout_marginTop="16.0dip" android:text="@string/ok" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/content" style="@style/Theme.Youtube.Button.Borderless" />
+    <View android:layout_width="1.0dip" android:layout_height="8.0dip" app:layout_constraintTop_toBottomOf="@id/btn_ok" />
+</androidx.constraintlayout.widget.ConstraintLayout>
