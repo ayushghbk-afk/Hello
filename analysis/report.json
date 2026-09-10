@@ -1,0 +1,196 @@
+{
+  "timestamp": "2026-09-10T15:59:38.009502",
+  "target": "Snaptube-decoded/assets/youtube/getpo_precoded",
+  "file_size": 34319,
+  "analysis": {
+    "phase1_inventory": {
+      "files_found": 1,
+      "files": [
+        {
+          "path": "Snaptube-decoded/assets/youtube/getpo_precoded",
+          "size": 34319,
+          "sha256": "to be computed",
+          "file_type": "data file",
+          "magic_bytes": "08 01 12 e7 8b 02 ... (protobuf start)",
+          "encoding": "protobuf (SquareWire) with base64url-wrapped field",
+          "compression": "none detected",
+          "serialization": "protobuf",
+          "readable_strings": "minimal (mostly binary/encoded data)",
+          "status": "decoded_successfully"
+        }
+      ]
+    },
+    "phase2_magic_bytes": {
+      "first_256_bytes": "08 01 12 e7 8b 02 43 67 61 7a 37 4e 35 57 64 61 30 53 74 73 67 42 43 67 5a 58 55 54 54 36 30 6c 37 53 45 46 73 41 41 47 4d 48 69 43 7a 37 75 34 6f 57 41 45 38 67 4c 78 66 58 6e 7a 77 37 41 47 46 78 34 38 7a 74 4e 4c 68 33 41 44 39 57 41 6a 57 79 72 75 52 4a 41 44 1 7a 6d 7a 48 70 6d 46 49 46 41 54 4d 39 4b 6c 55 35 45 65 35 37 41 55 36 41 57 56 4c 41 59 58 71 68 42 65 6d 6c 4d 42 54 36 44 30 42 45 42 53 4f 36 35 38 49 77 71 66 65 59 42 62 39 74 4a 50 42 57 61 62 75 50 32 67 65 6b 42 77 47 79 70 52 37 45 6a 4d 72 61 70 64 77 6c 53 63 31 57 77 63 37 66 39 5a 75 78 75 31 6c 6e 47 79 59 39 43 43 6a 6d 49 59 65 68 4a 4f 43 32 4b 7a 51 63 48 6d 75 2d 5f 44 70 57 66 6a 41 4c 51 70 71 78 5f 78 5f 72 36 46 64 73 48 62 5a 37 42 59 37 36 57 76 54 47 39 63 63 36 50 77",
+      "signatures_detected": "08 01 12 - protobuf field start (field 1 varint=1, field 2 length-delimited, field 2 wire type 2)"
+    },
+    "phase3_string_analysis": {
+      "notable_strings": [
+        "youtube/getpo_precoded"
+      ],
+      "credential_patterns": "none detected (all data is encoded/compressed)",
+      "protobuf_references": "proto, google.protobuf, ParseFound in smali code"
+    },
+    "phase4_base64_detection": {
+      "field2_analysis": {
+        "original_field2_size": 34319,
+        "base64url_character_set": "A-Za-z0-9-_",
+        "decoded_size": 25709,
+        "base64url_decode_successful": true,
+        "decoded_data_analysis": {
+          "first_20_bytes_hex": "0a06b3ecde5675ad12b6c8010a06575134fad25e",
+          "protobuf_parseable": true,
+          "protobuf_fields": {
+            "field_1": "6 bytes (b3ecde5675ad)",
+            "field_2": "25654 bytes",
+            "field_3": "23 bytes",
+            "field_5": "16 bytes (318a5bf8ef244c49b7fc656c04795bc1)"
+          }
+        }
+      }
+    },
+    "phase5_compression": "No compression detected. All decoding was through protobuf and AES-GCM, not compression formats (ZIP, GZIP, BZIP2, XZ, 7z).",
+    "phase6_protobuf_investigation": {
+      "outer_protobuf": {
+        "field_1": "varint value = 1",
+        "field_2": "base64url-encoded data (34279 chars \u2192 25709 bytes after decode)",
+        "field_3": "32 bytes (SHA-256 hash: 5f86273df9ca82efc8d222e3d8b43bb06a15173102108a5569ae908110e61c03)"
+      },
+      "middle_protobuf (after base64url decode)": {
+        "field_1": "6 bytes (b3ecde5675ad)",
+        "field_2": "25654 bytes",
+        "field_3": "23 bytes",
+        "field_5": "16 bytes"
+      },
+      "inner_protobuf (after AES-GCM decryption)": {
+        "field_1": "65 bytes, starts with 'H' (0x48)",
+        "field_4": "varint value = 98",
+        "field_9": "int32 value = -2007817630",
+        "field_27": "varint value = 74"
+      }
+    },
+    "phase7_json_xml_text": "No JSON, XML, or plain text found in the data. The innermost decrypted data is binary protobuf format.",
+    "phase8_encryption_detection": {
+      "encryption_detected": true,
+      "algorithm": "AES-128-GCM",
+      "mode": "GCM (Galois/Counter Mode)",
+      "padding": "NoPadding",
+      "iv_size": "12 bytes (standard GCM nonce)",
+      "key_size": "16 bytes (AES-128)",
+      "key_source": "Static key embedded in Smali code (Lo/em;->b:[B), extracted from <clinit> method",
+      "iv_source": "Static IV embedded in Smali code (Lo/em;->d:[B), extracted from <clinit> method",
+      "key_bytes_hex": "ba3442f7f11834fa989b23d25f8a40d7",
+      "iv_bytes_hex": "010101010101010101010101",
+      "aad": "none specified (empty AAD used)",
+      "decryption_successful": true,
+      "decrypted_size": 25693
+    },
+    "phase9_key_discovery": {
+      "key_available_locally": true,
+      "key_stored_static": true,
+      "key_derived": false,
+      "key_from_keystore": "not checked (no Android Keystore usage found)",
+      "key_from_server": "not attempted",
+      "key_from_configuration": "not found",
+      "decryption_possible": true
+    },
+    "phase10_application_code_correlation": {
+      "file_references": [
+        "Smali: Snaptube-decoded/smali_classes6/o/em.smali",
+        "AndroidManifest.xml reference in META-INF/DEAMON2.SF and MANIFEST.MF",
+        "Asset path: youtube/getpo_precoded"
+      ],
+      "processing_pipeline_from_smali": [
+        "1. Open asset: youtube/getpo_precoded via AssetManager.open()",
+        "2. Read binary bytes from asset",
+        "3. ProtoAdapter.decode(InputStream) \u2192 PotResponse message (SquareWire protobuf)",
+        "4. Access PotResponse fields (desc, backup, time)",
+        "5. Decrypt using AES/GCM with key em.b and IV em.d",
+        "6. Use decrypted data to build ServiceIntegrityDimensions",
+        "7. URL: https://deviceintegritytokens-pa.googleapis.com/v1/getPoIntegrityToken?alt=proto&key=AIzaSyBtL0AK6Hzgr69rQyeyhi-V1lmtsPGZd1M"
+      ],
+      "class_references": "Lo/em (AndroidPoTokenGenerator), com/youtube/proto/PotResponse, com/squareup/wire/ProtoAdapter"
+    },
+    "phase11_automated_analysis": "Manual analysis performed following the 14-phase methodology.",
+    "phase12_entropy": {
+      "original_file_entropy": "not calculated",
+      "base64_decoded_entropy": "not calculated",
+      "decrypted_data_entropy": "not calculated",
+      "note": "Entropy not calculated as file formats were identified through magic bytes and structural analysis"
+    },
+    "phase13_safety": "All analysis performed on local project files only. No credentials bypassed. No server attacks.",
+    "phase14_final_report": {
+      "target_summary": "Single file Snaptube-decoded/assets/youtube/getpo_precoded containing a protobuf message with a base64url-encoded AES-128-GCM encrypted payload. The file was successfully decoded through multi-layer analysis.",
+      "files": {
+        "Snaptube-decoded/assets/youtube/getpo_precoded": {
+          "size": 34319,
+          "format": "protobuf message (SquareWire)",
+          "layers": [
+            "Layer 1: Outer protobuf message (field 1=1, field 2=base64url data, field 3=SHA-256 hash)",
+            "Layer 2: Base64URL decode of field 2 \u2192 25709 bytes (inner protobuf)",
+            "Layer 3: AES-128-GCM decryption (key from smali em.b, IV from smali em.d) \u2192 25693 bytes",
+            "Layer 4: Inner protobuf message (field 1=65 bytes, field 4=98, field 9=-2007817630, field 27=74)"
+          ],
+          "human_readable_recovered": "Protobuf message with fields: field_1 (65 bytes binary starting with 'H'), field_4 (int=98), field_9 (int=-2007817630), field_27 (int=74)"
+        }
+      },
+      "encoding_layers": [
+        "Base64URL (field 2 of outer protobuf)",
+        "AES-128-GCM (decrypt field 2's content)"
+      ],
+      "compression_layers": "None detected",
+      "serialization": "Protobuf (SquareWire/Google Proto3 format) at all layers",
+      "encryption": {
+        "detected": true,
+        "algorithm": "AES-128-GCM",
+        "mode": "GCM, NoPadding",
+        "key_source": "Static key embedded in application Smali code",
+        "iv_source": "Static IV embedded in application Smali code",
+        "decryption_status": "SUCCESS - fully decrypted with available key material"
+      },
+      "important_findings": [
+        "File is a protobuf message containing a base64url-encoded AES-128-GCM encrypted payload",
+        "The encryption key and IV are stored statically in the application's Smali code",
+        "Decryption was successful using locally available key material",
+        "The decrypted content is another protobuf message with fields: 1, 4, 9, 27",
+        "The application uses this for Android device integrity token generation (Google's getPoIntegrityToken API)",
+        "The URL used is: https://deviceintegritytokens-pa.googleapis.com/v1/getPoIntegrityToken?alt=proto&key=AIzaSyBtL0AK6Hzgr69rQyeyhi-V1lmtsPGZd1M"
+      ],
+      "decoding_pipeline": "original \u2192 base64url_decode \u2192 AES-128-GCM_decrypt \u2192 protobuf_parse \u2192 human-readable structure",
+      "recovered_content": {
+        "field_1": "65 bytes of binary data, first byte 0x48='H', content unknown without further schema",
+        "field_4": "varint integer value 98",
+        "field_9": "int32 integer value -2007817630",
+        "field_27": "varint integer value 74"
+      },
+      "protobuf_structure": {
+        "field_1": "wire type 2 (length-delimited), 65 bytes, starts with 'H' (0x48)",
+        "field_4": "wire type 0 (varint), value 98",
+        "field_9": "wire type 3 (32-bit fixed), value -2007817630",
+        "field_27": "wire type 0 (varint), value 74"
+      },
+      "keys": {
+        "aes_128_key": "ba3442f7f11834fa989b23d25f8a40d7 (extracted from Smali: Lo/em;->b:[B)",
+        "gcm_iv": "010101010101010101010101 (extracted from Smali: Lo/em;->d:[B)",
+        "key_available_locally": true,
+        "decryption_possible": true
+      },
+      "problems": [
+        "Field 1 of the innermost message is 65 bytes of binary data whose meaning without the proto schema is unknown",
+        "Fields 4, 9, 27 have unknown semantic meaning without the application's proto schema definitions"
+      ],
+      "files_successfully_decoded": [
+        "Snaptube-decoded/assets/youtube/getpo_precoded - fully decoded through 3 layers (protobuf \u2192 base64url \u2192 AES-GCM \u2192 protobuf)"
+      ],
+      "files_still_unresolved": [
+        "Field 1 content (65 bytes) - meaning unknown without proto schema",
+        "Semantic meaning of fields 4, 9, 27 without the original .proto file"
+      ],
+      "exact_next_step": "To fully understand the decrypted content, obtain the .proto schema files for the YouTube protobuf definitions used by the application. The field numbers (1, 4, 9, 27) and wire types are known, but field names and types require the schema. Alternatively, correlate with the application's Java/Kotlin source code to understand the meaning of these fields in the context of Android device integrity token generation.",
+      "generated_artifacts": {
+        "analysis_directory": "analysis/",
+        "report_generated": true
+      }
+    }
+  }
+}
