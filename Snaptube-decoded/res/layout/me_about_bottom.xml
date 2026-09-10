@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/vg_platform_icon_one" android:background="?selectableItemBackgroundBorderless" style="@style/MeAboutBottomIcon" />
+        <ImageView android:id="@id/vg_platform_icon_two" android:background="?selectableItemBackgroundBorderless" style="@style/MeAboutBottomIcon" />
+        <ImageView android:id="@id/vg_platform_icon_three" android:background="?selectableItemBackgroundBorderless" style="@style/MeAboutBottomIcon" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <TextView android:id="@id/tv_me_about_setting_terms" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="8.0dip" android:text="@string/policies_guidelines" android:layout_marginEnd="8.0dip" style="@style/MeAboutBottomText" />
+        <View android:background="@color/text_accent_blue_color" android:layout_width="1.0dip" android:layout_height="8.0dip" />
+        <TextView android:id="@id/tv_me_about_privacy_policy" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/privacy_policy" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/MeAboutBottomText" />
+        <View android:background="@color/text_accent_blue_color" android:visibility="visible" android:layout_width="1.0dip" android:layout_height="8.0dip" />
+        <TextView android:id="@id/tv_me_about_credits" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/tool_title_credits" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/MeAboutBottomText" />
+    </LinearLayout>
+    <TextView android:id="@id/tv_me_about_community_policy" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_marginTop="4.0dip" android:text="@string/community_policies" style="@style/MeAboutBottomText" />
+    <TextView android:textSize="@dimen/about_dialog_small_text" android:textColor="@color/text_secondary_color" android:id="@id/copy_right_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+</LinearLayout>

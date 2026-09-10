@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/clean_home_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:gravity="center_vertical" android:id="@id/tb_header" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_left" app:titleTextColor="@color/text_primary_color" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_temp_detail_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:layout_constraintTop_toBottomOf="@id/tb_header">
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/text_primary_color" android:id="@id/tv_fragment_whats_app_detail_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/text_secondary_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wacleaner_home_desc" />
+        <com.dayuwuxian.clean.ui.widget.LinearPercentView android:id="@id/lp_fragment_whats_app_detail_percent" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="16.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_round_whats_app_green" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_secondary_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="WhatsApp" android:layout_marginStart="8.0dip" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:src="@drawable/ic_round_whats_app_yellow" android:layout_marginStart="24.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_secondary_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/setting_category_others" android:layout_marginStart="8.0dip" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:src="@drawable/ic_round_whats_app_grey" android:layout_marginStart="24.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_secondary_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/phone_storage" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_fragment_whats_app_detail_display" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_temp_detail_header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

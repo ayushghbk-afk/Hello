@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.hms.ads.nativead.NativeView android:id="@id/ad_huawei_nativeview" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.hms.ads.nativead.MediaView android:id="@id/ad_huawei_mediaview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.huawei.hms.ads.nativead.NativeView>

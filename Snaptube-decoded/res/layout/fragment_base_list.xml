@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/content" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.snaptube.premium.base.ui.StSwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.snaptube.premium.base.ui.StSwipeRefreshLayout>
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/first_loading" android:visibility="gone" android:indeterminate="true" style="@style/progress_circle" />
+    <ViewStub android:id="@id/list_no_network_tips_view" android:inflatedId="@id/list_no_network_tips_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/list_login_expired_view" android:inflatedId="@id/list_login_expired_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/no_data_tips_view" android:inflatedId="@id/no_data_tips_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="start|bottom|center" android:id="@id/layout_left_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="@dimen/back_to_top_margin_bottom" android:layout_marginStart="8.0dip">
+        <ImageView android:id="@id/back_to_top_button" android:paddingTop="8.0dip" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:srcCompat="@drawable/ic_btn_back_to_top" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

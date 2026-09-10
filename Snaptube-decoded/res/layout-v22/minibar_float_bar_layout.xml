@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="start|center" android:id="@id/container" android:background="@drawable/shape_float_bar_start" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="3.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="3.0dip" android:paddingVertical="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center" android:id="@id/iv_cover" android:layout_width="44.0dip" android:layout_height="44.0dip" android:scaleType="centerCrop" app:shapeAppearance="@style/ShapeAppearanceCircle" />
+    <com.snaptube.premium.views.CircularProgressBar android:layout_gravity="center" android:id="@id/cpb" android:layout_width="46.0dip" android:layout_height="46.0dip" app:cpb_background_progressbar_color="@color/transparent" app:cpb_background_progressbar_width="1.0dip" app:cpb_progress_direction="to_right" app:cpb_progress_max="100" app:cpb_progressbar_color="@color/brand_main" app:cpb_progressbar_width="1.0dip" />
+</FrameLayout>

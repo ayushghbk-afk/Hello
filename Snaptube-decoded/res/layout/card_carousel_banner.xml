@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snaptube.premium.base.ui.RoundCornerLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:rc_round_corner="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_layer" android:scaleType="centerCrop" />
+    <View android:id="@id/cover_mask" android:background="@drawable/bg_gradient_bottom_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true" />
+</com.snaptube.premium.base.ui.RoundCornerLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d ຮູບ</item>
+        <item quantity="one">1 ຮູບ</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d ວິດີໂອ</item>
+        <item quantity="one">1 ວິດີໂອ</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">ກຳລັງດາວໂຫຼດ %d ວຽກ...</item>
+        <item quantity="one">ກຳລັງດາວໂຫຼດ 1 ວຽກ...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">ໜ້າ​ຈໍຈະ​ປິດໃນ %1$s ວິ​ນາ​ທີ.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">ສາ​ມາດ​ປິດ​ໂຄ​ສະ​ນາ​ໄດ້​ໃນ %d ວິ</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">ຈື່ຕົວ​ເລືກອ​ໄວ້​ເປັນ​ເວ​ລາ %1$s ວັນ</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">ຮັບ​ລາງວັນ​ໃນ %d ວິ</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">ເບິ່ງ %d ວິ​ນາ​ທີ​ເພື່ອ​ຮັບ​ລາງວັນ.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d ວິ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+        <item quantity="one">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+</resources>

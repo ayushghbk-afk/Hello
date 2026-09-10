@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:id="@id/android.R.id.text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerVertical="true" />
+    <TextView android:id="@id/tv_view_safebox_tab_view_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/android.R.id.text1" android:layout_alignBaseline="@id/android.R.id.text1" android:layout_alignBottom="@id/android.R.id.text1" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/android.R.id.text1" />
+    <View android:id="@id/view_safebox_tab_dot" android:background="@drawable/shape_red_dot" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="3.0dip" android:layout_marginBottom="9.0dip" android:layout_toRightOf="@id/tv_view_safebox_tab_view_number" android:layout_alignTop="@id/android.R.id.text1" android:layout_marginStart="3.0dip" android:layout_toEndOf="@id/tv_view_safebox_tab_view_number" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/positive_text" android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_tips" android:background="@drawable/shape_corner_12dp_top_positive_bg" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/login_in_to_download" android:maxLines="1" app:layout_constraintBottom_toTopOf="@id/webview_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/body_regular" />
+    <FrameLayout android:id="@id/webview_container" android:background="@color/positive_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_tips">
+        <com.snaptube.premium.web.RoundCornerWebView android:id="@id/round_web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.snaptube.plugin.extension.ins.view.ChooseFormatLoadingView android:id="@id/lv_loading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

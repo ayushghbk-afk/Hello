@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.phoenix.view.CardHeaderView android:orientation="vertical" android:background="@color/background_block_normal_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wandoujia="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/detail_card_margin" android:layout_marginTop="@dimen/detail_card_margin" android:layout_marginBottom="@dimen/detail_card_margin" android:layout_marginStart="@dimen/detail_card_margin">
+        <ImageView android:id="@id/cover_image" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/card_cover_large" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/detail_card_margin" android:layout_marginRight="@dimen/detail_card_margin" android:layout_toRightOf="@id/cover_image" android:layout_marginStart="@dimen/detail_card_margin" android:layout_marginEnd="@dimen/detail_card_margin" android:layout_toEndOf="@id/cover_image">
+            <TextView android:textSize="@dimen/normal_text_size" android:textColor="@color/text_primary_color" android:gravity="center_vertical" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/title_arrow" android:layout_width="@dimen/title_arrow_width" android:layout_height="wrap_content" android:layout_marginLeft="-27.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/ic_mything_detail_action_detail_normal" android:scaleType="centerCrop" android:layout_toRightOf="@id/title_text" android:layout_alignParentTop="true" android:layout_marginStart="-27.0dip" android:layout_toEndOf="@id/title_text" />
+            <include android:id="@id/details_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/title_text" layout="@layout/p4_pair_text_container" />
+        </RelativeLayout>
+        <com.phoenix.view.button.SubActionButton android:id="@id/more_action_button" android:layout_width="@dimen/card_subaction_margin" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" wandoujia:action_icon="@drawable/ic_mything_detail_action_overflow" wandoujia:always_show_as_action="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/detail_card_margin">
+        <com.phoenix.view.button.StatefulButton android:id="@id/negative_button" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/pop_detail_card_bottom_button" />
+        <com.phoenix.view.button.StatefulButton android:id="@id/neutral_button" android:layout_width="0.0dip" android:layout_weight="1.5" style="@style/pop_detail_card_bottom_button" />
+        <com.phoenix.view.button.StatefulButton android:id="@id/positive_button" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/pop_detail_card_bottom_button" />
+    </LinearLayout>
+</com.phoenix.view.CardHeaderView>

@@ -1,0 +1,44 @@
+.class public final synthetic Lo/nf1;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lo/i64;
+
+
+# instance fields
+.field public final synthetic b:Lo/qf1;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/qf1;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/nf1;->b:Lo/qf1;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final call(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lo/nf1;->b:Lo/qf1;
+
+    check-cast p1, Lcom/wandoujia/base/utils/RxBus$d;
+
+    invoke-virtual {v0, p1}, Lo/qf1;->C(Lcom/wandoujia/base/utils/RxBus$d;)Z
+
+    move-result p1
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    return-object p1
+.end method

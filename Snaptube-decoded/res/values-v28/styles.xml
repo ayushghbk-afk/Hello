@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V28.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V28.Theme.AppCompat.Light" />
+    <style name="Base.V14.ThemeOverlay.MaterialComponents.MaterialAlertDialog" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.MaterialComponents.CheckedTextView</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.MaterialComponents</item>
+        <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.MaterialComponents.Body.Text</item>
+    </style>
+    <style name="P4.Theme.AdSplash" parent="@style/P4.Theme.NoActionBar">
+        <item name="android:windowBackground">@color/splash_color</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <style name="P4.Theme.Splash.Explore" parent="@style/DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/window_bg</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:dropDownListViewStyle">@style/P4.Widget.ListView.DropDown</item>
+        <item name="android:textColor">@color/content_main</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnim</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:listPopupWindowStyle">@style/P4.Widget.Popup</item>
+        <item name="android:popupMenuStyle">@style/P4.Widget.Popup</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:statusBarColor">@color/bg_status_bar</item>
+        <item name="android:navigationBarColor">@color/splash_color</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="SubActionButtonStyle">@style/ST.SubActionButtonStyle</item>
+        <item name="actionBarStyle">@style/ActionBar.MultiTabActivity</item>
+        <item name="actionButtonStyle">@style/P4.ActionBar.ActionButton</item>
+        <item name="actionModeBackground">@color/background_primary_color</item>
+        <item name="actionOverflowButtonStyle">@style/P4.ActionBar.ActionButton.Overflow</item>
+        <item name="actionOverflowMenuStyle">@style/ActionBar.OverflowMenuStyle</item>
+        <item name="colorAccent">@color/text_accent_color</item>
+        <item name="colorControlActivated">@color/text_accent_color</item>
+        <item name="contentBackground">@color/background_content_color</item>
+        <item name="dividerHorizontal">@color/divider</item>
+        <item name="dividerVertical">@color/divider</item>
+        <item name="dropDownListViewStyle">@style/P4.Widget.ListView.DropDown</item>
+        <item name="preferenceTheme">@style/P4.Theme.Preference</item>
+        <item name="signInTextStyle">@style/SignInTextView</item>
+        <item name="toolbarStyle">@style/Base.Widget.Toolbar</item>
+        <item name="verticalButtonBackground">@drawable/bg_card_button_drawable_selector_home</item>
+        <item name="verticalColor">@color/light_red</item>
+        <item name="verticalFilterDrawable">@drawable/bg_filter_item_home</item>
+        <item name="verticalId">@id/vertical_home</item>
+        <item name="verticalNormalColor">@color/light_red</item>
+        <item name="verticalProgressDrawable">@drawable/bg_progress_bar_home</item>
+        <item name="verticalTabTextColor">@color/color_tab_home</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="P4.Theme.Splash.LaunchGuide" parent="@style/P4.Theme.RootActivity">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="actionModeBackground">@color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="TextAppearance.P4.ActionBar.Title" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineHeight">24.0dip</item>
+    </style>
+    <style name="body_bold">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineHeight">20.0dip</item>
+    </style>
+    <style name="body_cta_medium">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:lineHeight">20.0dip</item>
+    </style>
+    <style name="body_regular">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineHeight">20.0dip</item>
+    </style>
+    <style name="caption_regular">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineHeight">16.0dip</item>
+    </style>
+    <style name="display">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:lineHeight">40.0dip</item>
+    </style>
+    <style name="headline">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:lineHeight">24.0dip</item>
+    </style>
+    <style name="label_10">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:lineHeight">12.0dip</item>
+    </style>
+    <style name="label_12">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:lineHeight">16.0dip</item>
+    </style>
+    <style name="number_48">
+        <item name="android:textSize">48.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:lineHeight">64.0dip</item>
+    </style>
+    <style name="tittle_bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineHeight">24.0dip</item>
+    </style>
+    <style name="tittle_regular">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineHeight">24.0dip</item>
+    </style>
+    <style name="tt_app_open_ad_no_animation" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/tt_animation</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+</resources>

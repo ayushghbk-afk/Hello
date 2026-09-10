@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d وێنە</item>
+        <item quantity="one">١ وێنە</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d ڤیدیۆ</item>
+        <item quantity="one">١ ڤیدیۆ</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">داگرتنی %d ئەرک...</item>
+        <item quantity="one">داگرتنی 1 ئەرک...</item>
+    </plurals>
+</resources>

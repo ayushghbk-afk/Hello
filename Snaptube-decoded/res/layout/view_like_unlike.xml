@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/likeUnlikeContainer" android:background="@drawable/selector_text_button_bg_weak" android:layout_width="wrap_content" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snaptube.premium.base.ui.DrawableResizeTextView android:textAppearance="@style/body_cta_medium" android:textColor="@color/content_main" android:id="@id/tv_like" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/like" android:drawablePadding="8.0dip" android:paddingStart="12.0dip" android:paddingEnd="4.0dip" app:startDrawableSize="20.0dip" />
+    <View android:background="@color/gray_soft" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+    <TextView android:id="@id/tv_unlike" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="32.0dip" android:layout_height="fill_parent" app:startDrawableSize="20.0dip" />
+</LinearLayout>

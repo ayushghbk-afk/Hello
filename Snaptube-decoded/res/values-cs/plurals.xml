@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d obrázků</item>
+        <item quantity="one">1 obrázek</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d videí</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Stahují se %d úlohy...</item>
+        <item quantity="one">Stahuje se 1 úloha...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Okno se zavře za %1$s s.</item>
+        <item quantity="one">Okno se zavře za %1$s s.</item>
+        <item quantity="few">Okno se zavře za %1$s s.</item>
+        <item quantity="many">Okno se zavře za %1$s s.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Reklamu můžete zavřít za %d s</item>
+        <item quantity="one">Reklamu můžete zavřít za %d s</item>
+        <item quantity="few">Reklamu můžete zavřít za %d s</item>
+        <item quantity="many">Reklamu můžete zavřít za %d s</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Zapamatovat volbu po dobu %1$s dní</item>
+        <item quantity="one">Zapamatovat volbu po dobu %1$s dne</item>
+        <item quantity="few">Zapamatovat volbu po dobu %1$s dní</item>
+        <item quantity="many">Zapamatovat volbu po dobu %1$s dní</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">Získejte odměnu za %d s</item>
+        <item quantity="one">Získejte odměnu za %d s</item>
+        <item quantity="few">Získejte odměnu za %d s</item>
+        <item quantity="many">Získejte odměnu za %d s</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Sledujte %d sekund a získejte odměnu.</item>
+        <item quantity="one">Sledujte %d sekundu a získejte odměnu.</item>
+        <item quantity="few">Sledujte %d sekundy a získejte odměnu.</item>
+        <item quantity="many">Sledujte %d sekundy a získejte odměnu.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+        <item quantity="few">%1$d s</item>
+        <item quantity="many">%1$d s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+</resources>

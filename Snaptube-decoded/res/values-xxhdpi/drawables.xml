@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="exo_icon_fastforward">false</item>
+    <item type="drawable" name="exo_icon_rewind">false</item>
+    <item type="drawable" name="hiad_choices_whythisad_x">false</item>
+    <item type="drawable" name="hiad_ic_pro_icon">false</item>
+    <item type="drawable" name="im_refresh">false</item>
+    <item type="drawable" name="abc_list_longpressed_holo">false</item>
+    <item type="drawable" name="abc_text_select_handle_left_mtrl">false</item>
+    <item type="drawable" name="abc_text_select_handle_right_mtrl">false</item>
+    <item type="drawable" name="ic_arrow_drop_down_white_24dp">false</item>
+    <item type="drawable" name="background_play_permission">false</item>
+    <item type="drawable" name="ic_battery_charge">false</item>
+</resources>

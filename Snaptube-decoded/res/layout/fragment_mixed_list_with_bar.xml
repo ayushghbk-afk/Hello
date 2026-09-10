@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" style="@style/ST.Toolbar" />
+        <include layout="@layout/components_mixed_list_fragment" />
+    </LinearLayout>
+    <com.snaptube.mixed_list.view.FABBatchDownload android:id="@id/fab_batch_download" android:visibility="gone" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" style="@style/batch_download_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d تصاویر</item>
+        <item quantity="one">1 تصویر</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d ویڈیوز</item>
+        <item quantity="one">1 ویڈیو</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">%d کام ڈاؤن لوڈ ہو رہے ہیں...</item>
+        <item quantity="one">1 ٹاسک ڈاؤن لوڈ ہو رہا ہے...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">%1$s سیکنڈ میں ونڈو بند ہو جائے گی۔</item>
+        <item quantity="one">%1$s سیکنڈ میں ونڈو بند ہو جائے گی۔</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">اشتہار %d سیکنڈ میں بند کیا جا سکتا ہے</item>
+        <item quantity="one">اشتہار %d سیکنڈ میں بند کیا جا سکتا ہے</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">‏%1$s دنوں کے لیے اختیار یاد رکھیں</item>
+        <item quantity="one">‏%1$s دن کے لیے اختیار یاد رکھیں</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">‏%d سیکنڈ میں انعام حاصل کریں</item>
+        <item quantity="one">‏%d سیکنڈ میں انعام حاصل کریں</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">انعام حاصل کرنے کے لئے %d سیکنڈز تک دیکھیں۔</item>
+        <item quantity="one">انعام حاصل کرنے کے لئے %d سیکنڈ تک دیکھیں۔</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d سیکنڈ</item>
+        <item quantity="one">%1$d سیکنڈ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d نئی اطلاعات</item>
+        <item quantity="one">%d نئی اطلاع</item>
+    </plurals>
+</resources>

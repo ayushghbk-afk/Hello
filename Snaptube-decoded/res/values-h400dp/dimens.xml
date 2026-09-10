@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="media_cover_size_big">200.0dip</dimen>
+</resources>

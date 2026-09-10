@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_block_normal_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/split_line1" android:background="@color/background_border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/card_standard_spacing" android:paddingRight="@dimen/card_standard_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_standard_spacing" android:paddingStart="@dimen/card_standard_spacing" android:paddingEnd="@dimen/card_standard_spacing">
+        <ImageView android:id="@id/head_portrait" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/bg_layer" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_weight="1.0" android:layout_marginStart="15.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/text_primary_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/text_secondary_color" android:ellipsize="end" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxEms="10" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/split_line" android:background="@color/background_border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/card_standard_spacing" />
+</LinearLayout>

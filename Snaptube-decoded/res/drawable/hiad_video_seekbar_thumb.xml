@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/hiad_14_dp" android:width="@dimen/hiad_14_dp" />
+    <solid android:color="@android:color/white" />
+    <stroke android:width="1.0px" android:color="@color/hiad_seekbar_thumb_edge_color" />
+</shape>

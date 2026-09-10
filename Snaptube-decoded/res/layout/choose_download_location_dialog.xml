@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_corner_8dp_bg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/select_folder_title" style="@style/Theme.Youtube.Text.Title" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/text_secondary_color" android:id="@id/message" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/select_folder_content" android:maxLines="10" android:fadeScrollbars="false" />
+    <com.wandoujia.base.view.MultiLineEllipsizeTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/path" android:paddingLeft="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:maxLines="3" android:drawablePadding="16.0dip" android:paddingStart="4.0dip" style="@style/Theme.Youtube.Text" />
+    <CheckBox android:theme="@style/Theme.Youtube.CheckBox" android:gravity="center_vertical" android:id="@id/checked" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" android:checked="true" android:text="@string/set_as_default" android:paddingStart="8.0dip" style="@style/Theme.Youtube.Text" />
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <Button android:id="@id/cancel" android:background="@drawable/material_button_background_selector" android:layout_width="wrap_content" android:layout_height="@dimen/default_dialog_button_height" android:layout_marginRight="8.0dip" android:text="@string/cancel" android:layout_marginEnd="8.0dip" style="@style/Theme.Youtube.Button.Dialog.Negative" />
+        <Button android:id="@id/select" android:layout_width="wrap_content" android:layout_height="@dimen/default_dialog_button_height" android:text="@string/select" style="@style/Theme.Youtube.Button.Dialog.Positive" />
+    </LinearLayout>
+</LinearLayout>

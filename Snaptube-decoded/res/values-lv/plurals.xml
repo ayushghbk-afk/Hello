@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d attēli</item>
+        <item quantity="one">1 attēls</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Lejupielādē %d uzdevumus...</item>
+        <item quantity="one">Lejupielādē 1 uzdevumu...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Logs tiks aizvērts pēc %1$s sekundēm.</item>
+        <item quantity="zero">Logs tiks aizvērts pēc %1$s sekundēm.</item>
+        <item quantity="one">Logs tiks aizvērts pēc %1$s sekundes.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Reklāmu varēs aizvērt pēc %d s</item>
+        <item quantity="zero">Reklāmu varēs aizvērt pēc %d s</item>
+        <item quantity="one">Reklāmu varēs aizvērt pēc %d s</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Atcerēties izvēli %1$s dienas</item>
+        <item quantity="zero">Atcerēties izvēli %1$s dienas</item>
+        <item quantity="one">Atcerēties izvēli %1$s dienu</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">Nopelniet balvu pēc %d s</item>
+        <item quantity="zero">Nopelniet balvu pēc %d s</item>
+        <item quantity="one">Nopelniet balvu pēc %d s</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Skatieties %d sekundes, lai nopelnītu balvu.</item>
+        <item quantity="zero">Skatieties %d sekundes, lai nopelnītu balvu.</item>
+        <item quantity="one">Skatieties %d sekundi, lai nopelnītu balvu.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d s</item>
+        <item quantity="zero">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d jauni paziņojumi</item>
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+    </plurals>
+</resources>

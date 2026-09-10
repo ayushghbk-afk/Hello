@@ -1,0 +1,36 @@
+.class public final synthetic Lo/uvc;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic b:Lo/vvc;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/vvc;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/uvc;->b:Lo/vvc;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lo/uvc;->b:Lo/vvc;
+
+    invoke-static {v0}, Lo/vvc;->h(Lo/vvc;)V
+
+    return-void
+.end method

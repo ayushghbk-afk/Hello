@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="hiad_banner_close_btn">false</item>
+    <item type="drawable" name="hiad_ic_pro_icon">false</item>
+    <item type="drawable" name="im_unmute">false</item>
+</resources>

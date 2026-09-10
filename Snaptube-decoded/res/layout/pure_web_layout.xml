@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.openalliance.ad.ppskit.views.web.PureNetworkLoadStatusView android:id="@id/status_view" android:layout_width="fill_parent" android:layout_height="fill_parent" ptr:nonNetworkText="@string/opendevice_network_no_available"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:enabled="false" android:gravity="center_horizontal" android:id="@id/content_statement" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.widget.ProgressBar android:id="@id/web_progress" android:layout_width="fill_parent" android:layout_height="2.0dip" android:max="100" android:progress="0" style="?android:progressBarStyleHorizontal" />
+            <WebView android:scrollbarThumbVertical="@android:color/transparent" android:id="@id/content_webview" android:scrollbars="vertical" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</com.huawei.openalliance.ad.ppskit.views.web.PureNetworkLoadStatusView>

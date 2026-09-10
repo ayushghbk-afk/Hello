@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snaptube.premium.sites.BookmarkView android:orientation="horizontal" android:background="@drawable/bg_bookmark_item" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bookmark_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_alignParentStart="true" />
+    <FrameLayout android:id="@id/add_parent" android:paddingLeft="16.0dip" android:paddingRight="@dimen/activity_margin_end_icon_18dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:paddingStart="16.0dip" android:paddingEnd="@dimen/activity_margin_end_icon_18dp" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/action_add_to_homepage" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="center" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toLeftOf="@id/add_parent" android:layout_toRightOf="@id/bookmark_icon" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toStartOf="@id/add_parent" android:layout_toEndOf="@id/bookmark_icon">
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_primary_color" android:ellipsize="end" android:id="@id/bookmark_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:scrollHorizontally="true" />
+        <TextView android:textSize="12.0sp" android:id="@id/tv_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/subtitle" />
+    </LinearLayout>
+</com.snaptube.premium.sites.BookmarkView>

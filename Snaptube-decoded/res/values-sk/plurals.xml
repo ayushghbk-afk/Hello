@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d obrázkov</item>
+        <item quantity="one">1 obrázok</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d videí</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Sťahuje sa %d úloh...</item>
+        <item quantity="one">Sťahuje sa 1 úloha...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Okno sa zatvorí o %1$s s.</item>
+        <item quantity="one">Okno sa zatvorí o %1$s s.</item>
+        <item quantity="few">Okno sa zatvorí o %1$s s.</item>
+        <item quantity="many">Okno sa zatvorí o %1$s s.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Reklamu možno zatvoriť o %d s</item>
+        <item quantity="one">Reklamu možno zatvoriť o %d s</item>
+        <item quantity="few">Reklamu možno zatvoriť o %d s</item>
+        <item quantity="many">Reklamu možno zatvoriť o %d s</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Zapamätať si výber %1$s d</item>
+        <item quantity="one">Zapamätať si výber %1$s d</item>
+        <item quantity="few">Zapamätať si výber %1$s d</item>
+        <item quantity="many">Zapamätať si výber %1$s d</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">Získajte odmenu o %d s</item>
+        <item quantity="one">Získajte odmenu o %d s</item>
+        <item quantity="few">Získajte odmenu o %d s</item>
+        <item quantity="many">Získajte odmenu o %d s</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Na získanie odmeny sledujte po dobu %d s.</item>
+        <item quantity="one">Na získanie odmeny sledujte po dobu %d s.</item>
+        <item quantity="few">Na získanie odmeny sledujte po dobu %d s.</item>
+        <item quantity="many">Na získanie odmeny sledujte po dobu %d s.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+        <item quantity="few">%1$d s</item>
+        <item quantity="many">%1$d s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových upozornení</item>
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+    </plurals>
+</resources>

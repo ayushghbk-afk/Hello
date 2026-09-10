@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dip" android:width="120.0dip" android:viewportWidth="120.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffffffff" android:pathData="M4,0L116,0A4,4 0,0 1,120 4L120,68A4,4 0,0 1,116 72L4,72A4,4 0,0 1,0 68L0,4A4,4 0,0 1,4 0z" />
+    <path android:fillColor="@drawable/$pic_cover_rectangular_facebook__0" android:pathData="M4,0L116,0A4,4 0,0 1,120 4L120,68A4,4 0,0 1,116 72L4,72A4,4 0,0 1,0 68L0,4A4,4 0,0 1,4 0z" android:fillAlpha="0.5" />
+    <path android:fillColor="#ffffffff" android:pathData="M53.33,21C48.73,21 45,24.73 45,29.33V42.67C45,47.27 48.73,51 53.33,51H66.67C71.27,51 75,47.27 75,42.67V29.33C75,24.73 71.27,21 66.67,21H53.33ZM66.67,23.67H53.33C50.2,23.67 47.67,26.2 47.67,29.33V42.67C47.67,45.8 50.2,48.33 53.33,48.33H66.67C69.8,48.33 72.33,45.8 72.33,42.67V29.33C72.33,26.2 69.8,23.67 66.67,23.67Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M57.43,48.33H61.33V40.41H65.2L66.15,37.01H61.33V33.58C61.33,32.38 62.3,31.41 63.5,31.41H66.33V28.01H63.09L63.05,28C61.62,27.95 60.23,28.46 59.17,29.42C58.13,30.38 57.5,31.71 57.43,33.13V37.01H53.68V40.41H57.43V48.33Z" />
+    <path android:fillColor="#ffffffff" android:pathData="M61.33,51.49L61.33,51.49V51.49L61.33,51.49Z" />
+    <path android:fillColor="#ffffffff" android:pathData="M57.43,51.49L57.43,51.49V51.49L57.43,51.49Z" />
+</vector>

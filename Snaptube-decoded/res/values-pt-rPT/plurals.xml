@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d imagens</item>
+        <item quantity="one">1 imagem</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d vídeos</item>
+        <item quantity="one">1 vídeo</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">A transferir %d tarefas...</item>
+        <item quantity="one">A transferir 1 tarefa...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">A janela irá fechar-se em %1$s segundos.</item>
+        <item quantity="one">A janela irá fechar-se em %1$s segundo.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Feche dentro de %d s</item>
+        <item quantity="one">Feche dentro de %d s</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Lembrar esta escolha por %1$s dias</item>
+        <item quantity="one">Lembrar esta escolha por %1$s dia</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">Ganhe uma recompensa em %d s</item>
+        <item quantity="one">Ganhe uma recompensa em %d s</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Veja durante %d segundos para ganhar uma recompensa.</item>
+        <item quantity="one">Veja durante %d segundo para ganhar uma recompensa.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novas notificações</item>
+        <item quantity="one">%d nova notificação</item>
+    </plurals>
+</resources>

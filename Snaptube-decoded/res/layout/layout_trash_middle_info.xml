@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_info_card" android:background="@drawable/shape_corner_12dp_stroke_gray_weak" android:layout_width="fill_parent" android:layout_height="92.0dip">
+        <androidx.constraintlayout.widget.Group android:id="@id/group_left_content" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="divider,ll_left" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_used" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/divider" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginEnd="0.0dip">
+            <TextView android:textColor="@color/content_main" android:gravity="center" android:id="@id/tv_used" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/tittle_bold" />
+            <TextView android:textColor="@color/content_soft" android:gravity="center" android:id="@id/tv_used_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/used" style="@style/body_regular" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="@color/gray_weak" android:layout_width="1.0dip" android:layout_height="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/ll_left" app:layout_constraintStart_toEndOf="@id/ll_used" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/divider" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textColor="@color/content_main" android:gravity="center" android:id="@id/tv_left" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/tittle_bold" />
+            <TextView android:textColor="@color/content_soft" android:gravity="center" android:id="@id/tv_left_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/left" style="@style/body_regular" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_origin_path" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <TextView android:textAppearance="@style/body_bold" android:textColor="@color/content_main" android:id="@id/tv_origin_path_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/origin_path" />
+        <TextView android:textColor="@color/content_soft" android:id="@id/tv_origin_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/body_regular" />
+    </LinearLayout>
+</LinearLayout>

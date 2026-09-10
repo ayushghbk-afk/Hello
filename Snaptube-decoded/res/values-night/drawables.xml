@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="$pic_cover_rectangular_video__0">false</item>
+    <item type="drawable" name="pic_cover_rectangular_video">false</item>
+    <item type="drawable" name="svg_icon_default_avatar">false</item>
+    <item type="drawable" name="$pic_cover_rectangular_video__1">false</item>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="hiad_banner_close_btn">false</item>
+    <item type="drawable" name="abc_tab_indicator_mtrl_alpha">false</item>
+    <item type="drawable" name="abc_text_select_handle_right_mtrl">false</item>
+    <item type="drawable" name="hiad_arrow_down">false</item>
+    <item type="drawable" name="opendevice_ic_search_network">false</item>
+</resources>

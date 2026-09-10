@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/network_state_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/more" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" app:srcCompat="@drawable/ic_arrow_down" app:tint="@color/content_main" />
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_margin="10.0dip" style="@style/progress_circle" />
+    <com.snaptube.premium.base.ui.DrawableCompatTextView android:layout_gravity="center" android:id="@id/retry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="@string/toast_load_err" android:drawablePadding="4.0dip" app:drawableStartCompat="@drawable/ic_refresh" app:drawableTint="@color/content_soft" style="@style/Theme.Youtube.Text.Secondary" />
+    <TextView android:gravity="center" android:id="@id/end" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="24.0dip" style="@style/Theme.Youtube.Text.Small" />
+</LinearLayout>

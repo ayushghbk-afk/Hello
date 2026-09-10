@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.phoenix.extensions.PagerSlidingTabStrip android:id="@id/tabs" style="@style/tab_strip" />
+        <com.phoenix.view.CommonViewPager android:id="@id/common_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabs" android:layout_centerHorizontal="true" />
+        <View android:id="@id/tabs_shadow" android:layout_below="@id/tabs" style="@style/top_shadow" />
+    </RelativeLayout>
+    <include android:id="@id/tab_no_network_tips_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/no_network_tips_view" />
+    <include android:id="@id/no_data_tips_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/no_data_tips_view" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/tab_loading" android:visibility="gone" android:indeterminate="true" style="@style/progress_circle" />
+</FrameLayout>

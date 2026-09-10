@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/local_player_back" android:background="@drawable/selector_video_player_control_btn_bg" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="34.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="20.0dip" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_left_white" />
+    <LinearLayout android:id="@id/layout_failed_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_primary_overlay_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exoplayer_error_load_show_message" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_accent_medium_color" android:id="@id/try_lark_player" android:paddingLeft="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/try_larkplayer" android:layout_centerInParent="true" android:paddingStart="8.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/text_primary_overlay_color" android:ellipsize="end" android:id="@id/text_video_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:singleLine="true" android:layout_above="@id/layout_failed_hint" android:layout_centerHorizontal="true" />
+</RelativeLayout>

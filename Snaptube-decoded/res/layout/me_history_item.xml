@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/selector_card_background" android:layout_width="wrap_content" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView style="@style/CardCover.Small">
+        <ImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <View android:layout_gravity="bottom" android:id="@id/bottom_shadow_layer" android:background="@drawable/gradient_shadow_layer" android:layout_width="fill_parent" android:layout_height="@dimen/small_video_cover_shadow_height" />
+        <TextView android:textSize="11.0sp" android:layout_gravity="end|bottom|center" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/card_video_duration" />
+        <ProgressBar android:layout_gravity="bottom" android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="2.0dip" android:max="100" android:progressDrawable="@drawable/progress_horizontal_tiny_playback" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </androidx.cardview.widget.CardView>
+    <TextView android:textSize="12.0sp" android:textColor="@color/selector_text_enable" android:ellipsize="end" android:id="@id/title" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" />
+</LinearLayout>

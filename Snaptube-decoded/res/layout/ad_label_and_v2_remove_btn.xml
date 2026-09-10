@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ad_label_and_remove" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start|center|top" android:id="@id/ad_text_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_marginStart="4.0dip" app:srcCompat="@drawable/ic_ads_sign" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center|top" android:id="@id/btn_remove_ad" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" app:srcCompat="@drawable/ic_ads_close" />
+</FrameLayout>

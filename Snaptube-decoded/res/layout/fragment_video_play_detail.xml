@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0dip" android:textColor="@color/text_primary_color" android:ellipsize="end" android:id="@id/video_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:maxLines="2" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintEnd_toStartOf="@id/show_more_details" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/outer_button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintTop_toBottomOf="@id/video_title" layout="@layout/video_button_bar_ytb" />
+</androidx.constraintlayout.widget.ConstraintLayout>

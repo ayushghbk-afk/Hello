@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/files_tab_navigation" app:startDestination="@id/files_tab_home"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="FilesFragment" android:name="com.snaptube.premium.files.FilesFragment" android:id="@id/files_tab_home" />
+    <fragment android:label="LocalSearchFragment" android:name="com.snaptube.premium.search.local.LocalSearchFragment" android:id="@id/search_local" />
+    <fragment android:label="DownloadingTaskFragment" android:name="com.snaptube.premium.files.downloading.DownloadingTaskFragment" android:id="@id/files_downloading" />
+</navigation>

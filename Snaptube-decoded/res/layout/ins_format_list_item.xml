@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="160.0dip" android:layout_height="160.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cover_container" android:layout_width="176.0dip" android:layout_height="176.0dip" app:cardBackgroundColor="@color/background_block_normal_color" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" app:cardPreventCornerOverlap="true">
+        <ImageView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_layer" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center" android:id="@id/tag_img" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:srcCompat="@drawable/ic_myfiles_play" style="@style/card_video_duration_small" />
+        <View android:id="@id/mask_view" android:background="@color/transparent_black_30_percent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/checked_flag" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:scaleType="centerCrop" android:layout_marginStart="8.0dip" app:srcCompat="@drawable/ic_checked_with_red_background" />
+    </androidx.cardview.widget.CardView>
+</merge>

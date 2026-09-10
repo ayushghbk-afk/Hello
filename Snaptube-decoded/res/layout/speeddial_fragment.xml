@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background_block_normal_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/background_primary_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:layout_alignParentTop="true" app:titleTextAppearance="@style/TitleTextView" app:titleTextColor="@color/text_primary_color" />
+    <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" android:nestedScrollingEnabled="true">
+        <com.snaptube.premium.sites.DragSortListView android:id="@id/drag_sort_listview" android:background="@null" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="@null" />
+    </ScrollView>
+    <include android:id="@id/lay_empty" layout="@layout/no_data_tips_view" />
+</RelativeLayout>

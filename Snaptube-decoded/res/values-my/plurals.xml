@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d ပုံ</item>
+        <item quantity="one">ပုံ 1 ပုံ</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d ဗီဒီယို</item>
+        <item quantity="one">ဗီဒီယို 1 ခု</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">လုပ်ဆောင်စရာ %d ခုကို ဒေါင်းလုဒ်လုပ်နေသည်...</item>
+        <item quantity="one">လုပ်ဆောင်စရာ ၁ ခုကို ဒေါင်းလုဒ်လုပ်နေသည်...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">ဝင်းဒိုးသည် %1$s စက္ကန့်အကြာတွင် ပိတ်သွားပါလိမ့်မည်။</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">ကြော်ငြာကို %ds အကြာတွင် ပိတ်နိုင်ပါသည်</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">ရွေးချယ်မှုအား %1$s ရက်ကြာ မှတ်ထားရန်</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">%d စက္ကန့် အကြာတွင် ဆုရယူရန်</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">ဆု ရယူရန် %d စက္ကန့်စာ စောင့်ကြည့်ပါ။</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d စက္ကန့်</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">အကြောင်းကြားချက်အသစ် %d ခု</item>
+        <item quantity="one">အကြောင်းကြားချက်အသစ် %d ခု</item>
+    </plurals>
+</resources>

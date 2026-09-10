@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="hiad_default_dsp_logo">false</item>
+    <item type="drawable" name="ic_arrow_down_24dp">false</item>
+    <item type="drawable" name="ic_cover_zapee_logo">false</item>
+    <item type="drawable" name="ic_loading">false</item>
+    <item type="drawable" name="exo_icon_pause">false</item>
+    <item type="drawable" name="abc_spinner_mtrl_am_alpha">false</item>
+    <item type="drawable" name="hiad_ic_load_fail">false</item>
+    <item type="drawable" name="mbridge_cm_backward_selected">false</item>
+    <item type="drawable" name="mbridge_icon_click_circle">false</item>
+    <item type="drawable" name="mbridge_nativex_play">false</item>
+    <item type="drawable" name="mbridge_reward_close_ec">false</item>
+    <item type="drawable" name="mbridge_reward_two_title_en_land">false</item>
+    <item type="drawable" name="mbridge_reward_two_title_en_por">false</item>
+    <item type="drawable" name="mbridge_reward_two_title_zh">false</item>
+    <item type="drawable" name="mbridge_splash_m_circle">false</item>
+    <item type="drawable" name="mbridge_splash_pop_ad_en">false</item>
+    <item type="drawable" name="mbridge_video_common_full_star">false</item>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="PhotoResultFragment" android:name="com.dayuwuxian.clean.ui.photo.PhotoResultFragment" android:id="@id/photo_result">
+        <action android:id="@id/action_photo_result_to_photo_same" app:destination="@id/photo_same" />
+        <action android:id="@id/action_photo_result_to_screenshot" app:destination="@id/photo_screenshot" />
+        <action android:id="@id/action_photo_result_to_photo_similar" app:destination="@id/photo_similar" />
+        <action android:id="@id/action_photo_result_to_photo_keep" app:destination="@id/photo_keep" />
+    </fragment>
+    <fragment android:label="PhotoPreviewFragment" android:name="com.dayuwuxian.clean.ui.photo.PhotoPreviewFragment" android:id="@id/photo_preview" />
+    <fragment android:label="SimilarPhotoFragment" android:name="com.dayuwuxian.clean.ui.photo.SimilarPhotoFragment" android:id="@id/photo_similar">
+        <action android:id="@id/action_photo_similar_to_photo_transfer" app:destination="@id/photo_transfer" />
+        <action android:id="@id/action_photo_similar_to_photo_preview" app:destination="@id/photo_preview" />
+    </fragment>
+    <fragment android:label="SamePhotoFragment" android:name="com.dayuwuxian.clean.ui.photo.DuplicatePhotoFragment" android:id="@id/photo_same">
+        <action android:id="@id/action_photo_same_to_photo_preview" app:destination="@id/photo_preview" />
+        <action android:id="@id/action_photo_same_to_photo_transfer" app:destination="@id/photo_transfer" />
+    </fragment>
+    <fragment android:label="ScreenshotFragment" android:name="com.dayuwuxian.clean.ui.photo.ScreenShotFragment" android:id="@id/photo_screenshot">
+        <action android:id="@id/action_screenshot_to_photo_preview" app:destination="@id/photo_preview" />
+    </fragment>
+    <fragment android:label="KeepListFragment" android:name="com.dayuwuxian.clean.ui.photo.KeepListFragment" android:id="@id/photo_keep">
+        <action android:id="@id/action_photo_keep_to_photo_preview" app:destination="@id/photo_preview" />
+    </fragment>
+    <fragment android:label="TransferPhotoFragment" android:name="com.dayuwuxian.clean.ui.photo.TransferPhotoFragment" android:id="@id/photo_transfer" />
+</navigation>

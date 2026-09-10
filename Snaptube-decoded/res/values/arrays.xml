@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="credits">
+        <item>Abdussalam, Libya</item>
+        <item>Agha, Iraq</item>
+        <item>Annas Hamirzul, Malaysia</item>
+        <item>Antonios, Greece</item>
+        <item>Archael, Chile</item>
+        <item>Boris, Bulgaria</item>
+        <item>Daniel Ruiz, Columbia</item>
+        <item>Darshan, India</item>
+        <item>DK Deniz, Romania</item>
+        <item>Émerqui Aguiar, Brazil</item>
+        <item>Fatih, Turkey</item>
+        <item>Goran, Iraq</item>
+        <item>Hossein, Iraq</item>
+        <item>Kushtrim Kabashi, Albania</item>
+        <item>Luis, Puerto Rico</item>
+        <item>Magghi, Indonesia</item>
+        <item>Marcin, Poland</item>
+        <item>Mundthar Ali, Iraq</item>
+        <item>Muntazir Ali, Iraq</item>
+        <item>Nicola, Italy</item>
+        <item>Patrick, Netherlands</item>
+        <item>Pongsatorn, Thailand</item>
+        <item>Ricky, Guatemala</item>
+        <item>Safiullah, Afganistan</item>
+        <item>Shahin, Azerbaijan</item>
+        <item>Thamarai, India</item>
+        <item>Tomasz, Ireland</item>
+        <item>Venkat, India</item>
+        <item>William, Brasil</item>
+        <item>Zaid Qassam, Syria</item>
+    </string-array>
+    <string-array name="follow_text">
+        <item>@string/following</item>
+        <item>@string/follow</item>
+        <item>@string/following</item>
+        <item>@string/follow</item>
+    </string-array>
+    <string-array name="follow_text_with_follow_back">
+        <item>@string/following</item>
+        <item>@string/follow_back</item>
+        <item>@string/following</item>
+        <item>@string/follow</item>
+    </string-array>
+    <array name="gradient_text_color">
+        <item>#ff69ff97</item>
+        <item>#ff00e4ff</item>
+    </array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_tips_img" android:layout_width="80.0dip" android:layout_height="80.0dip" app:layout_constraintBottom_toTopOf="@id/tips" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" app:srcCompat="@drawable/ic_caption_big" app:tint="@color/gray_soft" />
+    <TextView android:textColor="@color/content_soft" android:gravity="center_horizontal" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/no_available_subtitles_cc" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_tips_img" style="@style/body_regular" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/ST.Popup.Content.Root"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:srcCompat="@drawable/ic_choose_storage_sd_card_top" />
+    <TextView android:textStyle="bold" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_marginTop="12.0dip" android:text="@string/sdcard_use_notice_title" style="@style/ST.Popup.Title" />
+    <TextView android:gravity="center" android:layout_marginTop="12.0dip" android:text="@string/sdcard_use_notice_content" style="@style/ST.Popup.Content" />
+    <Button android:textStyle="bold" android:id="@id/btn_continue" android:layout_marginTop="24.0dip" android:text="@string/sdcard_use_notice_action_yes" style="@style/ST.Popup.Button.Large.Positive" />
+    <Button android:id="@id/btn_cancel" android:layout_marginTop="4.0dip" android:text="@string/cancel" style="@style/ST.Popup.Button.Large.Negative" />
+</LinearLayout>

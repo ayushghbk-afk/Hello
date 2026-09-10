@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_cover_bg" android:background="@drawable/local_play_music_bg_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.snaptube.ads.view.AdPlayerView android:id="@id/player_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@color/black_opacity20" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/v_cover_shadow" android:background="@color/black_opacity100" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <FrameLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_back" android:background="@color/transparent" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginStart="4.0dip" app:srcCompat="@drawable/ic_arrow_down_shadow" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_music_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <androidx.cardview.widget.CardView android:id="@id/cv_music_cover" android:layout_width="48.0dip" android:layout_height="48.0dip" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/iv_music_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@color/black_opacity20" />
+            <com.snaptube.premium.view.SpectrumView android:layout_gravity="center" android:id="@id/v_spectrum" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+        </androidx.cardview.widget.CardView>
+        <com.snaptube.premium.views.MarqueeTextView android:textSize="14.0sp" android:textColor="@color/attention_main" android:id="@id/tv_music_title" android:layout_width="0.0dip" android:layout_height="20.0dip" android:lines="1" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/cv_music_cover" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/cv_music_cover" app:layout_constraintTop_toTopOf="@id/cv_music_cover" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.snaptube.premium.lyric.view.LPInterceptConstraintLayout android:id="@id/lyric_view_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="36.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="36.0dip" android:layout_marginHorizontal="36.0dip" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_default="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/cl_music_info">
+        <com.snaptube.premium.lyric.view.LpLyricsDetailView android:id="@id/view_dynamic_lyric" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.snaptube.ui.scrollview.ObservableScrollView android:id="@id/scroll_static_lyric" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white_opacity100" android:id="@id/tv_static_lyric" android:background="@null" android:paddingTop="18.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="24.0dip" android:textAlignment="textStart" />
+        </com.snaptube.ui.scrollview.ObservableScrollView>
+    </com.snaptube.premium.lyric.view.LPInterceptConstraintLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@id/fl_guide_page" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

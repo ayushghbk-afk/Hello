@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/safe_box_tool_bar" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingEnd="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_left_white" app:title="@string/label_vault" app:titleTextAppearance="@style/TitleTextView" app:titleTextColor="@color/pure_white" />
+    <View android:id="@id/view_more_anchor" android:layout_width="48.0dip" android:layout_height="48.0dip" app:layout_constraintBottom_toBottomOf="@id/safe_box_tool_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/safe_box_tool_bar" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_media" android:layout_width="fill_parent" android:layout_height="40.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/safe_box_tool_bar" app:tabIndicator="@drawable/shape_tab_round_indicator" app:tabIndicatorFullWidth="false" />
+    <com.phoenix.view.CommonViewPager android:id="@id/vp_medias" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/tab_media" />
+    <include android:id="@id/view_lock_tip_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="@id/vp_medias" layout="@layout/layout_lock_tip" />
+    <include android:id="@id/include_float" layout="@layout/include_vault_float_layout" />
+    <FrameLayout android:id="@id/music_control_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

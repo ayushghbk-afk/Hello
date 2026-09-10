@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_to_playlist">
+        <item quantity="other">%d fichiers ajoutés à la playlist</item>
+        <item quantity="one">1 fichier ajouté à la playlist</item>
+    </plurals>
+    <plurals name="batch_pause_task">
+        <item quantity="other">%d tâches en pause</item>
+        <item quantity="one">1 tâche en pause</item>
+    </plurals>
+    <plurals name="batch_resume_task">
+        <item quantity="other">%d tâches reprises</item>
+        <item quantity="one">1 tâche reprise</item>
+    </plurals>
+    <plurals name="batch_start_download">
+        <item quantity="other">Commencer le téléchargement de %d éléments</item>
+        <item quantity="one">Commencer le téléchargement de 1 élément</item>
+    </plurals>
+    <plurals name="battery_stop">
+        <item quantity="other">Batterie optimisée ! %d applis arrêtées</item>
+        <item quantity="one">Batterie optimisée ! 1 appli arrêtée</item>
+    </plurals>
+    <plurals name="choose_audio">
+        <item quantity="other">%d audio</item>
+        <item quantity="one">1 audio</item>
+    </plurals>
+    <plurals name="choose_picture">
+        <item quantity="other">%d images</item>
+        <item quantity="one">1 image</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d vidéos</item>
+        <item quantity="one">1 vidéo</item>
+    </plurals>
+    <plurals name="clean_day_ago">
+        <item quantity="other">Il y a %d jours</item>
+        <item quantity="one">il y a 1 jour</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">Commentaires %d</item>
+        <item quantity="one">Commentaire 1</item>
+    </plurals>
+    <plurals name="count_video">
+        <item quantity="other">%d vidéos</item>
+        <item quantity="one">1 vidéo</item>
+    </plurals>
+    <plurals name="count_video_selected">
+        <item quantity="other">%d vidéos sélectionnées</item>
+        <item quantity="one">1 vidéo sélectionnée</item>
+    </plurals>
+    <plurals name="day_ago">
+        <item quantity="other">il y a %d jours</item>
+        <item quantity="one">il y a 1 jour</item>
+    </plurals>
+    <plurals name="delete_file_failed">
+        <item quantity="other">"%d fichiers n'ont pas pu être supprimés."</item>
+        <item quantity="one">"1 fichier n'a pas pu être supprimé."</item>
+    </plurals>
+    <plurals name="delete_file_plurals">
+        <item quantity="other">Voulez-vous vraiment supprimer %d fichiers ?</item>
+        <item quantity="one">Voulez-vous vraiment supprimer 1 fichier ?</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="other">Supprimer %d éléments</item>
+        <item quantity="one">Supprimer 1 élément</item>
+    </plurals>
+    <plurals name="delete_item_subtitle">
+        <item quantity="other">%d éléments seront définitivement supprimés.</item>
+        <item quantity="one">1 élément sera supprimé définitivement.</item>
+    </plurals>
+    <plurals name="delete_item_title">
+        <item quantity="other">Supprimer %d éléments ?</item>
+        <item quantity="one">Supprimer 1 élément ?</item>
+    </plurals>
+    <plurals name="delete_moved_to_trash_success">
+        <item quantity="other">%d fichiers ont été déplacés vers la Corbeille.</item>
+        <item quantity="one">1 fichier a été déplacé vers la corbeille.</item>
+    </plurals>
+    <plurals name="delete_partly_failed">
+        <item quantity="other">%1$d éléments supprimés. %2$d échecs.</item>
+        <item quantity="one">1 élément supprimé. %d échecs.</item>
+    </plurals>
+    <plurals name="delete_record_title">
+        <item quantity="other">Supprimer %d enregistrements ?</item>
+        <item quantity="one">Supprimer 1 enregistrement ?</item>
+    </plurals>
+    <plurals name="download_videos_as">
+        <item quantity="other">Télécharger %d vidéos en</item>
+        <item quantity="one">Télécharger 1 vidéo en</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Téléchargement de %d tâches...</item>
+        <item quantity="one">"Téléchargement d'1 tâche..."</item>
+    </plurals>
+    <plurals name="file_delete_notice">
+        <item quantity="other">%d fichiers seront déplacés vers [Récupérer les fichiers supprimés] et supprimés définitivement après 30 jours.</item>
+        <item quantity="one">1 fichier sera déplacé vers [Récupérer les fichiers supprimés] et supprimé définitivement après 30 jours.</item>
+    </plurals>
+    <plurals name="file_deleted">
+        <item quantity="other">%d fichiers supprimés</item>
+        <item quantity="one">1 fichier supprimé</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">La fenêtre va se fermer dans %1$s secondes.</item>
+        <item quantity="one">La fenêtre va se fermer dans %1$s seconde.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">La pub peut être fermée dans %d secondes.</item>
+        <item quantity="one">La pub peut être fermée dans %d seconde.</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Mémoriser le choix %1$s jours</item>
+        <item quantity="one">Se souvenir du choix %1$s jour</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">La récompense sera acquise dans %d secondes.</item>
+        <item quantity="one">La récompense sera acquise dans %d seconde.</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Regarder ceci %d secondes permet de gagner une récompense. Que faire ?</item>
+        <item quantity="one">Regarder ceci %d seconde permet de gagner une récompense. Que faire ?</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+    </plurals>
+    <plurals name="hour_ago">
+        <item quantity="other">il y a %d heures</item>
+        <item quantity="one">il y a 1 heure</item>
+    </plurals>
+    <plurals name="large_file_delete_notice">
+        <item quantity="other">%d fichiers seront déplacés vers la Corbeille et supprimés définitivement après 30 jours.</item>
+        <item quantity="one">1 fichier sera déplacé vers la Corbeille et supprimé définitivement après 30 jours.</item>
+    </plurals>
+    <plurals name="like">
+        <item quantity="other">%d j’aime</item>
+        <item quantity="one">1 J’aime</item>
+    </plurals>
+    <plurals name="minute_ago">
+        <item quantity="other">Il y a %d min</item>
+        <item quantity="one">Il y a 1 min</item>
+    </plurals>
+    <plurals name="month_ago">
+        <item quantity="other">il y a %d mois</item>
+        <item quantity="one">Il y a 1 mois</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nouvelles notifications</item>
+        <item quantity="one">%d nouvelle notification</item>
+    </plurals>
+    <plurals name="new_comments">
+        <item quantity="other">Nouveaux commentaires (%d)</item>
+        <item quantity="one">Nouveau commentaire (1)</item>
+    </plurals>
+    <plurals name="permanently_delete_check">
+        <item quantity="other">Supprimer définitivement %d fichiers ?</item>
+        <item quantity="one">Supprimer définitivement 1 fichier ?</item>
+    </plurals>
+    <plurals name="photos">
+        <item quantity="other">%d photos</item>
+        <item quantity="one">1 photo</item>
+    </plurals>
+    <plurals name="playlist_videos">
+        <item quantity="other">%1$d vidéos · %2$s</item>
+        <item quantity="one">1 vidéo · %2$s</item>
+    </plurals>
+    <plurals name="recover_day">
+        <item quantity="other">%d jours</item>
+        <item quantity="one">1 jour</item>
+    </plurals>
+    <plurals name="recover_deleted_files_number">
+        <item quantity="other">%d fichiers à récupérer</item>
+        <item quantity="one">1 fichier à récupérer</item>
+    </plurals>
+    <plurals name="recover_notice">
+        <item quantity="other">Récupérer %d fichiers</item>
+        <item quantity="one">Récupérer 1 fichier</item>
+    </plurals>
+    <plurals name="recover_partly_failed">
+        <item quantity="other">%1$d éléments récupérés. %2$d échecs.</item>
+        <item quantity="one">1 élément récupéré. %d échecs.</item>
+    </plurals>
+    <plurals name="select_file_num">
+        <item quantity="other">Sélectionner %d fichiers</item>
+        <item quantity="one">Sélectionner 1 fichier</item>
+    </plurals>
+    <plurals name="selected_item_count">
+        <item quantity="other">%1$d éléments sélectionnés</item>
+        <item quantity="one">1 élément sélectionné</item>
+    </plurals>
+    <plurals name="selected_items_num">
+        <item quantity="other">%d éléments</item>
+        <item quantity="one">1 élément</item>
+    </plurals>
+    <plurals name="setting_max_download_data_tasks">
+        <item quantity="other">Données mobiles : %d tâches</item>
+        <item quantity="one">Données mobiles : 1 tâche</item>
+    </plurals>
+    <plurals name="setting_max_download_wifi_tasks">
+        <item quantity="other">Wi-Fi : %d tâches</item>
+        <item quantity="one">Wi-Fi : 1 tâche</item>
+    </plurals>
+    <plurals name="top_feed_flash">
+        <item quantity="other">%d nouvelles vidéos pour vous. Profitez-en !</item>
+        <item quantity="one">1 nouvelle vidéo pour vous. Profitez-en !</item>
+    </plurals>
+    <plurals name="vault_partial_failed_dialog_subtitle">
+        <item quantity="other">"%d fichiers n'ont pas pu être verrouillés, les autres ont réussi."</item>
+        <item quantity="one">1 fichier n’a pas pu être verrouillé, les autres ont réussi.</item>
+    </plurals>
+    <plurals name="videos_found">
+        <item quantity="other">%d vidéos trouvées</item>
+        <item quantity="one">1 vidéo trouvée</item>
+    </plurals>
+    <plurals name="view_count">
+        <item quantity="other">%s vues</item>
+        <item quantity="one">1 vue</item>
+    </plurals>
+    <plurals name="wacleaner_delete_title">
+        <item quantity="other">Supprimer %d fichiers ?</item>
+        <item quantity="one">Supprimer 1 fichier ?</item>
+    </plurals>
+    <plurals name="year_ago">
+        <item quantity="other">il y a %d ans</item>
+        <item quantity="one">il y a 1 an</item>
+    </plurals>
+</resources>

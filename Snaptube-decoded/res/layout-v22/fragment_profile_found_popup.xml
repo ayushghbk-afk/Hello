@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content_layout" android:background="@drawable/shape_corner_12dp_tr_tl_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:shapeAppearance="@style/ShapeAppearanceCircle" />
+        <TextView android:textAppearance="@style/body_regular" android:textColor="@color/text_primary_color" android:id="@id/tv_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toTopOf="@id/tv_subscribers" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_avatar" app:layout_constraintTop_toTopOf="@id/iv_avatar" app:layout_constraintVertical_chainStyle="packed" />
+        <TextView android:textAppearance="@style/caption_regular" android:textColor="@color/text_secondary_color" android:id="@id/tv_subscribers" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_avatar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_avatar" app:layout_constraintTop_toBottomOf="@id/tv_name" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.snaptube.plugin.extension.ins.view.ChooseFormatLoadingView android:id="@id/loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintHeight_min="110.0dip" />
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snaptube.mixed_list.widget.FixedAspectRatioFrameLayout android:id="@id/playerContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.snaptube.premium.behavior.FloatingVideoBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snaptube.exoplayer.impl.BasePlayerView android:id="@id/player_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/play_end_stub" android:layout="@layout/video_player_end_timer" android:inflatedId="@id/play_end_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/fl_music_play" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.snaptube.premium.view.SpectrumView android:layout_gravity="center" android:id="@id/spectrum_view" android:layout_width="32.0dip" android:layout_height="21.0dip" />
+    </FrameLayout>
+    <ViewStub android:id="@id/play_error_stub" android:layout="@layout/player_error_overlay" android:inflatedId="@id/play_error_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/play_network_stub" android:layout="@layout/player_mobile_network_overlay" android:inflatedId="@id/play_network_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/stub_network_poor" android:layout="@layout/player_network_poor_overlay" android:inflatedId="@id/play_network_poor_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_layer" android:scaleType="centerCrop" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/youtube_loading_progress_bar" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="70.0dip" android:indeterminateTint="@color/colorMain" style="@style/progress_circle" />
+    <include android:id="@id/controller_top_container" android:visibility="gone" layout="@layout/player_title_bar_ytb" />
+    <ImageView android:layout_gravity="center" android:id="@id/play_btn" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" app:srcCompat="@drawable/ic_play_filled" />
+    <include android:layout_gravity="bottom" android:id="@id/inner_button_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/video_button_bar_transparent" />
+</com.snaptube.mixed_list.widget.FixedAspectRatioFrameLayout>

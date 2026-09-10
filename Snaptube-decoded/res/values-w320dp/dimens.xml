@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="web_tab_height">160.0dip</dimen>
+    <dimen name="web_tab_width">146.0dip</dimen>
+</resources>

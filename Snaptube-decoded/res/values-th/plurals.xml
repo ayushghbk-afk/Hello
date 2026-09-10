@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d รูปภาพ</item>
+        <item quantity="one">1 รูปภาพ</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d วิดีโอ</item>
+        <item quantity="one">1 วิดีโอ</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">กำลังดาวน์โหลด %d งาน...</item>
+        <item quantity="one">กำลังดาวน์โหลด 1 งาน...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">หน้าต่างจะปิดภายใน %1$s วินาที</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">จะสามารถปิดโฆษณาลงได้ในอีก %d วินาที</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">จำการเลือกไว้เป็นเวลา %1$s วัน</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">รับรางวัลในอีก %d วินาที</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">รับชมเป็นเวลา %d วินาทีเพื่อรับรางวัล</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d วินาที</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d εικόνες</item>
+        <item quantity="one">1 εικόνα</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d βίντεο</item>
+        <item quantity="one">1 βίντεο</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Λήψη %d εργασιών...</item>
+        <item quantity="one">Λήψη 1 εργασίας...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Το παράθυρο θα κλείσει σε %1$s δευτερόλεπτα.</item>
+        <item quantity="one">Το παράθυρο θα κλείσει σε %1$s δευτερόλεπτο.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Η διαφήμιση μπορεί να κλείσει σε %d δ.</item>
+        <item quantity="one">Η διαφήμιση μπορεί να κλείσει σε %d δ.</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Απομνημόνευση επιλογής για %1$s ημέρες</item>
+        <item quantity="one">Απομνημόνευση επιλογής για %1$s ημέρα</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">Κερδίστε μια ανταμοιβή σε %d δ.</item>
+        <item quantity="one">Κερδίστε μια ανταμοιβή σε %d δ.</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Παρακολουθήστε για %d δευτερόλεπτα για να κερδίσετε μια ανταμοιβή.</item>
+        <item quantity="one">Παρακολουθήστε για %d δευτερόλεπτο για να κερδίσετε μια ανταμοιβή.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d δευτ.</item>
+        <item quantity="one">%1$d δευτ.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+        <item quantity="one">%d νέα ειδοποίηση</item>
+    </plurals>
+</resources>

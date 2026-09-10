@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/skeleton_ytb_play_list" android:background="@color/background_block_normal_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_skeleton_item_play_list_info" />
+    <include layout="@layout/layout_skeleton_item_recommend_video" />
+    <include layout="@layout/layout_skeleton_item_recommend_video" />
+    <include layout="@layout/layout_skeleton_item_recommend_video" />
+    <include layout="@layout/layout_skeleton_item_recommend_video" />
+</LinearLayout>

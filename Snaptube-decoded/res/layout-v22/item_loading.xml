@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_process" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/pb_loading" android:layout_width="40.0dip" android:layout_height="40.0dip" android:progressTint="@color/progress_bar_color" android:backgroundTint="@color/progress_bar_bg_color" />
+    <TextView android:id="@id/tv_action" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_trash_end" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginVertical="16.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/content_soft" android:gravity="center" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/delete_permanent_days_tip" style="@style/label_12" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/system_main" android:gravity="center" android:id="@id/tv_download_history" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/check_download_history" style="@style/label_12" />
+    </LinearLayout>
+</FrameLayout>

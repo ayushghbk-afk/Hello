@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/playlist_container" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.snaptube.premium.base.ui.StSwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:background="@color/bg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.snaptube.premium.base.ui.StSwipeRefreshLayout>
+    </FrameLayout>
+    <ViewStub android:id="@id/list_no_network_tips_view" android:inflatedId="@id/list_no_network_tips_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_gravity="bottom" android:id="@id/layout_bottom_input" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" layout="@layout/dialog_ytb_replies_bottom" />
+    <ViewStub android:id="@id/no_data_tips_view" android:inflatedId="@id/no_data_tips_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/extract_error_hint_sign_in" android:inflatedId="@id/extract_error_hint_sign_in" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/list_skeleton_view_place_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

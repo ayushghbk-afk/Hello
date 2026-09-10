@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_scan_connect_divider" android:background="#1affffff" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_view_scan_junk_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view_scan_connect_divider">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_clean_connect" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tv_scan_junk_connect_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/free_space" android:layout_marginStart="6.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_view_scan_junk_connect_display" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="18.0dip" app:layout_constraintBottom_toTopOf="@id/tv_scan_junk_connect_finish" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_view_scan_junk_tips" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_scan_junk_connect_finish" android:background="@drawable/bg_outline_24dp" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/finish" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/rcv_view_scan_junk_connect_display" />
+</androidx.constraintlayout.widget.ConstraintLayout>

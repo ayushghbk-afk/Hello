@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d зураг</item>
+        <item quantity="one">1 зураг</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d видео</item>
+        <item quantity="one">1 видео</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">%d даалгаврыг татаж байна...</item>
+        <item quantity="one">1 даалгавар татаж байна...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">Цонх %1$s секундын дараа хаагдана.</item>
+        <item quantity="one">Цонх %1$s секундын дараа хаагдана.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">Зарыг %d секундийн дараа хааж болно</item>
+        <item quantity="one">Зарыг %d секундийн дараа хааж болно</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">Сонголтыг %1$s хоног хадгалах</item>
+        <item quantity="one">Сонголтыг %1$s хоног хадгалах</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">%d секундийн дараа шагналаа авна уу</item>
+        <item quantity="one">%d секундийн дараа шагналаа авна уу</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">Шагнал авахын тулд %d секунд үзнэ үү.</item>
+        <item quantity="one">Шагнал авахын тулд %d секунд үзнэ үү.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d секунд</item>
+        <item quantity="one">%1$d секунд</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d шинэ мэдэгдэл</item>
+        <item quantity="one">%d шинэ мэдэгдэл</item>
+    </plurals>
+</resources>

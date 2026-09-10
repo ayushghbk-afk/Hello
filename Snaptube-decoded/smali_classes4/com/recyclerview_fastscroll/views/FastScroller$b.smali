@@ -1,0 +1,84 @@
+.class public Lcom/recyclerview_fastscroll/views/FastScroller$b;
+.super Landroidx/recyclerview/widget/RecyclerView$q;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/recyclerview_fastscroll/views/FastScroller;-><init>(Landroid/content/Context;Lcom/recyclerview_fastscroll/views/FastScrollRecyclerView;Landroid/util/AttributeSet;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic b:Lcom/recyclerview_fastscroll/views/FastScroller;
+
+
+# direct methods
+.method public constructor <init>(Lcom/recyclerview_fastscroll/views/FastScroller;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/recyclerview_fastscroll/views/FastScroller$b;->b:Lcom/recyclerview_fastscroll/views/FastScroller;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$q;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$q;->onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object p1, p0, Lcom/recyclerview_fastscroll/views/FastScroller$b;->b:Lcom/recyclerview_fastscroll/views/FastScroller;
+
+    .line 5
+    .line 6
+    invoke-static {p1}, Lcom/recyclerview_fastscroll/views/FastScroller;->c(Lcom/recyclerview_fastscroll/views/FastScroller;)Lcom/recyclerview_fastscroll/views/FastScrollRecyclerView;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p1
+
+    .line 10
+    invoke-virtual {p1}, Landroid/view/View;->isInEditMode()Z
+
+    .line 11
+    .line 12
+    .line 13
+    move-result p1
+
+    .line 14
+    if-nez p1, :cond_0
+
+    .line 15
+    .line 16
+    iget-object p1, p0, Lcom/recyclerview_fastscroll/views/FastScroller$b;->b:Lcom/recyclerview_fastscroll/views/FastScroller;
+
+    .line 17
+    .line 18
+    invoke-virtual {p1}, Lcom/recyclerview_fastscroll/views/FastScroller;->B()V
+
+    .line 19
+    .line 20
+    .line 21
+    :cond_0
+    return-void
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d larawan</item>
+        <item quantity="one">1 larawan</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Nagdada-download ng %d gawain...</item>
+        <item quantity="one">Nagd-download ng 1 gawain...</item>
+    </plurals>
+</resources>

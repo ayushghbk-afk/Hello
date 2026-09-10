@@ -1,0 +1,289 @@
+.class public final Lo/j0b;
+.super Lo/kf1;
+.source ""
+
+
+# instance fields
+.field public final A:Landroid/widget/ImageView;
+
+.field public final z:Landroid/view/View;
+
+
+# direct methods
+.method public constructor <init>(Lcom/trello/rxlifecycle/components/RxFragment;Landroid/view/View;Lo/br4;)V
+    .locals 1
+    .param p1    # Lcom/trello/rxlifecycle/components/RxFragment;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Landroid/view/View;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p3    # Lo/br4;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "fragment"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lo/n85;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "view"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lo/n85;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    const-string v0, "listener"
+
+    .line 12
+    .line 13
+    invoke-static {p3, v0}, Lo/n85;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-direct {p0, p1, p2, p3}, Lo/kf1;-><init>(Lcom/trello/rxlifecycle/components/RxFragment;Landroid/view/View;Lo/br4;)V
+
+    .line 17
+    .line 18
+    .line 19
+    iput-object p2, p0, Lo/j0b;->z:Landroid/view/View;
+
+    .line 20
+    .line 21
+    const p1, 0x7f09094c
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object p1
+
+    .line 28
+    const-string p2, "findViewById(...)"
+
+    .line 29
+    .line 30
+    invoke-static {p1, p2}, Lo/n85;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 31
+    .line 32
+    .line 33
+    check-cast p1, Landroid/widget/ImageView;
+
+    .line 34
+    .line 35
+    iput-object p1, p0, Lo/j0b;->A:Landroid/widget/ImageView;
+
+    .line 36
+    .line 37
+    return-void
+.end method
+
+
+# virtual methods
+.method public J0(I)V
+    .locals 2
+
+    .line 1
+    new-instance p1, Lcom/snaptube/premium/log/ReportPropertyBuilder;
+
+    .line 2
+    .line 3
+    invoke-direct {p1}, Lcom/snaptube/premium/log/ReportPropertyBuilder;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "Click"
+
+    .line 7
+    .line 8
+    invoke-virtual {p1, v0}, Lcom/snaptube/premium/log/ReportPropertyBuilder;->setEventName(Ljava/lang/String;)Lo/cu4;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    const-string v0, "click_search_result"
+
+    .line 13
+    .line 14
+    invoke-interface {p1, v0}, Lo/cu4;->setAction(Ljava/lang/String;)Lo/cu4;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object p1
+
+    .line 18
+    const-string v0, "content_type"
+
+    .line 19
+    .line 20
+    const-string v1, "account"
+
+    .line 21
+    .line 22
+    invoke-interface {p1, v0, v1}, Lo/cu4;->setProperty(Ljava/lang/String;Ljava/lang/Object;)Lo/cu4;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p1
+
+    .line 26
+    iget-object v0, p0, Lo/kf1;->s:Lcom/wandoujia/em/common/protomodel/Card;
+
+    .line 27
+    .line 28
+    invoke-static {v0}, Lo/tv0;->w(Lcom/wandoujia/em/common/protomodel/Card;)Ljava/lang/String;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v0
+
+    .line 32
+    const-string v1, "position_source"
+
+    .line 33
+    .line 34
+    invoke-interface {p1, v1, v0}, Lo/cu4;->setProperty(Ljava/lang/String;Ljava/lang/Object;)Lo/cu4;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object p1
+
+    .line 38
+    invoke-interface {p1}, Lo/cu4;->reportEvent()V
+
+    .line 39
+    .line 40
+    .line 41
+    return-void
+.end method
+
+.method public m(Lcom/wandoujia/em/common/protomodel/Card;)V
+    .locals 2
+
+    .line 1
+    invoke-super {p0, p1}, Lo/kf1;->m(Lcom/wandoujia/em/common/protomodel/Card;)V
+
+    .line 2
+    .line 3
+    .line 4
+    sget-object v0, Lo/a0b;->a:Lo/a0b$a;
+
+    .line 5
+    .line 6
+    if-eqz p1, :cond_0
+
+    .line 7
+    .line 8
+    invoke-static {p1}, Lo/mv0;->g(Lcom/wandoujia/em/common/protomodel/Card;)Ljava/lang/String;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    goto :goto_0
+
+    .line 13
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 14
+    :goto_0
+    invoke-virtual {v0, p1}, Lo/a0b$a;->b(Ljava/lang/String;)Lo/aa4;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object p1
+
+    .line 18
+    iget-object v0, p0, Lo/yu6;->e:Ljava/lang/ref/WeakReference;
+
+    .line 19
+    .line 20
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object v0
+
+    .line 24
+    check-cast v0, Lcom/trello/rxlifecycle/components/RxFragment;
+
+    .line 25
+    .line 26
+    if-eqz v0, :cond_1
+
+    .line 27
+    .line 28
+    sget-object v1, Lcom/snaptube/util/ViewLifecycleGlide;->a:Lcom/snaptube/util/ViewLifecycleGlide$a;
+
+    .line 29
+    .line 30
+    invoke-virtual {v1, v0}, Lcom/snaptube/util/ViewLifecycleGlide$a;->a(Landroidx/fragment/app/Fragment;)Lo/k19;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v0
+
+    .line 34
+    invoke-virtual {v0, p1}, Lo/k19;->x(Ljava/lang/Object;)Lo/x09;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object p1
+
+    .line 38
+    invoke-virtual {p1}, Lo/gi0;->f()Lo/gi0;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object p1
+
+    .line 42
+    check-cast p1, Lo/x09;
+
+    .line 43
+    .line 44
+    iget-object v0, p0, Lo/j0b;->A:Landroid/widget/ImageView;
+
+    .line 45
+    .line 46
+    invoke-virtual {p1, v0}, Lo/x09;->H0(Landroid/widget/ImageView;)Lo/c5c;
+
+    .line 47
+    .line 48
+    .line 49
+    :cond_1
+    return-void
+.end method

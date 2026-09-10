@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snaptube.premium.views.PopupNestedContentLayout android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_top_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_arrow_down" />
+        <FrameLayout android:id="@id/fl_player_view_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/local_video_player_view_margin_horizontal" android:layout_marginRight="@dimen/local_video_player_view_margin_horizontal" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+            <com.snaptube.videoPlayer.VideoPlayerView android:id="@id/player_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/local_play_error_stub" android:layout="@layout/local_player_error_overlay" android:inflatedId="@id/local_play_error_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <com.snaptube.mixed_list.widget.FixedAspectRatioFrameLayout android:id="@id/fixed_player_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView android:id="@id/cv_error_mask_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/lib_black_opacity100" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip" />
+                    <com.snaptube.exoplayer.impl.BasePlayerView android:layout_gravity="center" android:id="@id/player_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.snaptube.mixed_list.widget.FixedAspectRatioFrameLayout android:layout_gravity="center" android:id="@id/fl_ratio_mask" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <androidx.cardview.widget.CardView android:id="@id/rc_video_frame_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="#00000000" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip">
+                            <ImageView android:id="@id/iv_static_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+                        </androidx.cardview.widget.CardView>
+                        <FrameLayout android:id="@id/fl_mask" android:background="@drawable/video_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <LinearLayout android:gravity="center" android:layout_gravity="center" android:background="@drawable/bg_btn_mask_corner_24" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                                <ImageView android:id="@id/iv_mask_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" app:srcCompat="@drawable/ic_youtube" app:tint="@color/white_opacity100" />
+                                <TextView android:textSize="14.0sp" android:textColor="@color/white_opacity100" android:id="@id/tv_mask_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/player_video_popup_playasaudio_backbtn" android:layout_marginStart="8.0dip" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </com.snaptube.mixed_list.widget.FixedAspectRatioFrameLayout>
+                    <include android:id="@id/include_control" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/video_player_controller" />
+                </com.snaptube.mixed_list.widget.FixedAspectRatioFrameLayout>
+            </com.snaptube.videoPlayer.VideoPlayerView>
+        </FrameLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@id/pb_loading" android:visibility="gone" android:layout_width="38.0dip" android:indeterminate="true" app:layout_constraintBottom_toBottomOf="@id/fl_player_view_container" app:layout_constraintEnd_toEndOf="@id/fl_player_view_container" app:layout_constraintStart_toStartOf="@id/fl_player_view_container" app:layout_constraintTop_toTopOf="@id/fl_player_view_container" style="@style/progress_circle" />
+        <View android:id="@id/anchor_view" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="17.0dip" app:layout_constraintTop_toBottomOf="@id/fl_player_view_container" />
+        <com.snaptube.premium.views.MarqueeView android:gravity="center" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="24.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="32.0dip" android:maxLines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/fl_player_view_container" app:spacing="40.0dip" app:textColor="@color/text_primary_color" app:textSize="16.0sp" />
+        <SeekBar android:id="@id/progress" android:background="@null" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxHeight="4.0dip" android:progressDrawable="@drawable/normal_seekbar_progress" android:minHeight="4.0dip" android:thumb="@drawable/seekbar_thumb" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" android:splitTrack="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/content_soft" android:id="@id/tv_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="32.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/progress" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/content_soft" android:id="@id/tv_end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="32.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/progress" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_operation_container" android:background="@color/transparent" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_start_time">
+            <ImageView android:id="@id/iv_action_speed" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="center" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/iv_action_preview" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="center" app:srcCompat="@drawable/ic_playlast_filled" app:tint="@color/content_main" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <FrameLayout android:id="@id/fl_action_play" android:background="@drawable/ic_play_bg" android:layout_width="66.0dip" android:layout_height="66.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/iv_action_play_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/ic_play_status_medium_shadow" app:tint="@color/content_main" />
+            </FrameLayout>
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/iv_action_next" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="center" app:srcCompat="@drawable/ic_playnext_filled" app:tint="@color/content_main" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/iv_action_full" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/ic_fullscreen" app:tint="@color/content_main" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.snaptube.premium.views.NestedBottomSheetHost android:id="@id/nbs_host" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.snaptube.premium.preview.video.view.VideoDependBottomSheetBehavior">
+        <FrameLayout android:id="@id/fl_play_list_container" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="4.0dip" />
+    </com.snaptube.premium.views.NestedBottomSheetHost>
+</com.snaptube.premium.views.PopupNestedContentLayout>

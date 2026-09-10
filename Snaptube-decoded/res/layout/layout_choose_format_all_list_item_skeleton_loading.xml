@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ethanhua.skeleton.shimmerlayout.ShimmerLayout android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="start|center" android:id="@id/view_skeleton_cover" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_video" android:layout_marginStart="18.0dip" app:tint="@color/gray_weak" />
+    <View android:layout_gravity="start|center" android:id="@id/view_skeleton_first" android:background="@drawable/shape_corner_4dp_gray_weak" android:layout_width="121.0dip" android:layout_height="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="58.0dip" />
+    <View android:layout_gravity="start|center" android:id="@id/view_skeleton_second" android:background="@drawable/shape_corner_4dp_gray_weak" android:layout_width="152.0dip" android:layout_height="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="58.0dip" />
+</com.ethanhua.skeleton.shimmerlayout.ShimmerLayout>

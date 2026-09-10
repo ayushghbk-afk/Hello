@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/shape_corner_12dp_tr_tl_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/layout_bottom" android:paddingLeft="16.0dip" android:paddingTop="24.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.snaptube.plugin.extension.ins.view.DownloadButton android:enabled="false" android:id="@id/download_button" android:layout_width="fill_parent" android:layout_height="44.0dip" />
+    </FrameLayout>
+    <com.snaptube.plugin.extension.nonlifecycle.MaxHeightLayout android:id="@id/scroll_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="84.0dip">
+        <FrameLayout android:id="@id/fl_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/choose_format_head_layout" layout="@layout/choose_format_loading_head" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/choose_format_head_layout">
+                    <com.snaptube.plugin.extension.ins.view.ChooseFormatLoadingView android:id="@id/loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintHeight_min="110.0dip" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <FrameLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/choose_format_head_layout" />
+            </RelativeLayout>
+        </FrameLayout>
+    </com.snaptube.plugin.extension.nonlifecycle.MaxHeightLayout>
+    <ViewStub android:layout_gravity="bottom" android:id="@id/vs_site_login_guide" android:layout="@layout/choose_format_site_login_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

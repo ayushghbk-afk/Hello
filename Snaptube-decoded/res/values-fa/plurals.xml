@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d تصویر</item>
+        <item quantity="one">1 تصویر</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d ویدیو</item>
+        <item quantity="one">1 ویدیو</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">در حال دانلود %d وظیفه...</item>
+        <item quantity="one">در حال دانلود ۱ وظیفه...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">پنجره ظرف %1$s ثانیه بسته خواهد شد.</item>
+        <item quantity="one">پنجره ظرف %1$s ثانیه بسته خواهد شد.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">تبلیغ را می‌توانید پس از %d ثانیه ببندید</item>
+        <item quantity="one">تبلیغ را می‌توانید پس از %d ثانیه ببندید</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">این انتخاب تا %1$s روز به خاطر سپرده شود</item>
+        <item quantity="one">این انتخاب تا %1$s روز به خاطر سپرده شود</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">پس از %d ثانیه پاداش کسب کنید</item>
+        <item quantity="one">پس از %d ثانیه پاداش کسب کنید</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">برای کسب پاداش، به مدت %d ثانیه تماشا کنید.</item>
+        <item quantity="one">برای کسب پاداش، به مدت %d ثانیه تماشا کنید.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d ثانیه</item>
+        <item quantity="one">%1$d ثانیه</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d اعلان جدید</item>
+        <item quantity="one">%d اعلان جدید</item>
+    </plurals>
+</resources>

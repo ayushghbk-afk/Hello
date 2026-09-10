@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/fl_delete_success_overlay" android:background="@color/system_main" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/lottie_delete_success" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginBottom="32.0dip" app:lottie_fileName="trash_clean.lottie" app:lottie_repeatCount="0" />
+    <TextView android:textAppearance="@style/tittle_bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_delete_success_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/deleting" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="200.0dip" android:layout_height="112.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snaptube.premium.playback.window.WindowPlayerView android:layout_gravity="center" android:id="@id/video_container" android:layout_width="200.0dip" android:layout_height="112.0dip">
+        <com.snaptube.playerv2.views.DefaultPlaybackView android:id="@id/player_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:loading_res="@layout/view_playback_loading_window" />
+        <ViewStub android:id="@id/play_network_stub" android:layout="@layout/player_service_mobile_network_overlay" android:inflatedId="@id/play_network_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <ViewStub android:id="@id/play_end_stub" android:layout="@layout/exo_player_end_timer" android:inflatedId="@id/play_end_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/close_btn" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_pip_mode_close" />
+        <ImageView android:layout_gravity="center" android:id="@id/replay_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_replay_video" android:scaleX="0.6" android:scaleY="0.6" />
+    </com.snaptube.premium.playback.window.WindowPlayerView>
+</FrameLayout>

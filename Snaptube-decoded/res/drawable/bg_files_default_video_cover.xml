@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/bg" />
+    <item>
+        <shape>
+            <gradient android:startColor="@color/blue80" android:endColor="@color/green90" android:angle="225.0" android:type="linear" />
+        </shape>
+    </item>
+    <item android:id="@id/layer_icon" android:drawable="@drawable/ic_youtube" android:left="6.0dip" android:top="6.0dip" android:right="6.0dip" android:bottom="6.0dip" />
+</layer-list>

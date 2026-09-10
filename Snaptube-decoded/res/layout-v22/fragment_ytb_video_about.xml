@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/shape_corner_12dp_tr_tl_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_indicator" android:layout_height="18.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/shape_dropdown_indicator" style="@style/ST.DropdownIndicator" />
+        <TextView android:textAppearance="@style/tittle_bold" android:textColor="@color/content_main" android:id="@id/tv_about" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/drawer_title_about" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" />
+        <androidx.core.widget.NestedScrollView android:id="@id/sv_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/body_cta_medium" android:textColor="@color/content_main" android:id="@id/tv_video_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                <TextView android:textAppearance="@style/caption_regular" android:textColor="@color/content_soft" android:ellipsize="end" android:id="@id/tv_views_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                <include android:id="@id/section_creator" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="8.0dip" app:layout_constraintTop_toBottomOf="@id/tv_views_count" layout="@layout/section_creator" />
+                <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <include android:id="@id/layout_like_unlike" layout="@layout/view_like_unlike" />
+                        <com.snaptube.premium.base.ui.DrawableResizeTextView android:textAppearance="@style/body_cta_medium" android:textStyle="normal" android:textColor="@color/content_main" android:id="@id/tv_share" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share" android:drawablePadding="8.0dip" android:layout_marginStart="8.0dip" android:paddingHorizontal="16.0dip" android:paddingVertical="8.0dip" app:drawableStartCompat="@drawable/ic_share" app:drawableTint="@color/content_main" app:startDrawableSize="20.0dip" style="@style/ST.Widget.TextButton.Weak" />
+                        <com.snaptube.premium.base.ui.DrawableResizeTextView android:textAppearance="@style/body_cta_medium" android:textStyle="normal" android:textColor="@color/content_main" android:id="@id/tv_add_watch_later" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_to_watch_later" android:drawablePadding="8.0dip" android:layout_marginStart="8.0dip" android:paddingHorizontal="16.0dip" android:paddingVertical="8.0dip" app:drawableStartCompat="@drawable/ic_save" app:startDrawableSize="20.0dip" style="@style/ST.Widget.TextButton.Weak" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <TextView android:textAppearance="@style/body_regular" android:textColor="@color/content_main" android:id="@id/tv_date" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" />
+                <TextView android:textAppearance="@style/body_regular" android:textColor="@color/content_main" android:id="@id/tv_desc" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" android:paddingHorizontal="16.0dip" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_loading" android:background="@color/background_pop_up_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center|top" android:layout_height="18.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/shape_dropdown_indicator" style="@style/ST.DropdownIndicator" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/first_loading" android:layout_width="38.0dip" android:layout_height="38.0dip" android:indeterminate="true" android:indeterminateTint="@color/brand_main" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:gravity="center_vertical" android:id="@id/safe_box_tool_bar" android:background="@color/gray00_opacity100" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_left_white" app:title="@string/forget_password" app:titleTextColor="#ffffffff" />
+    <FrameLayout android:id="@id/webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/safe_box_tool_bar" />
+    <ProgressBar android:id="@id/progress" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_below="@id/safe_box_tool_bar" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <include android:id="@id/list_no_network_tips_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/no_network_tips_view" />
+</RelativeLayout>

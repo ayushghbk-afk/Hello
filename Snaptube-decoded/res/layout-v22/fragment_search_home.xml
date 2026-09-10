@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.snaptube.premium.search.HomeSearchView android:id="@id/search_view" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_centerInParent="true" android:layout_marginHorizontal="24.0dip" style="@style/HomeSearchView" />
+    <ImageView android:id="@id/iv_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:src="@drawable/snaptube_logo" android:layout_above="@id/search_view" android:layout_centerHorizontal="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:layout_above="@id/search_view" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/stub_social_list" android:layout="@layout/layout_social_list" android:inflatedId="@id/layout_social_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/search_view" />
+</RelativeLayout>

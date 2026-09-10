@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d تصاویر</item>
+        <item quantity="one">1 تصویر</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d ویڈیوز</item>
+        <item quantity="one">1 ویڈیو</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">%d کام ڈاؤن لوڈ ہو رہے ہیں...</item>
+        <item quantity="one">1 کام ڈاؤن لوڈ ہو رہا ہے...</item>
+    </plurals>
+</resources>

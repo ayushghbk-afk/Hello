@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_block_normal_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_indicator" android:paddingTop="4.0dip" android:layout_height="18.0dip" android:src="@drawable/shape_dropdown_indicator" style="@style/ST.DropdownIndicator" />
+        <TextView android:textColor="@color/content_main" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/comments" style="@style/tittle_bold" />
+        <View android:background="@color/gray_weak" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+    </LinearLayout>
+    <FrameLayout android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <ViewStub android:id="@id/no_data_tips_view" android:inflatedId="@id/no_data_tips_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:layout_gravity="bottom" android:id="@id/layout_bottom_input" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" layout="@layout/dialog_ytb_replies_input" />
+        <ViewStub android:id="@id/list_no_network_tips_view" android:inflatedId="@id/list_no_network_tips_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/first_loading" android:visibility="gone" android:indeterminate="true" style="@style/progress_circle" />
+    </FrameLayout>
+</LinearLayout>

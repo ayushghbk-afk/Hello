@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="anim" name="abc_popup_exit">false</item>
+    <item type="anim" name="abc_shrink_fade_out_from_bottom">false</item>
+    <item type="anim" name="activity_close_enter_slow">false</item>
+    <item type="anim" name="btn_radio_to_on_mtrl_ring_outer_path_animation">false</item>
+    <item type="anim" name="fragment_open_exit">false</item>
+    <item type="anim" name="hiad_anim_fade_in">false</item>
+    <item type="anim" name="hiad_masking_hand_zoom_out">false</item>
+    <item type="anim" name="intercom_composer_slide_down">false</item>
+    <item type="anim" name="mtrl_bottom_sheet_slide_in">false</item>
+    <item type="anim" name="mtrl_card_lowers_interpolator">false</item>
+    <item type="anim" name="seekbar_thumb_to_pressed">false</item>
+    <item type="anim" name="slide_top_in">false</item>
+    <item type="anim" name="tt_text_animation_x_in">false</item>
+</resources>

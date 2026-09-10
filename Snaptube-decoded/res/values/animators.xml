@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="animator" name="design_appbar_state_list_animator">false</item>
+    <item type="animator" name="design_fab_show_motion_spec">false</item>
+    <item type="animator" name="fragment_fade_enter">false</item>
+    <item type="animator" name="fragment_open_enter">false</item>
+    <item type="animator" name="fragment_open_exit">false</item>
+    <item type="animator" name="linear_indeterminate_line2_head_interpolator">false</item>
+    <item type="animator" name="mtrl_btn_state_list_anim">false</item>
+    <item type="animator" name="mtrl_btn_unelevated_state_list_anim">false</item>
+    <item type="animator" name="mtrl_extended_fab_change_size_collapse_motion_spec">false</item>
+    <item type="animator" name="mtrl_extended_fab_state_list_animator">false</item>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_vertical" android:id="@id/tv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" style="@style/Theme.Youtube.Text.Large" />
+    <View android:id="@id/divider" android:background="@color/background_border_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

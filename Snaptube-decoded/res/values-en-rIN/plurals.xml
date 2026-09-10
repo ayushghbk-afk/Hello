@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d pictures</item>
+        <item quantity="one">1 picture</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d videos</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">Downloading %d tasks...</item>
+        <item quantity="one">Downloading 1 task...</item>
+    </plurals>
+</resources>

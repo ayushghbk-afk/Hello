@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="exo_icon_previous">false</item>
+    <item type="drawable" name="exo_icon_shuffle_off">false</item>
+    <item type="drawable" name="ic_cancel_pressed">false</item>
+    <item type="drawable" name="im_unmute">false</item>
+    <item type="drawable" name="abc_scrubber_primary_mtrl_alpha">false</item>
+    <item type="drawable" name="common_google_signin_btn_icon_dark_normal_background">false</item>
+    <item type="drawable" name="ic_close_black">false</item>
+    <item type="drawable" name="ic_gif">false</item>
+    <item type="drawable" name="img_default_artwork_small">false</item>
+</resources>

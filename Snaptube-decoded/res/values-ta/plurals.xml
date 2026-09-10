@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choose_picture">
+        <item quantity="other">%d படங்கள்</item>
+        <item quantity="one">1 படம்</item>
+    </plurals>
+    <plurals name="choose_video">
+        <item quantity="other">%d வீடியோக்கள்</item>
+        <item quantity="one">1 வீடியோ</item>
+    </plurals>
+    <plurals name="downloading_notification">
+        <item quantity="other">%d பணிகள் பதிவிறக்கப்படுகின்றன...</item>
+        <item quantity="one">1 பணியை பதிவிறக்குகிறது...</item>
+    </plurals>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="other">%1$s வினாடிகளில் சாளரம் மூடப்படும்.</item>
+        <item quantity="one">%1$s வினாடியில் சாளரம் மூடப்படும்.</item>
+    </plurals>
+    <plurals name="hiad_interstitial_time_countdown">
+        <item quantity="other">விளம்பரத்தை %dவி-இல் மூடலாம்</item>
+        <item quantity="one">விளம்பரத்தை %dவி-இல் மூடலாம்</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="other">%1$s நாட்களுக்குத் தெரிவை நினைவில்கொள்</item>
+        <item quantity="one">%1$s நாளுக்குத் தெரிவை நினைவில்கொள்</item>
+    </plurals>
+    <plurals name="hiad_reward_before_rw_time_countdown">
+        <item quantity="other">%dவி கழித்து வெகுமதியைப் பெறவும்</item>
+        <item quantity="one">%dவி கழித்து வெகுமதியைப் பெறவும்</item>
+    </plurals>
+    <plurals name="hiad_reward_close_dialog_message">
+        <item quantity="other">வெகுமதியைப் பெற, %d வினாடிகள் பார்க்கவும்.</item>
+        <item quantity="one">வெகுமதியைப் பெற, %d வினாடி பார்க்கவும்.</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="other">%1$d வினாடி</item>
+        <item quantity="one">%1$d வினாடி</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d புதிய அறிவிப்புகள்</item>
+        <item quantity="one">%d புதிய அறிவிப்பு</item>
+    </plurals>
+</resources>
